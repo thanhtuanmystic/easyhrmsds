@@ -1422,3 +1422,103 @@ footer {
   line-height: 189.5%; /* 30.32px */
   border: none;
 }
+
+#pi_great_personal {
+  background: rgba(254, 240, 233, 0.6);
+  padding-top: 46px;
+  padding-bottom: 60px;
+}
+#pi_signature_customer {
+}
+#pi_saying_of_the_day {
+}
+.saying-box {
+  border-radius: 4px;
+  background: var(--blue5, #eaeef6);
+  padding: 56px 32px;
+  margin: 50px 0;
+}
+.story-slider {
+  height: 100%;
+  border-radius: 2px;
+  background: #fff;
+  box-shadow: 4px 4px 13px 0px rgba(41, 81, 160, 0.2);
+  padding: 40px;
+}
+.carousel-indicators button {
+  background: var(
+    --gradient,
+    linear-gradient(287deg, #f15922 12.78%, #f6921e 95.8%)
+  );
+}
+.carousel-control-next,
+.carousel-control-prev {
+  position: relative;
+  width: 24px !important;
+  height: 24px;
+  border-radius: 50%;
+}
+.next-prev-icon {
+  width: 18px;
+  height: 18px;
+}
+.next-prev-icon img {
+  width: 100%;
+}
+.next-prev {
+  display: flex;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.trichdan-icon {
+  height: 40px;
+  width: 40px;
+  margin-bottom: 24px;
+}
+.the-saying {
+  color: var(--gray-1, #151f2f);
+  font-family: Nunito Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 184.5%; /* 29.52px */
+  margin-bottom: 16px;
+}
+.seperate-saying {
+  margin-bottom: 16px;
+  background: #d9d9d9;
+  width: 100%;
+  height: 1px;
+  flex-shrink: 0;
+}
+.saying-author {
+  display: flex;
+  align-items: center;
+}
+.saying-author-avt {
+  width: 64px;
+  height: 64px;
+  margin-right: 20px;
+}
+.saying-author-avt img {
+  width: 100%;
+}
+.saying-name {
+  color: #000;
+  font-family: Nunito Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 236%; /* 33.04px */
+}
+.saying-position {
+  color: #66738c;
+  text-align: center;
+  font-family: Nunito Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 236%; /* 28.32px */
+}

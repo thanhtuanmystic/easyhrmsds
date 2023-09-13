@@ -1,27 +1,6 @@
 <?php
 $inet_wk_options = get_option('inet_wk');
-if ($inet_wk_options['limit-image-size']) {
-    add_filter('wp_handle_upload_prefilter', 'inet_validate_image_size');
 
-    /**
-     * @param $file
-     * @return mixed|void
-     */
-    function inet_validate_image_size($file)
-    {
-        $inet_wk_options = get_option('inet_wk');
-        if ($inet_wk_options['limit-image-size']) {
-            $image_size = $file['size'] / 1024;
-            $limit = esc_textarea($inet_wk_options['limit-image-size']);
-            $is_image = strpos($file['type'], 'image');
-            if (($image_size > $limit) && ($is_image !== false)) {
-                $file['error'] = __("Image size exceeds $limit kb, please try again!", 'inet');
-                return $file;
-            }
-            return $file;
-        }
-    }
-}
 
 add_action('wp_handle_upload', 'inet_upload_resize_image');
 /**
