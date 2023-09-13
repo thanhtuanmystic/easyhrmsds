@@ -1,0 +1,1424 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin-top: 100px;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+p {
+  margin: 0;
+}
+.seperation {
+  height: 2px;
+  background: var(--orange-5, #fef0e9);
+  margin-bottom: 100px;
+  margin-top: 30px;
+}
+.center-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ul li {
+  list-style: none;
+}
+/* Animation */
+.slide-left {
+  animation: slide-left 1s linear forwards;
+}
+@keyframes slide-left {
+  0% {
+    transform: translate(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0px);
+    opacity: 1;
+  }
+}
+.slide-right {
+  animation: slide-right 1s linear forwards;
+}
+@keyframes slide-right {
+  0% {
+    transform: translate(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0px);
+    opacity: 1;
+  }
+}
+
+/* Header */
+
+header {
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 999999;
+}
+.mobile-btn {
+  display: none;
+}
+.logo {
+  width: 126px;
+  height: 36px;
+}
+.hotline-header {
+  display: flex;
+  padding: 10px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background: var(--blue-2, #2951a0);
+  color: #fff;
+  text-align: center;
+  font-family: Nunito Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border: none;
+  box-shadow: -1px 9px 10px 0px rgba(41, 81, 160, 0.2);
+}
+.consulation-header {
+  display: flex;
+  padding: 10px 47px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background: var(
+    --gradient,
+    linear-gradient(322deg, #f15922 0%, #f6921e 100%)
+  );
+  color: #fff;
+  text-align: center;
+  font-family: Nunito Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border: none;
+  margin-left: 32px;
+  box-shadow: -1px 9px 10px 0px rgba(241, 89, 34, 0.2);
+}
+.header-left-side {
+  display: flex;
+  height: 100px;
+  align-items: center;
+}
+.categories {
+  color: var(--gray-2, #263856);
+  text-align: center;
+  font-family: Nunito Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 32px;
+}
+.categories:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+.header-right-side {
+  display: flex;
+  height: 100px;
+  align-items: center;
+}
+.header-list li {
+  margin-left: 20px;
+}
+/* Banner HRM */
+#hrm_banner {
+}
+.banner-picture-right {
+  width: 100%;
+}
+.banner-title {
+  font-family: Nunito Sans;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 150%; /* 48px */
+  background: var(
+    --gradient,
+    linear-gradient(322deg, #f15922 0%, #f6921e 100%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.slogan {
+  color: var(--gray-2, #263856);
+  font-family: Nunito Sans;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 173.5%; /* 55.52px */
+  margin-bottom: 46px;
+  text-transform: uppercase;
+}
+
+.featured-data {
+  min-height: 122px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slogan img {
+}
+.button-banner {
+  margin-bottom: 46px;
+}
+.give-consultation {
+  display: inline-flex;
+  padding: 10px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  border: none;
+  background: #2951a0;
+  color: #fff;
+  font-family: Nunito Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 150%; /* 24px */
+  box-shadow: -1px 9px 10px 0px rgba(41, 81, 160, 0.2);
+}
+.buy-now {
+  display: inline-flex;
+  padding: 10px 29px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background: var(
+    --gradient,
+    linear-gradient(322deg, #f15922 0%, #f6921e 100%)
+  );
+  color: #fff;
+  font-family: Nunito Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 150%; /* 24px */
+  border: none;
+  margin-left: 20px;
+  box-shadow: -1px 9px 10px 0px rgba(241, 89, 34, 0.2);
+}
+.data-box {
+  width: 100%;
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: 1px solid #bdc9e2;
+  background: #fff;
+  /* 1 */
+  box-shadow: 8px 8px 11px 0px rgba(23, 45, 88, 0.2);
+}
+.data {
+  position: relative;
+}
+.number-data {
+  font-family: Nunito Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 150%;
+  background: var(
+    --gradient,
+    linear-gradient(287deg, #f15922 12.78%, #f6921e 95.8%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline;
+}
+.plus {
+  color: var(--Blue1, #172d58);
+  font-family: Nunito Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 150%; /* 30px */
+  display: inline;
+  position: absolute;
+  top: 0;
+}
+.data-explain {
+  color: var(--gray-3, #6e7a8e);
+  font-family: Nunito Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 21px */
+}
+/* Chúng tôi là easyhrm */
+.seperation-fix {
+  width: 282px;
+  height: 2px;
+  background: #bdc9e2;
+  position: absolute;
+  bottom: 0;
+}
+.backtext {
+  color: var(--gray-1, #151f2f);
+  font-family: Nunito Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 211%; /* 33.76px */
+}
+.hrm-content {
+  color: var(--gray-1, #151f2f);
+  font-family: Nunito Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 211%;
+  margin-bottom: 50px;
+}
+.loadmore-btn {
+  display: inline-flex;
+  padding: 10px 29px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background: var(
+    --gradient,
+    linear-gradient(322deg, #f15922 0%, #f6921e 100%)
+  );
+  color: #fff;
+  font-family: Nunito Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 150%; /* 24px */
+  border: none;
+  margin-top: 40px;
+}
+.application-btn {
+  display: inline-flex;
+  padding: 10px 29px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  background: #2951a0;
+  color: #fff;
+  font-family: Nunito Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 150%; /* 24px */
+  margin-left: 20px;
+  border: none;
+}
+.loadmore-btn:hover,
+.application-btn:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+/* Easyhrm có gì nổi bật */
+#hrm_featured {
+  background: rgba(254, 240, 233, 0.6);
+  padding-top: 70px;
+  padding-bottom: 76px;
+  margin-top: 140px;
+}
+.featured-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 40px;
+  min-height: 220px;
+  border-radius: 8px;
+  border: 1px solid #bdc9e2;
+  background: #fff;
+  margin-bottom: 24px;
+  /* 1 */
+  box-shadow: 8px 8px 11px 0px rgba(23, 45, 88, 0.2);
+}
+
+/* Giải pháp quản lý nhân sự toàn diện, dễ dàng */
+#hrm_management {
+  background-color: #fff;
+}
+.hrm-ref1 {
+  color: var(--Blue2, #2951a0);
+  font-family: Nunito Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 211%; /* 50.64px */
+}
+.hrm-ref2 {
+  color: var(--Blue2, #2951a0);
+  font-family: Nunito Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 211%; /* 33.76px */
+}
+.hrm-ref-detail li::before {
+  content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: var(--blue-2, #2951a0); /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+.hrm-ref-detail li {
+  color: var(--gray-1, #151f2f);
+  font-family: Nunito Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 197%; /* 31.52px */
+}
+.staff-info-management {
+  padding-bottom: 50px;
+}
+.staff-info-detail {
+  background: rgba(254, 240, 233, 0.6);
+  padding-top: 54px;
+  padding-bottom: 68px;
+}
+.time-management {
+  background-color: #fff;
+  padding-top: 120px;
+  padding-bottom: 40px;
+}
+.salary-calculation {
+  background: rgba(254, 240, 233, 0.6);
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.great-experience {
+  padding-top: 115px;
+  padding-bottom: 134px;
+}
+.labor-contract {
+  background: rgba(254, 240, 233, 0.6);
+  padding-top: 80px;
+  padding-bottom: 136px;
+}
+
+/* Banner chia cắt */
+#hrm_banner_seperation {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner-seperation-content {
+  position: absolute;
+}
+.banner-seperation-text {
+  color: #fff;
+  font-family: Nunito Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 197%; /* 39.4px */
+}
+.banner-seperation-btn {
+  display: inline-flex;
+  padding: 10px 47px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background: #fff;
+  margin-top: 50px;
+}
+.loadmore-btn-fix {
+  font-family: Nunito Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 150%; /* 24px */
+  background: var(
+    --gradient,
+    linear-gradient(322deg, #f15922 0%, #f6921e 100%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border: none;
+}
+
+/* Câu chuyện khách hàng */
+#hrm_customer_stories {
+  padding-top: 100px;
+  padding-bottom: 140px;
+}
+.customer-box {
+  width: 344px;
+  height: 204px;
+  border-radius: 8px;
+  border: 1.5px solid var(--orange-5, #fef0e9);
+  background: #fff;
+  padding: 16px;
+  /* 1 */
+  box-shadow: 8px 8px 11px 0px rgba(23, 45, 88, 0.2);
+  margin-bottom: 10px;
+}
+.customer-info {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  justify-content: center;
+}
+.customer-avt {
+  width: 40px;
+  height: 40px;
+}
+.customer-name {
+  color: #000;
+  font-family: Nunito Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 236%; /* 33.04px */
+}
+.customer-position {
+  color: #66738c;
+  text-align: center;
+  font-family: Nunito Sans;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 236%; /* 23.6px */
+}
+.customer-share {
+  color: var(--gray-1, #151f2f);
+  font-family: Nunito Sans;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 16px */
+}
+.customer-seperation {
+  height: 1px;
+  flex-shrink: 0;
+  background: #9dafd3;
+  margin-top: 16px;
+}
+.customer-rate {
+  display: flex;
+  flex-direction: row-reverse;
+  height: 30px;
+  display: flex;
+  align-items: center;
+}
+.star-rate {
+  width: 24px;
+  height: 24px;
+}
+.star-rate img {
+  width: 100%;
+}
+.slide-point {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+.customer_stories_background {
+  position: relative;
+  width: 100%;
+  min-height: 788px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  padding: 100px 0;
+  background: #fef0e9;
+}
+.customer_stories_background img {
+  width: 100%;
+}
+#customer-box-2 {
+  top: 350px;
+  left: 50px;
+}
+#customer-box-1 {
+  right: 103px;
+  top: 75px;
+}
+#customer-box-3 {
+  right: 42px;
+  bottom: 42px;
+}
+#customer-box-4 {
+  right: 42px;
+  bottom: 42px;
+  display: none;
+}
+#customer-box-5 {
+  top: 350px;
+  left: 50px;
+  display: none;
+}
+
+.maps-box {
+  position: relative;
+  width: 328.89px;
+  height: 663.1px;
+}
+
+.avt1 {
+  position: absolute;
+  top: 0;
+  left: 45%;
+  width: 88px;
+  height: 88px;
+}
+.avt2 {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  width: 54px;
+  height: 54px;
+}
+.avt3 {
+  position: absolute;
+  top: 35%;
+  left: 47%;
+  width: 54px;
+  height: 54px;
+}
+.avt4 {
+  position: absolute;
+  bottom: 25%;
+  right: 0;
+  width: 88px;
+  height: 88px;
+}
+.avt5 {
+  position: absolute;
+  bottom: 0;
+  left: 35%;
+  width: 88px;
+  height: 88px;
+}
+.avt-click:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+.set-z-index {
+  /* z-index: 99; */
+  display: block;
+}
+/* Khách hàng tiêu biểu */
+#hrm_signature_customer {
+  padding-top: 60px;
+  padding-bottom: 150px;
+}
+.brand-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5%;
+}
+.brand-list div img {
+  width: 100%;
+}
+/* Báo giá HRM */
+#hrm_price {
+  background: rgba(254, 240, 233, 0.6);
+  padding-bottom: 54px;
+}
+.price-quote {
+  border-radius: 8px;
+  border: 1.5px solid var(--orange-5, #fef0e9);
+  background: #fff;
+  box-shadow: 8px 8px 11px 0px rgba(23, 45, 88, 0.2);
+  min-height: 250px;
+  position: relative;
+  padding: 30px;
+}
+.showdetail {
+  display: none;
+}
+.minhight-500 {
+  min-height: 500px !important;
+}
+.hrm-title {
+  color: var(--orange-2, #f26522);
+  font-family: Nunito Sans;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 211%; /* 67.52px */
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  margin-bottom: 60px;
+  position: relative;
+  text-transform: uppercase;
+}
+.hrm-title img {
+  width: 61px;
+  height: 68px;
+  margin-left: 10px;
+}
+.hrm-sub-title {
+  color: var(--gray-2, #263856);
+  font-family: Nunito Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 211%; /* 50.64px */
+  text-align: center;
+  margin-bottom: 60px;
+}
+.price-quote-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.quote-title-icon {
+  width: 57px;
+  height: 57px;
+}
+.quote-title-name {
+  color: var(--gray-2, #263856);
+  font-family: Nunito Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 211%; /* 50.64px */
+}
+.quote-seperation {
+  display: flex;
+  height: 1px;
+  flex-shrink: 0;
+  background: var(--orange-4, #f9b899);
+  margin-bottom: 24px;
+}
+.quote-ref-detail li::before {
+  content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #000;
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+.quote-ref-detail li {
+  color: var(--gray-1, #151f2f);
+  font-family: Nunito Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 211%; /* 33.76px */
+}
+.quote-li-fix {
+  color: #fff;
+  font-family: Nunito Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 211%; /* 33.76px */
+}
+.quote-li-fix li::before {
+  content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #fff;
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+.quote-btn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-bottom: 50px;
+  z-index: 10;
+}
+.quote-btn-mid {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-bottom: 50px;
+  z-index: 10;
+}
+.loadmore-btn-mid {
+  display: inline-flex;
+  padding: 10px 29px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background: #fff;
+  color: var(--orange-2, #f26522);
+  font-family: Nunito Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 150%; /* 24px */
+  border: none;
+  margin-top: 50px;
+}
+.price-detail-showing {
+  margin-top: 60px;
+  border-radius: 8px;
+  border: 1.5px solid var(--orange-5, #fef0e9);
+  background: #fff;
+  padding: 40px;
+  padding-bottom: 70px;
+  display: none;
+}
+.showing-title {
+  display: flex;
+  align-items: center;
+}
+.showing-title-img {
+  height: 57px;
+  width: 57px;
+}
+.showing-title-img img {
+  width: 100%;
+}
+.typeOfHrm {
+  color: #263856;
+  text-align: center;
+  font-family: Nunito Sans;
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 150%; /* 30px */
+  margin-top: 40px;
+}
+.showing-detail {
+  /* width: 357px; */
+  min-height: 350px;
+  border-radius: 8px;
+  border: 1px solid rgba(38, 56, 86, 0.3);
+  background: #fff;
+  box-shadow: 8px 8px 11px 0px rgba(23, 45, 88, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.specific-price {
+  text-align: center;
+  font-family: Nunito Sans;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 150%; /* 54px */
+  color: #f15922;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+.vnd {
+  color: #516078;
+  text-align: center;
+  font-family: Nunito Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 150%; /* 30px */
+}
+.type {
+  color: #172d58;
+  text-align: center;
+  font-family: Nunito Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 24px */
+}
+.time {
+  color: #172d58;
+  font-family: Nunito Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 150%;
+}
+.expired {
+  color: #172d58;
+  text-align: center;
+  font-family: Nunito Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 24px */
+}
+.gift-explain {
+  color: #6e7a8e;
+  font-family: Nunito Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+}
+.vat-notice {
+  color: #516078;
+  text-align: center;
+  font-family: Nunito Sans;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 800;
+  line-height: 150%; /* 30px */
+  margin-top: 50px;
+}
+.note {
+  margin-top: 48px;
+}
+.note-text {
+  color: #172d58;
+  font-family: Nunito Sans;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 150%; /* 30px */
+}
+.detail-btn:hover,
+.detail-btn:active {
+  opacity: 0.9;
+}
+/* Đăng ký tư vấn */
+#hrm_consulation_register {
+  height: 1000px;
+  padding-top: 60px;
+}
+.form-register {
+  border-radius: 32px;
+  background: var(--Blue2, #2951a0);
+  padding: 0 120px;
+  padding-bottom: 120px;
+}
+#hrm_form_register {
+  padding: 0 60px;
+  margin-top: 46px;
+  border-radius: 16px;
+  border: 1px solid var(--gray-4, #9ba3b1);
+  background: #fff;
+  box-shadow: 0px 0px 7px 0px rgba(17, 34, 67, 0.2);
+  padding-top: 52px;
+  padding-bottom: 40px;
+}
+.form-title {
+  color: var(--gray-2, #263856);
+  text-align: center;
+  font-family: Nunito Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 211%; /* 42.2px */
+  margin-bottom: 20px;
+}
+.form-label {
+  color: var(--gray-2, #263856);
+  text-align: center;
+  font-family: Nunito Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 211%; /* 33.76px */
+}
+.form-element {
+  margin-bottom: 24px;
+}
+.form-element input {
+  color: var(--gray-4, #9ba3b1);
+  font-family: Nunito Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 211%; /* 33.76px */
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  border: 1px solid var(--gray-3, #6e7a8e);
+  background: #fff;
+}
+
+/* Câu hỏi thường gặp */
+.click-question {
+  font-size: 16px !important;
+}
+#hrm_question {
+}
+#list_question {
+  border-radius: 16px;
+  border: 2px solid #9dafd3;
+  background: #fff;
+  padding: 25px 32px;
+}
+.fix-border {
+  /* border-bottom: 2px solid #bdc9e2;
+  padding-bottom: 24px; */
+}
+.fix-border:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+.question-row {
+  margin-top: 24px;
+  border-bottom: 2px solid #bdc9e2;
+  padding-bottom: 24px;
+}
+.the-answer {
+  color: #000;
+  font-family: Nunito Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 211%; /* 33.76px */
+  display: none;
+}
+.openclose:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+/* Kỹ năng quản trị nhân sự chuyên sâu */
+#hrm_advance_hrm {
+  padding-top: 90px;
+  padding-bottom: 74px;
+}
+.news-thumbnail {
+  margin-bottom: 12px;
+}
+.news-release-date {
+  color: var(--gray-3, #6e7a8e);
+  font-family: Nunito Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 211%; /* 29.54px */
+}
+.news-title {
+  color: var(--gray-1, #151f2f);
+  font-family: Nunito Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 211%; /* 33.76px */
+}
+.news-author {
+  display: flex;
+  align-items: center;
+  margin-top: 16px;
+}
+.author-avt {
+  width: 48px;
+  height: 48px;
+  margin-right: 20px;
+}
+.author-avt img {
+  width: 100%;
+}
+.author-infor {
+}
+.author-name {
+  color: #000;
+  text-align: center;
+  font-family: Nunito Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 211%; /* 29.54px */
+}
+.author-position {
+  color: var(--gray-4, #9ba3b1);
+  font-family: Nunito Sans;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+/* Footer */
+footer {
+  background: #ad3800;
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+.footer-logo {
+  margin-bottom: 34px;
+}
+.contact-row {
+  display: flex;
+  margin-bottom: 24px;
+}
+.contact-icon {
+}
+.contact-icon img {
+}
+.hrm-slogan {
+  color: #fff;
+  font-family: Nunito Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 211%; /* 33.76px */
+  margin-bottom: 24px;
+}
+.contact-text {
+  color: var(--blue5, #eaeef6);
+  font-family: Nunito Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 211%;
+  margin-left: 8px;
+  margin-bottom: 10px;
+}
+.list-social-media {
+  display: flex;
+  gap: 16px;
+}
+.social-media:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+.facebook-link {
+  margin-bottom: 30px;
+}
+.list-toc:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+.copyright {
+  color: var(--blue5, #eaeef6);
+  font-feature-settings: "cv04" on, "cv03" on;
+  font-family: Nunito Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+  margin-top: 165px;
+}
+/* Responsive */
+@media (max-width: 1023px) {
+  .featured-box {
+    height: 280px;
+  }
+  .banner-seperation-text {
+    font-size: 16px;
+  }
+  .banner-seperation-btn {
+    display: none;
+  }
+  .price-quote {
+    min-height: 400px;
+  }
+
+  .price-quote-detail {
+    display: none;
+  }
+  .display_responsive {
+    display: block;
+  }
+  .form-register {
+    padding: 0;
+  }
+  .form-element input {
+    /* padding: 0; */
+    padding: 10px;
+  }
+  .show {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: left;
+  }
+  .mobile-btn {
+    display: block;
+  }
+  .header-list {
+    width: 100%;
+    --bs-scroll-height: 10000px !important;
+  }
+  .consulation-header {
+    margin-left: 0;
+  }
+  .search-icon,
+  .hotline-header,
+  .consulation-header {
+    display: none;
+  }
+  .facebook-link {
+    display: none;
+  }
+}
+@media (max-width: 480px) {
+  .banner-seperation-text {
+    font-size: 8px;
+  }
+  .brand-list {
+    display: block;
+  }
+  .hrm-ref2 {
+    font-size: 12px;
+  }
+  .hrm-title {
+    font-size: 14px !important;
+  }
+  .hrm-content {
+    font-size: 12px !important;
+  }
+
+  #hrm_form_register {
+    padding: 10px;
+  }
+  .form-title {
+    font-size: 16px;
+  }
+  #hrm_signature_customer {
+    display: none;
+  }
+  .price-quote {
+    margin-bottom: 10px;
+  }
+}
+
+/* EASYHRM THÔNG TIN NHÂN SỰ */
+.pi_slogan {
+  font-family: Nunito Sans;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 150%; /* 48px */
+  background: var(
+    --gradient,
+    linear-gradient(287deg, #f15922 12.78%, #f6921e 95.8%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.pi_subslogan {
+  color: #263856;
+  font-family: Nunito Sans;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 173.5%; /* 48.58px */
+  margin-bottom: 46px;
+}
+.pi_free-trial {
+  padding: 10px 29px;
+  border-radius: 8px;
+  border: 1px solid var(--gradient, #f15922);
+  background: #fff;
+
+  /* 4 */
+  box-shadow: -1px 9px 10px 0px rgba(241, 89, 34, 0.2);
+  font-family: Nunito Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 150%; /* 24px */
+  background: var(
+    --gradient,
+    linear-gradient(287deg, #f15922 12.78%, #f6921e 95.8%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-right: 22px;
+}
+.pi_seperation {
+  height: 1px;
+  flex-shrink: 0;
+  background: var(--orange-2, #f26522);
+  margin-top: 40px;
+}
+
+.pi-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Nunito Sans;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 150%; /* 48px */
+  background: var(
+    --gradient,
+    linear-gradient(287deg, #f15922 12.78%, #f6921e 95.8%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 120px;
+  position: relative;
+}
+.pi_seperation-fix {
+  width: 350px;
+  height: 2px;
+  flex-shrink: 0;
+  background: #bdc9e2;
+  position: absolute;
+  bottom: 0;
+}
+.pi-subtitle {
+  color: var(--gray-2, #263856);
+  font-family: Nunito Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 211%; /* 50.64px */
+  display: flex;
+  justify-content: center;
+  margin-bottom: 34px;
+}
+.pi_featured-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 220px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: 1px solid #bdc9e2;
+  background: #fff;
+  margin-bottom: 24px;
+
+  /* 1 */
+  box-shadow: 8px 8px 11px 0px rgba(23, 45, 88, 0.2);
+}
+.pi_fb-icon {
+}
+.pi_fb-text {
+  color: var(--gray-2, #263856);
+  text-align: center;
+  font-family: Nunito Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 184%; /* 36.8px */
+}
+.pi_title-blue {
+  color: var(--Blue1, #172d58);
+  font-family: Nunito Sans;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 184%; /* 58.88px */
+}
+.mt-100 {
+  margin-top: 100px;
+}
+.pi_sub-title-blue {
+  color: var(--Blue1, #172d58);
+  font-family: Nunito Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 184%; /* 36.8px */
+  margin-bottom: 60px;
+}
+.pi_question-row {
+  margin-top: 24px;
+  border-bottom: 2px solid #bdc9e2;
+  padding-bottom: 24px;
+}
+.pi_the-answer {
+  display: none;
+}
+.pi_the-question {
+  color: var(--gray-1, #151f2f);
+  font-family: Nunito Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 184%; /* 36.8px */
+}
+.pi_the-question:hover,
+.pi_the-question:active {
+  cursor: pointer;
+}
+.personal-overall {
+  width: 100%;
+}
+.pi_answer-detail {
+  color: var(--gray-1, #151f2f);
+  font-family: Nunito Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 184%; /* 29.44px */
+}
+.align-row {
+  display: flex;
+  align-items: center;
+}
+.pi_features {
+  padding: 40px 0;
+}
+.pi_banner-middle {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+.pi_banner-content-text {
+  color: #fff;
+  font-family: Nunito Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 184%; /* 44.16px */
+}
+.pi_589 {
+  color: #fff;
+  font-family: Nunito Sans;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 184%;
+}
+.give-consulation-immediatetly {
+  display: inline-flex;
+  padding: 10px 48px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background: #fff;
+  color: var(--Blue2, #2951a0);
+  font-family: Nunito Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 189.5%; /* 30.32px */
+  border: none;
+}

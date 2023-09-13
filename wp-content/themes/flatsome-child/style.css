@@ -1,0 +1,373 @@
+/*
+Theme Name: Flatsome Child
+Description: This is a child theme for Flatsome Theme
+Author: UX Themes
+Template: flatsome
+Version: 3.0
+*/
+
+/*************** ADD CUSTOM CSS HERE.   ***************/
+
+
+.gradient-banner{
+	background-image: linear-gradient(to right, #ef502d , #ef9e22);
+}
+
+#top-bar{
+	border-bottom: 1px solid #e7e7e7;
+}
+
+#top-bar span{
+	text-transform: initial !important;
+}
+
+#header-contact i{
+	color: #ef7827;
+}
+
+.top-bar-nav a{
+	background-image: linear-gradient(to bottom, #ef502d , #ef9e22);
+	color: #fff;
+	padding: 5px 5px 3px 5px;
+}
+
+.btn-color-main{
+	color: #ef602b !important;
+}
+
+.btn-color-white{
+	border: 1.5px solid rgba(255,255,255,.9) !important;
+	border-radius: 20px !important;
+}
+
+.btn-color-white span{
+	color: #fff !important;
+}
+
+.btn-color-white:hover span{
+	color: #ef602b !important;
+}
+
+#masthead .header-nav-main li a{
+	font-weight: 500;
+	font-size: 14px;
+	color: #484848;
+}
+
+#masthead .header-nav-main li a.button{
+	color: #fff;
+}
+
+.header-button-1 a{
+	background: #0248b7;
+	line-height: 35px !important;
+}
+
+.header-button-1 a:before{
+	content: "";
+}
+
+.header-nav-main.nav-right li{
+	margin-left: 0 !important;
+}
+
+.header-button-2 a{
+	background-image: linear-gradient(to right, #ef552c , #ef9a23) !important;
+	border: 0 !important;
+	color: #fff !important;
+	line-height: 35px !important;
+}
+
+.bg-video{
+	background: url(http://localhost/easyhrm/wp-content/uploads/2023/02/angelo-pantazis-zXVk8mNl9M0-unsplash.jpg) no-repeat;
+}
+
+.gradient-box .col-inner{
+	background-image: linear-gradient(to bottom, #ef9e22 , #ef512d);
+}
+
+.none-bg .col .col-inner{
+	background-color: rgba(0,0,0,0) !important;
+	padding: 25px 15px 5px 15px !important;
+}
+
+.icon-box-text{
+	min-height: 240px;
+}
+
+.btn-primary{
+	background-image: linear-gradient(to right, #ef552c , #ef9a23) !important;
+	border: 0;
+	border-radius: 20px !important;
+}
+
+.border-radius-10 img{
+	border-radius: 10px;
+}
+
+.customer-hot .gallery-col{
+	display: flex;
+	align-items: center;
+}
+
+.center-image{
+	display: block;
+	margin: auto;
+}
+
+.customer-hot .row {
+	max-width: 880px;
+	
+}
+
+.btn-submit{
+	background-image: linear-gradient(to right, #ef552c , #ef9a23) !important;
+	border: 0;
+	border-radius: 20px !important;
+	height: 30px !important;
+    padding: 0 30px !important;
+    color: #fff !important;
+    font-weight: 500 !important;
+    font-size: 14px !important;
+    display: block !important;
+    margin: auto !important;
+}
+
+.register-forms .col{
+	padding-bottom: 0 !important;
+}
+
+.absolute-footer.dark{
+	display: none !important;
+}
+
+.xem-them .tieu-de-xem-them {
+    font-weight: 700;
+    display: block;
+    margin-bottom: 10px;
+    font-size: 19px;
+    color: black;
+}
+.xem-them ul li {
+    margin-bottom: 3px;
+}
+.xem-them ul li a {
+    font-weight: 400;
+    font-size: 16px;
+    color: #0248b7;
+}
+.xem-them ul li a:hover {
+    text-decoration: underline;
+}
+.blog-single .entry-meta {
+    text-transform: none;
+    font-size: 14px;
+    letter-spacing: 0;
+    color: gray;
+    border-top: 1px solid #e2e2e2;
+    border-bottom: 1px solid #e2e2e2;
+    padding: 10px;
+    background: #f9f9f9;
+}
+.danh-muc {
+    margin-bottom: 15px;
+}
+.danh-muc span.title, .the-tim-kiem span.title {
+    border-radius: 4px;
+    background: #126e32;
+    padding: 4px 10px;
+    color: white;
+    margin-right: 5px;
+}
+.danh-muc a, .the-tim-kiem a {line-height:32px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    padding: 4px 10px;
+    background: #dedede;
+    color: #464646;
+}
+.danh-muc a:hover, .the-tim-kiem a:hover {
+    background: #6dca19;
+    color: white;
+}
+.bai-viet-lien-quan {
+    margin-top: 15px;
+}
+.bai-viet-lien-quan h3 {
+    font-size: 19px;
+    color: black;
+}
+.bai-viet-lien-quan ul {
+    margin-bottom: 0;
+    display: inline-block;
+    width: 100%;
+}
+.bai-viet-lien-quan ul li {
+    list-style: none;
+    width: 25%;
+    color: graytext;
+    float: left;
+    padding-left: 4px;
+    padding-right: 5px;
+}
+.bai-viet-lien-quan ul li .box-image img {
+    height: 120px;
+    border-radius: 4px;
+    object-fit: cover;
+    object-position: center;
+    border: #ddd solid 1px;
+}
+.bai-viet-lien-quan h4 {
+    line-height: 19px;
+    padding-top: 7px;
+    height: 64px;
+    overflow: hidden;
+    font-weight: 500;
+    font-size: 15px;
+    color: #424242;
+}
+span.null {
+  background-image: linear-gradient(to bottom, #ef502d , #ef9e22);
+  padding: 4px 10px 4px 10px;
+  color: white;
+  position: relative;
+  display: inline-block;
+        font-weight: 700;
+    font-size: 16px;
+}
+.tde {
+    position: relative;
+    border-bottom: 3px solid #ef9a22;
+    margin-bottom: 12px;
+}
+.newpost {
+    background: #daefff;
+    padding: 10px;
+    border: 1px dashed #0092ff;
+    border-radius: 3px;
+    padding-left: 30px;
+}
+
+.text_price p{
+	margin:0;
+	padding: 0 0 5px 0;
+}
+
+.text_price li{
+	margin-bottom: 0;
+}
+
+.nav-tabs+.tab-panels {
+    padding: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+.baogiacustom .icon-box-text {
+    min-height: 10px;
+}
+
+.baogiacustom ul.nav-simple{
+	position: fixed;
+    z-index: 99999;
+    width: 350px;
+    justify-content: flex-start;
+    bottom: 50px;
+	padding: 10px 0;
+	opacity: .9;
+	transition: .2s all;
+}
+
+.baogiacustom ul.nav-simple:hover{
+	
+	opacity: 1;
+}
+.baogiacustom ul.nav-simple li{
+	margin-bottom: 10px;
+}
+
+.tab-panels {
+    padding-top: 0;
+}
+
+.baogiacustom ul.nav-simple li>a {
+    color: #f8f8f8;
+	padding: 1px 0;
+	background-image: linear-gradient(to right, #ef552c , #ef9a23) !important;
+    border: 0;
+    border-radius: 10px !important;
+	padding: 6px 10px;
+	box-shadow: 0 0 19px 0 #978f8f;
+	transition: .3s all;
+	position: relative;
+}
+
+.baogiacustom ul.nav-simple li>a:hover{
+	transform: translatex(8px);
+}
+
+.baogiacustom ul.nav-simple li.active a{
+	transform: translatex(8px);
+}
+
+.baogiacustom ul.nav-simple li.active a{
+	color: #fff;
+}
+
+.baogiacustom .tab a::before{
+	content: "Báo giá ";
+	padding-right: 4px !important;
+	opacity: 1 !important;
+	color: #fff !important;
+}
+
+/* .baogiacustom .tab.active a::after{
+	content: "Đang xem";
+	position: absolute;
+	width: 120px;
+    right: -100px;
+	height: 21px;
+    text-transform: none;
+    font-weight: normal;
+	right: -100px !important;
+    color: #545454;
+    border: 1px solid #ccc;
+    width: 80px !important;
+    text-align: center;
+    padding: 1px 0 5px;
+    border-radius: 8px;
+    font-size: 12px;
+} */
+
+ .baogiacustom .tab.active a::after{
+	content: "(Đang xem)";
+    font-size: 12px;
+    color: #f8f8f8;
+	font-weight: normal;
+    text-transform: none;
+    padding-left: 4px;
+} 
+
+
+
+
+.baogiacustom .nav li:first-child {
+    margin-left: 7px !important;
+}
+
+@media screen and (min-width: 1366px){
+	.header-nav-main.nav.nav-left{
+		padding-left: 50px;
+	}
+}
+
+@media only screen and (max-width: 48em) {
+/*************** ADD MOBILE ONLY CSS HERE  ***************/
+	.bai-viet-lien-quan ul li {
+		width: 50% !important;
+	}
+	.bai-viet-lien-quan ul li .box-image img {
+		height: 100px !important;
+	}
+
+}
