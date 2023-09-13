@@ -1,10 +1,12 @@
 $(document).ready(function () {
   $(".detail-btn").click(function () {
-    // Ẩn tất cả các phần div có class là "price-detail-showing"
     $(".price-detail-showing").hide();
-    // Tìm phần div "price-detail-showing" tương ứng với nút đã nhấp
     var index = $(this).closest(".col-md-4").index();
     $(".price-detail-showing:eq(" + index + ")").slideToggle("slow");
+  });
+  $(".showdetail-btn").click(function () {
+    $(this).parent().find(".showdetail").addClass("minhight-500");
+    $(this).parent().find(".showdetail").slideToggle();
   });
   $(".click-question").click(function () {
     if (
@@ -52,6 +54,20 @@ $(document).ready(function () {
         );
     }
   });
+
+  $(".avt-click").click(function () {
+    var index2 = $(this).closest(".avt-click").index();
+    index2 = index2 - 1;
+    $(".customer-box").hide();
+    if (index2 == 0 || (index2 == 1) | (index2 == 2)) {
+      $(".customer-box:eq( 0 )").css("display", "block");
+      $(".customer-box:eq( 1 )").css("display", "block");
+      $(".customer-box:eq( 2 )").css("display", "block");
+    }
+    $(".customer-box:eq( 0 )").css("display", "block");
+    $(".customer-box:eq( 1 )").css("display", "block");
+    $(".customer-box:eq(" + index2 + ")").css("display", "block");
+  });
 });
 
 function scrollMouse(classFirst, nameClassAdd) {
@@ -66,7 +82,7 @@ function scrollMouse(classFirst, nameClassAdd) {
     if (
       spaceBottom < scrollBottom - $(window).height() &&
       spaceTop < scrollSpaceTop + $(window).height()
-    ) { 
+    ) {
       $(this).addClass(nameClassAdd);
     } else {
       $(this).removeClass(nameClassAdd);
@@ -120,3 +136,68 @@ animateValue(count2000, 0, 2000, 2000);
 animateValue(count10, 0, 10, 2000);
 animateValue(count200000, 0, 200000, 2000);
 animateValue(count50, 0, 50, 2000);
+
+$(document).ready(function () {
+  setTimeout(function () {
+    $(count2000).html("2.000");
+    $(count200000).html("200.000");
+  }, 2000);
+});
+
+// Send Mail
+
+$(document).ready(function () {
+  //khai báo nút submit form
+  var submit = $("#hrm_form_register").find("button[type='submit']");
+
+  //khi thực hiện kích vào nút Login
+  submit.click(function () {
+    //khai báo các biến
+    var hoten = $("input[name='hoten']").val();
+    var email = $("input[name='email']").val();
+    var phonenumber = $("input[name='phonenumber']").val();
+    var taxcode = $("input[name='taxcode']").val();
+    //
+    if (hoten == "") {
+      alert("Vui lòng nhập tên");
+      return false;
+    }
+    if (email == "") {
+      alert("Vui lòng nhập mã số thuế");
+      return false;
+    }
+
+    if (phonenumber == "") {
+      alert("Vui lòng nhập điện thoại");
+      return false;
+    }
+    if (taxcode == "") {
+      alert("Vui lòng nhập mã số thuế");
+      return false;
+    }
+    if (phonenumber.length < 10) {
+      alert("Vui lòng số điện thoại chính xác!");
+      return false;
+    }
+    if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email) == false) {
+      alert("Địa chỉ Email không hợp lệ, hãy nhập lại");
+      return false;
+    }
+
+    // $("#formdkdt img").css("display", "block");
+
+    var data = $("form#hrm_form_register").serialize();
+
+    $.ajax({
+      type: "POST",
+      url: "../wp-content/themes/NewEasyHRM/sendmail.php",
+      data: data,
+      success: function (data) {
+        console.log(data);
+        $("#hrm_form_register").html(data);
+        // $("#formdkdt img").css("display", "none");
+      },
+    });
+    return false;
+  });
+});

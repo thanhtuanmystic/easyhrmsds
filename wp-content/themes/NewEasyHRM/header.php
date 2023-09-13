@@ -43,7 +43,8 @@
               while (have_rows('categories', 'option')):
                 the_row(); ?>
                 <li class="categories">
-                  <a style="color: var(--gray-2, #263856)" class="" href="<?php echo get_sub_field('category_link_to', 'option') ?>">
+                  <a style="color: var(--gray-2, #263856)" class=""
+                    href="<?php echo get_sub_field('category_link_to', 'option') ?>">
                     <?php
                     echo get_sub_field('category', 'option');
                     ?>
@@ -61,13 +62,15 @@
                 alt=""
               />
             </div> -->
-          <a href="tel:1900545415">
+          <a href="tel:  <?php echo get_field('left_button_header', 'option') ?>">
             <button class="hotline-header">
-              <?php echo get_field('left_button_header','option') ?>
+              <?php echo get_field('left_button_header', 'option') ?>
             </button>
           </a>
           <a href="#hrm_consulation_register">
-            <button class="consulation-header"><?php echo get_field('right_button_header','option') ?></button>
+            <button class="consulation-header">
+              <?php echo get_field('right_button_header', 'option') ?>
+            </button>
           </a>
         </div>
       </nav>

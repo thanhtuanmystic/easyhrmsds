@@ -3,11 +3,10 @@
   <div class="container">
     <div class="row center-row">
       <div class="col-md-6">
-        <p class="banner-title slide-left">EASY HRM</p>
         <p class="slogan slide-left">
-          Đễ dàng tự động hóa quản trị nhân sự doanh nghiệp
-          <span>
+          Dễ dàng tự động hóa<span>
             <img src="https://easyhrm.vn/wp-content/uploads/2023/08/Rectangle-92.png" alt="" /></span>
+          <br />quản trị nhân sự doanh nghiệp
         </p>
         <div class="button-banner slide-left">
           <a href="#hrm_consulation_register">
@@ -17,8 +16,14 @@
             <button class="buy-now">Mua ngay</button>
           </a>
         </div>
-        <div class="row slide-left">
-          <div class="col-md-6">
+      </div>
+      <div class="col-md-6 slide-right">
+        <img class="banner-picture-right"
+          src="https://easyhrm.vn/wp-content/uploads/2023/09/image_2023_09_11T01_37_10_525Z.png" alt="" />
+      </div>
+      <div class="col-md-12 data-box">
+        <div class="row">
+          <div class="col-md-3 featured-data">
             <div class="statistics">
               <div class="data">
                 <p id="count2000" class="number-data">2000</p>
@@ -27,7 +32,7 @@
               <div class="data-explain">doanh nghiệp đang sử dụng</div>
             </div>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-3 featured-data">
             <div class="statistics">
               <div class="data">
                 <p id="count200000" class="number-data">200.000</p>
@@ -36,7 +41,7 @@
               <div class="data-explain">sản phẩm được triển khai</div>
             </div>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-3 featured-data">
             <div class="statistics">
               <div class="data">
                 <p id="count10" class="number-data">10</p>
@@ -46,7 +51,7 @@
               <div class="data-explain">tiết kiệm thời gian quản lý</div>
             </div>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-3 featured-data">
             <div class="statistics">
               <div class="data">
                 <p id="count50" class="number-data">50</p>
@@ -58,10 +63,6 @@
           </div>
         </div>
       </div>
-      <div class="col-md-6 slide-right">
-        <img class="banner-picture-right"
-          src="https://easyhrm.vn/wp-content/uploads/2023/09/image_2023_09_07T01_23_52_779Z.png" alt="" />
-      </div>
     </div>
     <div class="seperation"></div>
   </div>
@@ -69,6 +70,10 @@
 <section id="hrm_introduction">
   <div class="container">
     <div class="row center-row">
+      <div class="col-md-6 animation_img_left">
+        <img style="width: 100%" src="https://easyhrm.vn/wp-content/uploads/2023/09/image_2023_09_05T03_30_43_512Z.png"
+          alt="" />
+      </div>
       <div class="col-md-6 col-sm-12">
         <div class="hrm-title">
           <div>CHÚNG TÔI LÀ EASYHRM</div>
@@ -88,76 +93,22 @@
         </div>
         <button class="loadmore-btn">Xem thêm</button>
       </div>
-      <div class="col-md-6 animation_img_right">
-        <img style="width: 100%" src="https://easyhrm.vn/wp-content/uploads/2023/09/image_2023_09_05T03_30_43_512Z.png"
-          alt="" />
-      </div>
     </div>
   </div>
 </section>
 <section id="hrm_featured">
   <div class="container">
     <div class="hrm-title justify-content-center">
-      <div>EASYHRM CÓ GÌ NỔI BẬT</div>
+      <div style="margin-left: 60px">EASYHRM CÓ GÌ NỔI BẬT</div>
 
-      <div class="seperation-fix"></div>
+      <div style="margin-left: 60px" class="seperation-fix"></div>
     </div>
 
     <div class="row">
-      <div class="col-md-4 col-sm-12">
-        <div class="featured-box">
-          <div class="featured-icon">
-            <img src="https://easyhrm.vn/wp-content/uploads/2023/08/image_2023_08_30T01_26_38_377Z.png" alt="" />
-          </div>
-          <div class="featured-content">
-            Đa dạng phương thức quản lý PC, Mobile App
-          </div>
-        </div>
+      <div class="col-md-12 center-row animation_img_right">
+        <img style="width: 80%" src="https://easyhrm.vn/wp-content/uploads/2023/09/image_2023_09_08T03_50_13_297Z.png"
+          alt="" />
       </div>
-      <div class="col-md-4 col-sm-12">
-        <div class="featured-box">
-          <div class="featured-icon">
-            <img src="https://easyhrm.vn/wp-content/uploads/2023/08/image_2023_08_30T01_26_49_862Z.png" alt="" />
-          </div>
-          <div class="featured-content">
-            Hệ sinh thái đầy đủ hoạt động quản trị nhân sự
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 col-sm-12">
-        <div class="featured-box">
-          <div class="featured-icon">
-            <img src="https://easyhrm.vn/wp-content/uploads/2023/08/image_2023_08_30T01_26_55_512Z.png" alt="" />
-          </div>
-          <div class="featured-content">
-            Đáp ứng tính tùy biến, tự động hóa chấm công, tính lương
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row second-row">
-      <div class="col-md-2"></div>
-      <div class="col-md-4 col-sm-12">
-        <div class="featured-box">
-          <div class="featured-icon">
-            <img src="https://easyhrm.vn/wp-content/uploads/2023/08/image_2023_08_30T01_27_01_008Z.png" alt="" />
-          </div>
-          <div class="featured-content">
-            Trải nghiệm dễ dàng, luồng công việc tường minh
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 col-sm-12">
-        <div class="featured-box">
-          <div class="featured-icon">
-            <img src="https://easyhrm.vn/wp-content/uploads/2023/08/image_2023_08_30T01_27_05_148Z.png" alt="" />
-          </div>
-          <div class="featured-content">
-            Cam kết tư vấn giải pháp, hỗ trợ kỹ thuật 24/7
-          </div>
-        </div>
-      </div>
-      <div class="col-md-2"></div>
     </div>
   </div>
 </section>
@@ -168,7 +119,7 @@
 
       <div class="seperation-fix"></div>
     </div>
-    <div class="row center-row">
+    <div class="row center-row staff-info-management">
       <div class="col-md-6">
         <div class="hrm-ref1">Quản lý thông tin nhân sự</div>
         <div class="hrm-ref2">1. Giao diện trực quan, dễ dàng theo dõi</div>
@@ -202,6 +153,7 @@
           </li>
         </ul>
         <button class="loadmore-btn">Xem thêm</button>
+        <button class="application-btn">Ứng dụng thực tiễn</button>
       </div>
       <div class="col-md-6 animation_img_right">
         <img style="width: 100%" src="https://easyhrm.vn/wp-content/uploads/2023/08/image_2023_08_30T02_03_56_685Z.png"
@@ -258,6 +210,7 @@
             </li>
           </ul>
           <button class="loadmore-btn">Xem thêm</button>
+          <button class="application-btn">Ứng dụng thực tiễn</button>
         </div>
       </div>
     </div>
@@ -296,6 +249,7 @@
             </li>
           </ul>
           <button class="loadmore-btn">Xem thêm</button>
+          <button class="application-btn">Ứng dụng thực tiễn</button>
         </div>
         <div class="col-md-6 animation_img_right">
           <img style="width: 100%"
@@ -338,6 +292,7 @@
             </li>
           </ul>
           <button class="loadmore-btn">Xem thêm</button>
+          <button class="application-btn">Ứng dụng thực tiễn</button>
         </div>
       </div>
     </div>
@@ -362,9 +317,10 @@
             </li>
           </ul>
           <button class="loadmore-btn">Xem thêm</button>
+          <button class="application-btn">Ứng dụng thực tiễn</button>
         </div>
         <div class="col-md-6 animation_img_right">
-          <img src="https://easyhrm.vn/wp-content/uploads/2023/08/image_2023_08_30T03_17_15_160Z.png"
+          <img src="https://easyhrm.vn/wp-content/uploads/2023/09/image_2023_09_11T02_52_17_504Z.png"
             style="width: 100%" alt="" />
         </div>
       </div>
@@ -391,6 +347,7 @@
             </li>
           </ul>
           <button class="loadmore-btn">Xem thêm</button>
+          <button class="application-btn">Ứng dụng thực tiễn</button>
         </div>
       </div>
     </div>
@@ -419,137 +376,233 @@
   <div class="container">
     <div class="hrm-title justify-content-center">
       <div>Câu chuyện khách hàng</div>
-
       <div class="seperation-fix"></div>
     </div>
-    <div class="row">
-      <div class="col-md-4 col-sm-12">
-        <div class="customer-box">
-          <div class="customer-info">
-            <div class="customer-avt">
-              <img style="width: 100%"
-                src="https://easyhrm.vn/wp-content/uploads/2023/08/image_2023_08_30T06_33_37_830Z.png" alt="" />
+    <div class="customer_stories_background">
+      <div class="row center-row">
+        <div class="col-md-6 center-row">
+          <div class="maps-box">
+            <img class="maps_vietnam" src="https://easyhrm.vn/wp-content/uploads/2023/09/Frame.png" alt="" />
+            <div class="avt1 avt-click">
+              <img width="100%" src="https://easyhrm.vn/wp-content/uploads/2023/09/image_2023_09_07T10_28_40_018Z.png"
+                alt="" />
             </div>
-            <div class="customer-contact">
-              <div class="customer-name">Chị Phương</div>
-              <div class="customer-position">
-                Trưởng phòng HCNS tại Thế giới Sofa
+            <div class="avt2 avt-click">
+              <img width="100%" src="https://easyhrm.vn/wp-content/uploads/2023/08/image_2023_08_31T02_30_55_632Z.png"
+                alt="" />
+            </div>
+            <div class="avt3 avt-click">
+              <img width="100%" src="https://easyhrm.vn/wp-content/uploads/2023/08/image_2023_08_30T06_33_37_830Z.png"
+                alt="" />
+            </div>
+            <div class="avt4 avt-click">
+              <img width="100%" src="https://easyhrm.vn/wp-content/uploads/2023/09/image_2023_09_08T01_33_22_788Z.png"
+                alt="" />
+            </div>
+            <div class="avt5 avt-click">
+              <img width="100%" src="https://easyhrm.vn/wp-content/uploads/2023/09/image_2023_09_08T01_33_38_662Z.png"
+                alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <div id="customer-box-1" class="customer-box">
+            <div class="customer-info">
+              <div class="customer-avt">
+                <img style="width: 100%"
+                  src="https://easyhrm.vn/wp-content/uploads/2023/09/image_2023_09_07T10_28_40_018Z.png" alt="" />
+              </div>
+              <div class="customer-contact">
+                <div class="customer-name">Chị Phương 1</div>
+                <div class="customer-position">
+                  Trưởng phòng HCNS tại Thế giới Sofa
+                </div>
+              </div>
+            </div>
+            <div class="customer-share">
+              “Trước đây, Thế giới Sofa đã sử dụng phần mềm của nhiều “ông
+              lớn” trên thị trường nhưng không khai thác được hết tính năng
+              mà chi phí lại cao. Từ khi chuyển qua EasyHRM, việc quản lý
+              nhân sự trở nên dễ dàng lại tiết kiệm chi phí đáng kể cho
+              doanh nghiệp.”
+            </div>
+            <div class="customer-seperation"></div>
+            <div class="customer-rate">
+              <div class="star-rate">
+                <img src="https://easyhrm.vn/wp-content/uploads/2023/08/image_2023_08_30T06_50_59_775Z.png" alt="" />
+              </div>
+              <div class="star-rate">
+                <img src="https://easyhrm.vn/wp-content/uploads/2023/08/image_2023_08_30T06_50_59_775Z.png" alt="" />
+              </div>
+              <div class="star-rate">
+                <img src="https://easyhrm.vn/wp-content/uploads/2023/08/image_2023_08_30T06_50_59_775Z.png" alt="" />
+              </div>
+              <div class="star-rate">
+                <img src="https://easyhrm.vn/wp-content/uploads/2023/08/image_2023_08_30T06_50_59_775Z.png" alt="" />
+              </div>
+              <div class="star-rate">
+                <img src="https://easyhrm.vn/wp-content/uploads/2023/08/image_2023_08_30T06_50_59_775Z.png" alt="" />
               </div>
             </div>
           </div>
-          <div class="customer-share">
-            “Trước đây, Thế giới Sofa đã sử dụng phần mềm của nhiều “ông
-            lớn” trên thị trường nhưng không khai thác được hết tính năng mà
-            chi phí lại cao. Từ khi chuyển qua EasyHRM, việc quản lý nhân sự
-            trở nên dễ dàng lại tiết kiệm chi phí đáng kể cho doanh nghiệp.”
+          <div id="customer-box-2" class="customer-box">
+            <div class="customer-info">
+              <div class="customer-avt">
+                <img style="width: 100%"
+                  src="https://easyhrm.vn/wp-content/uploads/2023/08/image_2023_08_31T02_30_55_632Z.png" alt="" />
+              </div>
+              <div class="customer-contact">
+                <div class="customer-name">Chị Phương 2</div>
+                <div class="customer-position">
+                  Trưởng phòng HCNS tại Thế giới Sofa
+                </div>
+              </div>
+            </div>
+            <div class="customer-share">
+              “Trước đây, Thế giới Sofa đã sử dụng phần mềm của nhiều “ông
+              lớn” trên thị trường nhưng không khai thác được hết tính năng
+              mà chi phí lại cao. Từ khi chuyển qua EasyHRM, việc quản lý
+              nhân sự trở nên dễ dàng lại tiết kiệm chi phí đáng kể cho
+              doanh nghiệp.”
+            </div>
+            <div class="customer-seperation"></div>
+            <div class="customer-rate">
+              <div class="star-rate">
+                <img src="https://easyhrm.vn/wp-content/uploads/2023/08/image_2023_08_30T06_50_59_775Z.png" alt="" />
+              </div>
+              <div class="star-rate">
+                <img src="https://easyhrm.vn/wp-content/uploads/2023/08/image_2023_08_30T06_50_59_775Z.png" alt="" />
+              </div>
+              <div class="star-rate">
+                <img src="https://easyhrm.vn/wp-content/uploads/2023/08/image_2023_08_30T06_50_59_775Z.png" alt="" />
+              </div>
+              <div class="star-rate">
+                <img src="https://easyhrm.vn/wp-content/uploads/2023/08/image_2023_08_30T06_50_59_775Z.png" alt="" />
+              </div>
+              <div class="star-rate">
+                <img src="https://easyhrm.vn/wp-content/uploads/2023/08/image_2023_08_30T06_50_59_775Z.png" alt="" />
+              </div>
+            </div>
           </div>
-          <div class="customer-seperation"></div>
-          <div class="customer-rate">
-            <div class="star-rate">
-              <img src="https://easyhrm.vn/wp-content/uploads/2023/08/image_2023_08_30T06_50_59_775Z.png" alt="" />
+          <div id="customer-box-3" class="customer-box">
+            <div class="customer-info">
+              <div class="customer-avt">
+                <img style="width: 100%"
+                  src="https://easyhrm.vn/wp-content/uploads/2023/08/image_2023_08_30T06_33_37_830Z.png" alt="" />
+              </div>
+              <div class="customer-contact">
+                <div class="customer-name">Chị Phương 3</div>
+                <div class="customer-position">
+                  Trưởng phòng HCNS tại Thế giới Sofa
+                </div>
+              </div>
             </div>
-            <div class="star-rate">
-              <img src="https://easyhrm.vn/wp-content/uploads/2023/08/image_2023_08_30T06_50_59_775Z.png" alt="" />
+            <div class="customer-share">
+              “Trước đây, Thế giới Sofa đã sử dụng phần mềm của nhiều “ông
+              lớn” trên thị trường nhưng không khai thác được hết tính năng
+              mà chi phí lại cao. Từ khi chuyển qua EasyHRM, việc quản lý
+              nhân sự trở nên dễ dàng lại tiết kiệm chi phí đáng kể cho
+              doanh nghiệp.”
             </div>
-            <div class="star-rate">
-              <img src="https://easyhrm.vn/wp-content/uploads/2023/08/image_2023_08_30T06_50_59_775Z.png" alt="" />
+            <div class="customer-seperation"></div>
+            <div class="customer-rate">
+              <div class="star-rate">
+                <img src="https://easyhrm.vn/wp-content/uploads/2023/08/image_2023_08_30T06_50_59_775Z.png" alt="" />
+              </div>
+              <div class="star-rate">
+                <img src="https://easyhrm.vn/wp-content/uploads/2023/08/image_2023_08_30T06_50_59_775Z.png" alt="" />
+              </div>
+              <div class="star-rate">
+                <img src="https://easyhrm.vn/wp-content/uploads/2023/08/image_2023_08_30T06_50_59_775Z.png" alt="" />
+              </div>
+              <div class="star-rate">
+                <img src="https://easyhrm.vn/wp-content/uploads/2023/08/image_2023_08_30T06_50_59_775Z.png" alt="" />
+              </div>
+              <div class="star-rate">
+                <img src="https://easyhrm.vn/wp-content/uploads/2023/08/image_2023_08_30T06_50_59_775Z.png" alt="" />
+              </div>
             </div>
-            <div class="star-rate">
-              <img src="https://easyhrm.vn/wp-content/uploads/2023/08/image_2023_08_30T06_50_59_775Z.png" alt="" />
+          </div>
+          <div id="customer-box-4" class="customer-box">
+            <div class="customer-info">
+              <div class="customer-avt">
+                <img style="width: 100%"
+                  src="https://easyhrm.vn/wp-content/uploads/2023/09/image_2023_09_08T01_33_22_788Z.png" alt="" />
+              </div>
+              <div class="customer-contact">
+                <div class="customer-name">Chị Phương 4</div>
+                <div class="customer-position">
+                  Trưởng phòng HCNS tại Thế giới Sofa
+                </div>
+              </div>
             </div>
-            <div class="star-rate">
-              <img src="https://easyhrm.vn/wp-content/uploads/2023/08/image_2023_08_30T06_50_59_775Z.png" alt="" />
+            <div class="customer-share">
+              “Trước đây, Thế giới Sofa đã sử dụng phần mềm của nhiều “ông
+              lớn” trên thị trường nhưng không khai thác được hết tính năng
+              mà chi phí lại cao. Từ khi chuyển qua EasyHRM, việc quản lý
+              nhân sự trở nên dễ dàng lại tiết kiệm chi phí đáng kể cho
+              doanh nghiệp.”
+            </div>
+            <div class="customer-seperation"></div>
+            <div class="customer-rate">
+              <div class="star-rate">
+                <img src="https://easyhrm.vn/wp-content/uploads/2023/08/image_2023_08_30T06_50_59_775Z.png" alt="" />
+              </div>
+              <div class="star-rate">
+                <img src="https://easyhrm.vn/wp-content/uploads/2023/08/image_2023_08_30T06_50_59_775Z.png" alt="" />
+              </div>
+              <div class="star-rate">
+                <img src="https://easyhrm.vn/wp-content/uploads/2023/08/image_2023_08_30T06_50_59_775Z.png" alt="" />
+              </div>
+              <div class="star-rate">
+                <img src="https://easyhrm.vn/wp-content/uploads/2023/08/image_2023_08_30T06_50_59_775Z.png" alt="" />
+              </div>
+              <div class="star-rate">
+                <img src="https://easyhrm.vn/wp-content/uploads/2023/08/image_2023_08_30T06_50_59_775Z.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div id="customer-box-5" class="customer-box">
+            <div class="customer-info">
+              <div class="customer-avt">
+                <img style="width: 100%"
+                  src="https://easyhrm.vn/wp-content/uploads/2023/09/image_2023_09_08T01_33_38_662Z.png" alt="" />
+              </div>
+              <div class="customer-contact">
+                <div class="customer-name">Chị Phương 5</div>
+                <div class="customer-position">
+                  Trưởng phòng HCNS tại Thế giới Sofa
+                </div>
+              </div>
+            </div>
+            <div class="customer-share">
+              “Trước đây, Thế giới Sofa đã sử dụng phần mềm của nhiều “ông
+              lớn” trên thị trường nhưng không khai thác được hết tính năng
+              mà chi phí lại cao. Từ khi chuyển qua EasyHRM, việc quản lý
+              nhân sự trở nên dễ dàng lại tiết kiệm chi phí đáng kể cho
+              doanh nghiệp.”
+            </div>
+            <div class="customer-seperation"></div>
+            <div class="customer-rate">
+              <div class="star-rate">
+                <img src="https://easyhrm.vn/wp-content/uploads/2023/08/image_2023_08_30T06_50_59_775Z.png" alt="" />
+              </div>
+              <div class="star-rate">
+                <img src="https://easyhrm.vn/wp-content/uploads/2023/08/image_2023_08_30T06_50_59_775Z.png" alt="" />
+              </div>
+              <div class="star-rate">
+                <img src="https://easyhrm.vn/wp-content/uploads/2023/08/image_2023_08_30T06_50_59_775Z.png" alt="" />
+              </div>
+              <div class="star-rate">
+                <img src="https://easyhrm.vn/wp-content/uploads/2023/08/image_2023_08_30T06_50_59_775Z.png" alt="" />
+              </div>
+              <div class="star-rate">
+                <img src="https://easyhrm.vn/wp-content/uploads/2023/08/image_2023_08_30T06_50_59_775Z.png" alt="" />
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="col-md-4 col-sm-12">
-        <div class="customer-box">
-          <div class="customer-info">
-            <div class="customer-avt">
-              <img style="width: 100%"
-                src="https://easyhrm.vn/wp-content/uploads/2023/08/image_2023_08_30T06_33_37_830Z.png" alt="" />
-            </div>
-            <div class="customer-contact">
-              <div class="customer-name">Chị Phương</div>
-              <div class="customer-position">
-                Trưởng phòng HCNS tại Thế giới Sofa
-              </div>
-            </div>
-          </div>
-          <div class="customer-share">
-            “Trước đây, Thế giới Sofa đã sử dụng phần mềm của nhiều “ông
-            lớn” trên thị trường nhưng không khai thác được hết tính năng mà
-            chi phí lại cao. Từ khi chuyển qua EasyHRM, việc quản lý nhân sự
-            trở nên dễ dàng lại tiết kiệm chi phí đáng kể cho doanh nghiệp.”
-          </div>
-          <div class="customer-seperation"></div>
-          <div class="customer-rate">
-            <div class="star-rate">
-              <img src="https://easyhrm.vn/wp-content/uploads/2023/08/image_2023_08_30T06_50_59_775Z.png" alt="" />
-            </div>
-            <div class="star-rate">
-              <img src="https://easyhrm.vn/wp-content/uploads/2023/08/image_2023_08_30T06_50_59_775Z.png" alt="" />
-            </div>
-            <div class="star-rate">
-              <img src="https://easyhrm.vn/wp-content/uploads/2023/08/image_2023_08_30T06_50_59_775Z.png" alt="" />
-            </div>
-            <div class="star-rate">
-              <img src="https://easyhrm.vn/wp-content/uploads/2023/08/image_2023_08_30T06_50_59_775Z.png" alt="" />
-            </div>
-            <div class="star-rate">
-              <img src="https://easyhrm.vn/wp-content/uploads/2023/08/image_2023_08_30T06_50_59_775Z.png" alt="" />
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 col-sm-12">
-        <div class="customer-box">
-          <div class="customer-info">
-            <div class="customer-avt">
-              <img style="width: 100%"
-                src="https://easyhrm.vn/wp-content/uploads/2023/08/image_2023_08_30T06_33_37_830Z.png" alt="" />
-            </div>
-            <div class="customer-contact">
-              <div class="customer-name">Chị Phương</div>
-              <div class="customer-position">
-                Trưởng phòng HCNS tại Thế giới Sofa
-              </div>
-            </div>
-          </div>
-          <div class="customer-share">
-            “Trước đây, Thế giới Sofa đã sử dụng phần mềm của nhiều “ông
-            lớn” trên thị trường nhưng không khai thác được hết tính năng mà
-            chi phí lại cao. Từ khi chuyển qua EasyHRM, việc quản lý nhân sự
-            trở nên dễ dàng lại tiết kiệm chi phí đáng kể cho doanh nghiệp.”
-          </div>
-          <div class="customer-seperation"></div>
-          <div class="customer-rate">
-            <div class="star-rate">
-              <img src="https://easyhrm.vn/wp-content/uploads/2023/08/image_2023_08_30T06_50_59_775Z.png" alt="" />
-            </div>
-            <div class="star-rate">
-              <img src="https://easyhrm.vn/wp-content/uploads/2023/08/image_2023_08_30T06_50_59_775Z.png" alt="" />
-            </div>
-            <div class="star-rate">
-              <img src="https://easyhrm.vn/wp-content/uploads/2023/08/image_2023_08_30T06_50_59_775Z.png" alt="" />
-            </div>
-            <div class="star-rate">
-              <img src="https://easyhrm.vn/wp-content/uploads/2023/08/image_2023_08_30T06_50_59_775Z.png" alt="" />
-            </div>
-            <div class="star-rate">
-              <img src="https://easyhrm.vn/wp-content/uploads/2023/08/image_2023_08_30T06_50_59_775Z.png" alt="" />
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="slide-point">
-      <svg xmlns="http://www.w3.org/2000/svg" width="67" height="16" viewBox="0 0 67 16" fill="none">
-        <circle cx="8" cy="8" r="8" fill="#FEF0E9" />
-        <circle cx="33" cy="8" r="8" fill="#F26522" />
-        <circle cx="59" cy="8" r="8" fill="#FEF0E9" />
-      </svg>
     </div>
   </div>
 </section>
@@ -627,14 +680,22 @@
             <div class="quote-title-name">EASYHRM STANDARD</div>
           </div>
           <div class="quote-seperation"></div>
-          <div class="price-quote-detail">
-            <ul class="quote-ref-detail">
-              <li>Phân hệ hồ sơ, hợp đồng lao động</li>
-              <li>Tặng phân hệ kê khai Bảo hiểm xã hội điện tử</li>
-            </ul>
-          </div>
-          <div class="quote-btn detail-btn">
+          <div class="quote-btn showdetail-btn">
             <button class="loadmore-btn quote-btn-fix">Xem chi tiết</button>
+          </div>
+          <div class="showdetail">
+            <div class="price-quote-detail">
+              <ul class="quote-ref-detail">
+                <li>Phân hệ hồ sơ, hợp đồng lao động</li>
+                <li>Tặng phân hệ kê khai Bảo hiểm xã hội điện tử</li>
+              </ul>
+            </div>
+            <div class="quote-btn detail-btn">
+              <button class="loadmore-btn quote-btn-fix">Báo giá</button>
+            </div>
+            <div class="quote-btn detail-btn">
+              <button class="loadmore-btn quote-btn-fix">Báo giá</button>
+            </div>
           </div>
         </div>
       </div>
@@ -654,22 +715,34 @@
             </div>
           </div>
           <div class="quote-seperation"></div>
-          <div class="price-quote-detail">
-            <ul class="quote-li-fix">
-              <li>
-                Phân hệ quản lý chấm công, đơn từ hành chính, giải trình
-                chấm công
-              </li>
-              <li>Phân hệ nhân viên</li>
-              <li>Phân hệ hồ sơ, hợp đồng lao động</li>
-              <li>Phân hệ tính lương, KPI</li>
-              <li>Tặng phân hệ kê khai BHXH điện tử</li>
-            </ul>
-          </div>
-          <div class="quote-btn-mid detail-btn">
+          <div class="quote-btn showdetail-btn">
             <button class="loadmore-btn-mid quote-btn-fix">
               Xem chi tiết
             </button>
+          </div>
+          <div class="showdetail">
+            <div class="price-quote-detail">
+              <ul class="quote-li-fix">
+                <li>
+                  Phân hệ quản lý chấm công, đơn từ hành chính, giải trình
+                  chấm công
+                </li>
+                <li>Phân hệ nhân viên</li>
+                <li>Phân hệ hồ sơ, hợp đồng lao động</li>
+                <li>Phân hệ tính lương, KPI</li>
+                <li>Tặng phân hệ kê khai BHXH điện tử</li>
+              </ul>
+            </div>
+            <div class="quote-btn-mid detail-btn">
+              <button class="loadmore-btn-mid quote-btn-fix">
+                Báo giá
+              </button>
+            </div>
+            <div class="quote-btn-mid detail-btn">
+              <button class="loadmore-btn-mid quote-btn-fix">
+                Báo giá
+              </button>
+            </div>
           </div>
         </div>
       </div>
@@ -683,13 +756,21 @@
             <div class="quote-title-name">HĐLĐ ĐIỆN TỬ</div>
           </div>
           <div class="quote-seperation"></div>
-          <div class="price-quote-detail">
-            <ul class="quote-ref-detail">
-              <li>Phân hệ hợp đồng lao động điện tử</li>
-            </ul>
-          </div>
-          <div class="quote-btn detail-btn">
+          <div class="quote-btn showdetail-btn">
             <button class="loadmore-btn quote-btn-fix">Xem chi tiết</button>
+          </div>
+          <div class="showdetail">
+            <div class="price-quote-detail">
+              <ul class="quote-ref-detail">
+                <li>Phân hệ hợp đồng lao động điện tử</li>
+              </ul>
+            </div>
+            <div class="quote-btn detail-btn">
+              <button class="loadmore-btn quote-btn-fix">Báo giá</button>
+            </div>
+            <div class="quote-btn detail-btn">
+              <button class="loadmore-btn quote-btn-fix">Báo giá</button>
+            </div>
           </div>
         </div>
       </div>
@@ -961,22 +1042,22 @@
         <div class="row display_responsive">
           <div class="col-md-6 col-sm-12 form-element">
             <label for="" class="form-label">Họ tên</label>
-            <input type="text" class="form-control" placeholder="Ví dụ: Nguyễn Văn A" />
+            <input type="text" class="form-control" placeholder="Ví dụ: Nguyễn Văn A" name="hoten" />
           </div>
           <div class="col-md-6 col-sm-12 form-element">
             <label for="" class="form-label">Email</label>
-            <input type="text" class="form-control" placeholder="Ví dụ: 0977997686" />
+            <input type="text" class="form-control" placeholder="Ví dụ: Demo@softdreams.com" name="email" />
           </div>
           <div class="col-md-6 col-sm-12 form-element">
             <label for="" class="form-label">Số điện thoại</label>
-            <input type="text" class="form-control" placeholder="Ví dụ: Demo@softdreams.con" />
+            <input type="text" class="form-control" placeholder="Ví dụ: 0979686888" name="phonenumber" />
           </div>
           <div class="col-md-6 col-sm-12 form-element">
             <label for="" class="form-label">Mã số thuế</label>
-            <input type="text" class="form-control" placeholder="Ví dụ: 135791113" />
+            <input type="text" class="form-control" placeholder="Ví dụ: 135791113" name="taxcode" />
           </div>
         </div>
-        <button style="width: 100%" class="loadmore-btn">
+        <button type="submit" style="width: 100%" class="loadmore-btn">
           Nhận tư vấn
         </button>
       </form>
@@ -991,98 +1072,29 @@
   </div>
   <div class="container">
     <div id="list_question">
-      <div class="question-row">
-        <div class="row center-row">
-          <div class="col-md-11">
-            <div style="text-align: left" class="form-title fix-border click-question">
-              Quản trị nhân sự bắt đầu từ đâu? CEO cần quan tâm đến những dữ
-              liệu nào nhân sự nào khi doanh nghiệp phát triển, mở rộng kinh
-              doanh?
+      <?php
+      if (have_rows('list_question', 'option')):
+        while (have_rows('list_question', 'option')):
+          the_row(); ?>
+          <div class="question-row">
+            <div class="row center-row">
+              <div class="col-md-11">
+                <div style="text-align: left" class="form-title fix-border click-question">
+                  <?php echo get_sub_field('question', 'option') ?>
+                </div>
+              </div>
+              <div class="col-md-1 openclose">
+                <img src="https://easyhrm.vn/wp-content/uploads/2023/08/tabler_caret-down-filled-1.png" alt="" />
+              </div>
+            </div>
+            <div class="the-answer">
+              <?php echo get_sub_field('answer', 'option') ?>
             </div>
           </div>
-          <div class="col-md-1 openclose">
-            <img src="https://easyhrm.vn/wp-content/uploads/2023/08/tabler_caret-down-filled-1.png" alt="" />
-          </div>
-        </div>
-        <div class="the-answer">
-          Sếp hãy bắt đầu quản trị nhân sự bằng việc sử dụng phần mềm
-          EasyHRM để theo dõi chi tiết số liệu về người lao động gồm: thời
-          gian đi làm, nghỉ phép, đi muộn về sớm,... Đặc biệt, với các doanh
-          nghiệp đang phát triển, mở rộng kinh doanh theo chuỗi, chi nhánh
-          thì công cụ quản lý đa điểm như EasyHRM là không thể thiếu. Sếp có
-          thể kiểm soát chuyên cần và xác thực ngày công thông qua tính năng
-          tính năng chấm công FaceID kết hợp định vị GPS hiện đại.
-        </div>
-      </div>
-      <div class="question-row">
-        <div class="row center-row">
-          <div class="col-md-11">
-            <div style="text-align: left" class="form-title fix-border click-question">
-              2. Quản trị nhân sự bắt đầu từ đâu? CEO cần quan tâm đến những
-              dữ liệu nào nhân sự nào khi doanh nghiệp phát triển, mở rộng
-              kinh doanh?
-            </div>
-          </div>
-          <div class="col-md-1 openclose">
-            <img src="https://easyhrm.vn/wp-content/uploads/2023/08/tabler_caret-down-filled-1.png" alt="" />
-          </div>
-        </div>
-        <div class="the-answer">
-          2. Sếp hãy bắt đầu quản trị nhân sự bằng việc sử dụng phần mềm
-          EasyHRM để theo dõi chi tiết số liệu về người lao động gồm: thời
-          gian đi làm, nghỉ phép, đi muộn về sớm,... Đặc biệt, với các doanh
-          nghiệp đang phát triển, mở rộng kinh doanh theo chuỗi, chi nhánh
-          thì công cụ quản lý đa điểm như EasyHRM là không thể thiếu. Sếp có
-          thể kiểm soát chuyên cần và xác thực ngày công thông qua tính năng
-          tính năng chấm công FaceID kết hợp định vị GPS hiện đại.
-        </div>
-      </div>
-      <div class="question-row">
-        <div class="row center-row">
-          <div class="col-md-11">
-            <div style="text-align: left" class="form-title fix-border click-question">
-              3. Quản trị nhân sự bắt đầu từ đâu? CEO cần quan tâm đến những
-              dữ liệu nào nhân sự nào khi doanh nghiệp phát triển, mở rộng
-              kinh doanh?
-            </div>
-          </div>
-          <div class="col-md-1 openclose">
-            <img src="https://easyhrm.vn/wp-content/uploads/2023/08/tabler_caret-down-filled-1.png" alt="" />
-          </div>
-        </div>
-        <div class="the-answer">
-          3. Sếp hãy bắt đầu quản trị nhân sự bằng việc sử dụng phần mềm
-          EasyHRM để theo dõi chi tiết số liệu về người lao động gồm: thời
-          gian đi làm, nghỉ phép, đi muộn về sớm,... Đặc biệt, với các doanh
-          nghiệp đang phát triển, mở rộng kinh doanh theo chuỗi, chi nhánh
-          thì công cụ quản lý đa điểm như EasyHRM là không thể thiếu. Sếp có
-          thể kiểm soát chuyên cần và xác thực ngày công thông qua tính năng
-          tính năng chấm công FaceID kết hợp định vị GPS hiện đại.
-        </div>
-      </div>
-      <div class="question-row">
-        <div class="row center-row">
-          <div class="col-md-11">
-            <div style="text-align: left" class="form-title fix-border click-question">
-              4. Quản trị nhân sự bắt đầu từ đâu? CEO cần quan tâm đến những
-              dữ liệu nào nhân sự nào khi doanh nghiệp phát triển, mở rộng
-              kinh doanh?
-            </div>
-          </div>
-          <div class="col-md-1 openclose">
-            <img src="https://easyhrm.vn/wp-content/uploads/2023/08/tabler_caret-down-filled-1.png" alt="" />
-          </div>
-        </div>
-        <div class="the-answer">
-          4. Sếp hãy bắt đầu quản trị nhân sự bằng việc sử dụng phần mềm
-          EasyHRM để theo dõi chi tiết số liệu về người lao động gồm: thời
-          gian đi làm, nghỉ phép, đi muộn về sớm,... Đặc biệt, với các doanh
-          nghiệp đang phát triển, mở rộng kinh doanh theo chuỗi, chi nhánh
-          thì công cụ quản lý đa điểm như EasyHRM là không thể thiếu. Sếp có
-          thể kiểm soát chuyên cần và xác thực ngày công thông qua tính năng
-          tính năng chấm công FaceID kết hợp định vị GPS hiện đại.
-        </div>
-      </div>
+          <?php
+        endwhile;
+      endif;
+      ?>
     </div>
   </div>
 </section>

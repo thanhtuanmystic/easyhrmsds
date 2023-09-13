@@ -67,6 +67,9 @@ header {
   top: 0;
   z-index: 999999;
 }
+.mobile-btn {
+  display: none;
+}
 .logo {
   width: 126px;
   height: 36px;
@@ -166,10 +169,16 @@ header {
   font-weight: 800;
   line-height: 173.5%; /* 55.52px */
   margin-bottom: 46px;
+  text-transform: uppercase;
 }
-.statistics {
-  margin-bottom: 35px;
+
+.featured-data {
+  min-height: 122px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
 .slogan img {
 }
 .button-banner {
@@ -213,18 +222,27 @@ header {
   margin-left: 20px;
   box-shadow: -1px 9px 10px 0px rgba(241, 89, 34, 0.2);
 }
+.data-box {
+  width: 100%;
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: 1px solid #bdc9e2;
+  background: #fff;
+  /* 1 */
+  box-shadow: 8px 8px 11px 0px rgba(23, 45, 88, 0.2);
+}
 .data {
   position: relative;
 }
 .number-data {
   font-family: Nunito Sans;
-  font-size: 40px;
+  font-size: 24px;
   font-style: normal;
   font-weight: 800;
-  line-height: 150%; /* 60px */
+  line-height: 150%;
   background: var(
     --gradient,
-    linear-gradient(322deg, #f15922 0%, #f6921e 100%)
+    linear-gradient(287deg, #f15922 12.78%, #f6921e 95.8%)
   );
   background-clip: text;
   -webkit-background-clip: text;
@@ -232,12 +250,12 @@ header {
   display: inline;
 }
 .plus {
-  color: var(--blue-1, #172d58);
+  color: var(--Blue1, #172d58);
   font-family: Nunito Sans;
-  font-size: 24px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 800;
-  line-height: 150%; /* 36px */
+  line-height: 150%; /* 30px */
   display: inline;
   position: absolute;
   top: 0;
@@ -245,10 +263,10 @@ header {
 .data-explain {
   color: var(--gray-3, #6e7a8e);
   font-family: Nunito Sans;
-  font-size: 16px;
+  font-size: 14px;
   font-style: normal;
-  font-weight: 800;
-  line-height: 150%; /* 24px */
+  font-weight: 700;
+  line-height: 150%; /* 21px */
 }
 /* Chúng tôi là easyhrm */
 .seperation-fix {
@@ -295,11 +313,33 @@ header {
   border: none;
   margin-top: 40px;
 }
+.application-btn {
+  display: inline-flex;
+  padding: 10px 29px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  background: #2951a0;
+  color: #fff;
+  font-family: Nunito Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 150%; /* 24px */
+  margin-left: 20px;
+  border: none;
+}
+.loadmore-btn:hover,
+.application-btn:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
 /* Easyhrm có gì nổi bật */
 #hrm_featured {
   background: rgba(254, 240, 233, 0.6);
+  padding-top: 70px;
+  padding-bottom: 76px;
   margin-top: 140px;
-  padding-bottom: 92px;
 }
 .featured-box {
   display: flex;
@@ -315,34 +355,13 @@ header {
   /* 1 */
   box-shadow: 8px 8px 11px 0px rgba(23, 45, 88, 0.2);
 }
-.featured-icon {
-  width: 48px;
-  height: 48px;
-  margin-bottom: 10px;
-}
-.featured-icon img {
-  width: 100%;
-}
-.featured-content {
-  color: var(--gray-2, #263856);
-  text-align: center;
-  font-family: Nunito Sans;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 184%; /* 36.8px */
-}
-.second-row {
-  /* margin-left: 50%;
-  transform: translateX(-50%); */
-}
 
 /* Giải pháp quản lý nhân sự toàn diện, dễ dàng */
 #hrm_management {
   background-color: #fff;
 }
 .hrm-ref1 {
-  color: var(--gray-2, #263856);
+  color: var(--Blue2, #2951a0);
   font-family: Nunito Sans;
   font-size: 24px;
   font-style: normal;
@@ -350,7 +369,7 @@ header {
   line-height: 211%; /* 50.64px */
 }
 .hrm-ref2 {
-  color: var(--gray-1, #151f2f);
+  color: var(--Blue2, #2951a0);
   font-family: Nunito Sans;
   font-size: 16px;
   font-style: normal;
@@ -373,6 +392,9 @@ header {
   font-weight: 600;
   line-height: 197%; /* 31.52px */
 }
+.staff-info-management {
+  padding-bottom: 50px;
+}
 .staff-info-detail {
   background: rgba(254, 240, 233, 0.6);
   padding-top: 54px;
@@ -381,7 +403,7 @@ header {
 .time-management {
   background-color: #fff;
   padding-top: 120px;
-  padding-bottom: 120px;
+  padding-bottom: 40px;
 }
 .salary-calculation {
   background: rgba(254, 240, 233, 0.6);
@@ -448,24 +470,25 @@ header {
   padding-bottom: 140px;
 }
 .customer-box {
-  min-height: 340px;
+  width: 344px;
+  height: 204px;
   border-radius: 8px;
   border: 1.5px solid var(--orange-5, #fef0e9);
   background: #fff;
   padding: 16px;
   /* 1 */
   box-shadow: 8px 8px 11px 0px rgba(23, 45, 88, 0.2);
+  margin-bottom: 10px;
 }
 .customer-info {
   display: inline-flex;
   align-items: center;
-  gap: 20px;
+  gap: 8px;
   justify-content: center;
-  margin-top: 24px;
 }
 .customer-avt {
-  width: 64px;
-  height: 64px;
+  width: 40px;
+  height: 40px;
 }
 .customer-name {
   color: #000;
@@ -479,20 +502,18 @@ header {
   color: #66738c;
   text-align: center;
   font-family: Nunito Sans;
-  font-size: 12px;
+  font-size: 10px;
   font-style: normal;
   font-weight: 500;
-  line-height: 236%; /* 28.32px */
+  line-height: 236%; /* 23.6px */
 }
 .customer-share {
   color: var(--gray-1, #151f2f);
   font-family: Nunito Sans;
-  font-size: 14px;
+  font-size: 10px;
   font-style: normal;
-  font-weight: 600;
-  line-height: 184.5%; /* 25.83px */
-  margin-top: 15px;
-  text-align: justify;
+  font-weight: 400;
+  line-height: 160%; /* 16px */
 }
 .customer-seperation {
   height: 1px;
@@ -503,7 +524,7 @@ header {
 .customer-rate {
   display: flex;
   flex-direction: row-reverse;
-  height: 60px;
+  height: 30px;
   display: flex;
   align-items: center;
 }
@@ -519,6 +540,90 @@ header {
   justify-content: center;
   align-items: center;
   margin-top: 60px;
+}
+.customer_stories_background {
+  position: relative;
+  width: 100%;
+  min-height: 788px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  padding: 100px 0;
+  background: #fef0e9;
+}
+.customer_stories_background img {
+  width: 100%;
+}
+#customer-box-2 {
+  top: 350px;
+  left: 50px;
+}
+#customer-box-1 {
+  right: 103px;
+  top: 75px;
+}
+#customer-box-3 {
+  right: 42px;
+  bottom: 42px;
+}
+#customer-box-4 {
+  right: 42px;
+  bottom: 42px;
+  display: none;
+}
+#customer-box-5 {
+  top: 350px;
+  left: 50px;
+  display: none;
+}
+
+.maps-box {
+  position: relative;
+  width: 328.89px;
+  height: 663.1px;
+}
+
+.avt1 {
+  position: absolute;
+  top: 0;
+  left: 45%;
+  width: 88px;
+  height: 88px;
+}
+.avt2 {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  width: 54px;
+  height: 54px;
+}
+.avt3 {
+  position: absolute;
+  top: 35%;
+  left: 47%;
+  width: 54px;
+  height: 54px;
+}
+.avt4 {
+  position: absolute;
+  bottom: 25%;
+  right: 0;
+  width: 88px;
+  height: 88px;
+}
+.avt5 {
+  position: absolute;
+  bottom: 0;
+  left: 35%;
+  width: 88px;
+  height: 88px;
+}
+.avt-click:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+.set-z-index {
+  /* z-index: 99; */
+  display: block;
 }
 /* Khách hàng tiêu biểu */
 #hrm_signature_customer {
@@ -544,9 +649,15 @@ header {
   border: 1.5px solid var(--orange-5, #fef0e9);
   background: #fff;
   box-shadow: 8px 8px 11px 0px rgba(23, 45, 88, 0.2);
-  min-height: 500px;
+  min-height: 250px;
   position: relative;
   padding: 30px;
+}
+.showdetail {
+  display: none;
+}
+.minhight-500 {
+  min-height: 500px !important;
 }
 .hrm-title {
   color: var(--orange-2, #f26522);
@@ -560,6 +671,7 @@ header {
   padding-top: 40px;
   margin-bottom: 60px;
   position: relative;
+  text-transform: uppercase;
 }
 .hrm-title img {
   width: 61px;
@@ -1045,6 +1157,9 @@ footer {
     flex-direction: column;
     text-align: left;
   }
+  .mobile-btn {
+    display: block;
+  }
   .header-list {
     width: 100%;
     --bs-scroll-height: 10000px !important;
@@ -1055,6 +1170,9 @@ footer {
   .search-icon,
   .hotline-header,
   .consulation-header {
+    display: none;
+  }
+  .facebook-link {
     display: none;
   }
 }
@@ -1068,9 +1186,13 @@ footer {
   .hrm-ref2 {
     font-size: 12px;
   }
-  .hrm-title-mobile {
+  .hrm-title {
+    font-size: 14px !important;
+  }
+  .hrm-content {
     font-size: 12px !important;
   }
+
   #hrm_form_register {
     padding: 10px;
   }
