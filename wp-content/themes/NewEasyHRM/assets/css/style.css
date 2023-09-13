@@ -1206,3 +1206,219 @@ footer {
     margin-bottom: 10px;
   }
 }
+
+/* EASYHRM THÔNG TIN NHÂN SỰ */
+.pi_slogan {
+  font-family: Nunito Sans;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 150%; /* 48px */
+  background: var(
+    --gradient,
+    linear-gradient(287deg, #f15922 12.78%, #f6921e 95.8%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.pi_subslogan {
+  color: #263856;
+  font-family: Nunito Sans;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 173.5%; /* 48.58px */
+  margin-bottom: 46px;
+}
+.pi_free-trial {
+  padding: 10px 29px;
+  border-radius: 8px;
+  border: 1px solid var(--gradient, #f15922);
+  background: #fff;
+
+  /* 4 */
+  box-shadow: -1px 9px 10px 0px rgba(241, 89, 34, 0.2);
+  font-family: Nunito Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 150%; /* 24px */
+  background: var(
+    --gradient,
+    linear-gradient(287deg, #f15922 12.78%, #f6921e 95.8%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-right: 22px;
+}
+.pi_seperation {
+  height: 1px;
+  flex-shrink: 0;
+  background: var(--orange-2, #f26522);
+  margin-top: 40px;
+}
+
+.pi-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Nunito Sans;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 150%; /* 48px */
+  background: var(
+    --gradient,
+    linear-gradient(287deg, #f15922 12.78%, #f6921e 95.8%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 120px;
+  position: relative;
+}
+.pi_seperation-fix {
+  width: 350px;
+  height: 2px;
+  flex-shrink: 0;
+  background: #bdc9e2;
+  position: absolute;
+  bottom: 0;
+}
+.pi-subtitle {
+  color: var(--gray-2, #263856);
+  font-family: Nunito Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 211%; /* 50.64px */
+  display: flex;
+  justify-content: center;
+  margin-bottom: 34px;
+}
+.pi_featured-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 220px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: 1px solid #bdc9e2;
+  background: #fff;
+  margin-bottom: 24px;
+
+  /* 1 */
+  box-shadow: 8px 8px 11px 0px rgba(23, 45, 88, 0.2);
+}
+.pi_fb-icon {
+}
+.pi_fb-text {
+  color: var(--gray-2, #263856);
+  text-align: center;
+  font-family: Nunito Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 184%; /* 36.8px */
+}
+.pi_title-blue {
+  color: var(--Blue1, #172d58);
+  font-family: Nunito Sans;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 184%; /* 58.88px */
+}
+.mt-100 {
+  margin-top: 100px;
+}
+.pi_sub-title-blue {
+  color: var(--Blue1, #172d58);
+  font-family: Nunito Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 184%; /* 36.8px */
+  margin-bottom: 60px;
+}
+.pi_question-row {
+  margin-top: 24px;
+  border-bottom: 2px solid #bdc9e2;
+  padding-bottom: 24px;
+}
+.pi_the-answer {
+  display: none;
+}
+.pi_the-question {
+  color: var(--gray-1, #151f2f);
+  font-family: Nunito Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 184%; /* 36.8px */
+}
+.pi_the-question:hover,
+.pi_the-question:active {
+  cursor: pointer;
+}
+.personal-overall {
+  width: 100%;
+}
+.pi_answer-detail {
+  color: var(--gray-1, #151f2f);
+  font-family: Nunito Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 184%; /* 29.44px */
+}
+.align-row {
+  display: flex;
+  align-items: center;
+}
+.pi_features {
+  padding: 40px 0;
+}
+.pi_banner-middle {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+.pi_banner-content-text {
+  color: #fff;
+  font-family: Nunito Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 184%; /* 44.16px */
+}
+.pi_589 {
+  color: #fff;
+  font-family: Nunito Sans;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 184%;
+}
+.give-consulation-immediatetly {
+  display: inline-flex;
+  padding: 10px 48px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background: #fff;
+  color: var(--Blue2, #2951a0);
+  font-family: Nunito Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 189.5%; /* 30.32px */
+  border: none;
+}

@@ -1,4 +1,5 @@
 $(document).ready(function () {
+  // Price
   $(".detail-btn").click(function () {
     $(".price-detail-showing").hide();
     var index = $(this).closest(".col-md-4").index();
@@ -55,6 +56,7 @@ $(document).ready(function () {
     }
   });
 
+  // Customer Stories
   $(".avt-click").click(function () {
     var index2 = $(this).closest(".avt-click").index();
     index2 = index2 - 1;
@@ -67,6 +69,72 @@ $(document).ready(function () {
     $(".customer-box:eq( 0 )").css("display", "block");
     $(".customer-box:eq( 1 )").css("display", "block");
     $(".customer-box:eq(" + index2 + ")").css("display", "block");
+  });
+
+  // Personal Information
+  $(".pi_click-question").click(function () {
+    if (
+      $(this)
+        .closest(".pi_question-row")
+        .find(".pi_the-answer")
+        .is(":hidden") == true
+    ) {
+      $(this)
+        .closest(".pi_question-row")
+        .find(".pi_the-answer")
+        .slideDown("slow");
+      $(this)
+        .closest(".pi_question-row")
+        .find(".openclose img")
+        .attr(
+          "src",
+          "https://easyhrm.vn/wp-content/uploads/2023/08/tabler_caret-down-filled.png"
+        );
+    } else {
+      $(this)
+        .closest(".pi_question-row")
+        .find(".pi_the-answer")
+        .slideUp("slow");
+      $(this)
+        .closest(".pi_question-row")
+        .find(".openclose img")
+        .attr(
+          "src",
+          "https://easyhrm.vn/wp-content/uploads/2023/08/tabler_caret-down-filled-1.png"
+        );
+    }
+  });
+  $(".openclose").click(function () {
+    if (
+      $(this)
+        .closest(".pi_question-row")
+        .find(".pi_the-answer")
+        .is(":hidden") == true
+    ) {
+      $(this)
+        .closest(".pi_question-row")
+        .find(".pi_the-answer")
+        .slideDown("slow");
+      $(this)
+        .closest(".pi_question-row")
+        .find(".openclose img")
+        .attr(
+          "src",
+          "https://easyhrm.vn/wp-content/uploads/2023/08/tabler_caret-down-filled.png"
+        );
+    } else {
+      $(this)
+        .closest(".pi_question-row")
+        .find(".pi_the-answer")
+        .slideUp("slow");
+      $(this)
+        .closest(".pi_question-row")
+        .find(".openclose img")
+        .attr(
+          "src",
+          "https://easyhrm.vn/wp-content/uploads/2023/08/tabler_caret-down-filled-1.png"
+        );
+    }
   });
 });
 
@@ -150,7 +218,7 @@ $(document).ready(function () {
   //khai báo nút submit form
   var submit = $("#hrm_form_register").find("button[type='submit']");
 
-  //khi thực hiện kích vào nút Login
+  //khi thực hiện kích vào nút submit
   submit.click(function () {
     //khai báo các biến
     var hoten = $("input[name='hoten']").val();
