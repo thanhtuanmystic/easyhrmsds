@@ -26,15 +26,7 @@ if (!class_exists('inet_auto_save_images')) {
             set_time_limit(0);
             $inet_wk_options = get_option('inet_wk');
 
-            if ($inet_wk_options['inet-webkit-auto-save-image']['auto-save-image-type'] == 'all-post') $allow = true;
-            elseif ($inet_wk_options['inet-webkit-auto-save-image']['auto-save-image-type'] == 'new-post'
-                && $data['post_status'] == 'publish') $allow = true;
-            else $allow = false;
-
-            if ($allow) {
-                $this->has_remote_image = 0;
-                $data['post_content'] = addslashes($this->save_post_image(stripslashes($data['post_content']), $postarr['ID']));
-            }
+          
 
             return $data;
         }

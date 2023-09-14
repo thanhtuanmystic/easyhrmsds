@@ -1526,3 +1526,41 @@ footer {
   font-weight: 500;
   line-height: 236%; /* 28.32px */
 }
+
+/* Staff Management */
+.sm_title-blue {
+  color: var(--Blue1, #172d58);
+  font-family: Nunito Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 184%; /* 58.88px */
+}
+.textt {
+  color: var(--Blue1, #172d58);
+  text-align: center;
+  font-family: Nunito Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 211%; /* 42.2px */
+}
+.iconn {
+  width: 40px;
+  height: 40px;
+}
+.auto-srm-title {
+  color: var(--orange-2, #f26522);
+  font-family: Nunito Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 176.4%; /* 42.336px */
+  margin-bottom: 50px;
+  margin-top: 15%;
+}
+.auto-srm-featured {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
