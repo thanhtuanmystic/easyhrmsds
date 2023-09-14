@@ -586,9 +586,6 @@ Template name: Thông tin nhân sự - Personal Information
         </div>
     </div>
 </section>
-<section>
-
-</section>
 
 
 <?php get_footer() ?>

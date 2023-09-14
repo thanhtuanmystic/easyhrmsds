@@ -16,6 +16,10 @@ a {
 p {
   margin: 0;
 }
+.ol,
+ul {
+  padding: 0;
+}
 .seperation {
   height: 2px;
   background: var(--orange-5, #fef0e9);
@@ -120,6 +124,7 @@ header {
   align-items: center;
 }
 .categories {
+  position: relative;
   color: var(--gray-2, #263856);
   text-align: center;
   font-family: Nunito Sans;
@@ -129,7 +134,7 @@ header {
   line-height: normal;
   margin-left: 32px;
 }
-.categories:hover {
+.categories a:hover {
   cursor: pointer;
   opacity: 0.8;
 }
@@ -139,7 +144,6 @@ header {
   align-items: center;
 }
 .header-list li {
-  margin-left: 20px;
 }
 /* Banner HRM */
 #hrm_banner {

@@ -16,6 +16,7 @@
   <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assets/css/style.css" />
   <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assets/css/animation.css" />
 
+
   <title>EasyHRM</title>
   <div id="fb-root"></div>
   <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v17.0"
@@ -36,20 +37,65 @@
               alt="" />
           </span>
         </button>
+        <style>
+          .dropdown {
+            position: absolute;
+            text-align: left;
+            width: 500px;
+            display: none;
+            padding-top: 10px;
+
+          }
+
+          .children {
+            margin-bottom: 5px;
+
+          }
+
+          .children a {
+            color: var(--gray-2, #263856);
+            font-size: 15px;
+          }
+
+          .dp-block {
+            display: block !important;
+          }
+
+          .categories:hover .dropdown {
+            display: block;
+          }
+        </style>
         <div class="collapse navbar-collapse stroke" id="navbarScroll">
           <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll header-list" style="--bs-scroll-height: 100px">
             <?php
             if (have_rows('categories', 'option')):
               while (have_rows('categories', 'option')):
-                the_row(); ?>
+                the_row();
+                ?>
                 <li class="categories">
-                  <a style="color: var(--gray-2, #263856)" class=""
+                  <a style="color: var(--gray-2, #263856)" class="hrm_nav-link"
                     href="<?php echo get_sub_field('category_link_to', 'option') ?>">
+
                     <?php
                     echo get_sub_field('category', 'option');
                     ?>
                   </a>
+                  <ul class="dropdown">
+                    <?php
+                    if (have_rows('nav_child', 'option')):
+                      while (have_rows('nav_child', 'option')):
+                        the_row();
+                        ?>
+                        <li class="children"><a href="<?php echo get_sub_field('nav-child-link-to', 'option'); ?>">
+                            <?php echo get_sub_field('nav-child-name', 'option'); ?>
+                          </a></li>
+                        <?php
+                      endwhile;
+                    endif;
+                    ?>
+                  </ul>
                 </li>
+
                 <?php
               endwhile;
             endif;

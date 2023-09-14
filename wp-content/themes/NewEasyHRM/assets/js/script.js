@@ -79,10 +79,7 @@ $(document).ready(function () {
         .find(".pi_the-answer")
         .is(":hidden") == true
     ) {
-      $(this)
-        .closest(".pi_question-row")
-        .find(".pi_the-answer")
-        .slideDown("slow");
+      $(this).closest(".pi_question-row").find(".pi_the-answer").slideDown();
       $(this)
         .closest(".pi_question-row")
         .find(".openclose img")
@@ -91,10 +88,7 @@ $(document).ready(function () {
           "https://easyhrm.vn/wp-content/uploads/2023/08/tabler_caret-down-filled.png"
         );
     } else {
-      $(this)
-        .closest(".pi_question-row")
-        .find(".pi_the-answer")
-        .slideUp("slow");
+      $(this).closest(".pi_question-row").find(".pi_the-answer").slideUp();
       $(this)
         .closest(".pi_question-row")
         .find(".openclose img")
@@ -136,6 +130,18 @@ $(document).ready(function () {
         );
     }
   });
+
+  // Phân hệ (hover and unhover ẩn hiện các dropdown của header)
+
+  // $(".hrm_nav-link").hover(
+  //   function () {
+  //     $(this).parent().find(".dropdown").addClass("dp-block");
+  //   },
+
+  //   function () {
+  //     $(".dropdown").removeClass("dp-block");
+  //   }
+  // );
 });
 
 function scrollMouse(classFirst, nameClassAdd) {
