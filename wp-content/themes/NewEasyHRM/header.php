@@ -11,6 +11,10 @@
     href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;0,6..12,1000;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900&display=swap"
     rel="stylesheet" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta property="og:image"
+    content="https://easyhrm.vn/wp-content/uploads/2023/09/abc.png" />
+  <meta property="og:image:secure_url"
+    content="https://easyhrm.vn/wp-content/uploads/2023/09/abc.png" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
   <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assets/css/style.css" />
@@ -27,7 +31,7 @@
   <header style="background-color: #fff">
     <div class="container">
       <nav class="navbar navbar-expand-lg" style="height: 100px">
-        <a style="width: 125px" class="navbar-brand" href="#">
+        <a style="width: 125px" class="navbar-brand" href="https://easyhrm.vn/">
           <img src="<?php echo get_field('logo_hrm', 'option'); ?>" width="100%" alt="" />
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
@@ -41,10 +45,14 @@
           .dropdown {
             position: absolute;
             text-align: left;
-            width: 500px;
+            width: 300px;
             display: none;
             padding-top: 10px;
-
+            left: -74%;
+            padding-left: 20px;
+            top: 100%;
+            background-color: #fff;
+            box-shadow: 1px 1px 4px rgba(0, 0, 0, .15);
           }
 
           .children {
@@ -80,20 +88,27 @@
                     echo get_sub_field('category', 'option');
                     ?>
                   </a>
-                  <ul class="dropdown">
-                    <?php
-                    if (have_rows('nav_child', 'option')):
-                      while (have_rows('nav_child', 'option')):
-                        the_row();
-                        ?>
-                        <li class="children"><a href="<?php echo get_sub_field('nav-child-link-to', 'option'); ?>">
-                            <?php echo get_sub_field('nav-child-name', 'option'); ?>
-                          </a></li>
-                        <?php
-                      endwhile;
-                    endif;
+                  <?php
+                  if (have_rows('nav_child', 'option')):
                     ?>
-                  </ul>
+                    <ul class="dropdown">
+                      <?php
+                      if (have_rows('nav_child', 'option')):
+                        while (have_rows('nav_child', 'option')):
+                          the_row();
+                          ?>
+                          <li class="children"><a href="<?php echo get_sub_field('nav-child-link-to', 'option'); ?>">
+                              <?php echo get_sub_field('nav-child-name', 'option'); ?>
+                            </a></li>
+                          <?php
+                        endwhile;
+                      endif;
+                      ?>
+                    </ul>
+                    <?php
+                  endif;
+                  ?>
+
                 </li>
 
                 <?php

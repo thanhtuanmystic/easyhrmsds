@@ -1067,7 +1067,6 @@
 <section id="hrm_question">
   <div class="hrm-title justify-content-center">
     <div>CÂU HỎI THƯỜNG GẶP</div>
-
     <div class="seperation-fix"></div>
   </div>
   <div class="container">

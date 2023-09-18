@@ -118,8 +118,8 @@ Template name: Thông tin nhân sự - Personal Information
                 <div class="col-md-6 align-row">
                     <div class="personal-overall">
                         <?php
-                        if (have_rows('pi_list_question', 'option')):
-                            while (have_rows('pi_list_question', 'option')):
+                        if (have_rows('ttns_pi_list_question_01', 'option')):
+                            while (have_rows('ttns_pi_list_question_01', 'option')):
                                 the_row(); ?>
                                 <div class="pi_question-row">
                                     <div class="row center-row">
@@ -178,8 +178,8 @@ Template name: Thông tin nhân sự - Personal Information
                 <div class="col-md-6 align-row">
                     <div class="personal-overall">
                         <?php
-                        if (have_rows('pi_list_question', 'option')):
-                            while (have_rows('pi_list_question', 'option')):
+                        if (have_rows('ttns_pi_list_question_02', 'option')):
+                            while (have_rows('ttns_pi_list_question_02', 'option')):
                                 the_row(); ?>
                                 <div class="pi_question-row">
                                     <div class="row center-row">
@@ -248,8 +248,8 @@ Template name: Thông tin nhân sự - Personal Information
                 <div class="col-md-6 align-row">
                     <div class="personal-overall">
                         <?php
-                        if (have_rows('pi_list_question', 'option')):
-                            while (have_rows('pi_list_question', 'option')):
+                        if (have_rows('ttns_pi_list_question_03', 'option')):
+                            while (have_rows('ttns_pi_list_question_03', 'option')):
                                 the_row(); ?>
                                 <div class="pi_question-row">
                                     <div class="row center-row">
@@ -308,8 +308,8 @@ Template name: Thông tin nhân sự - Personal Information
                 <div class="col-md-6 align-row">
                     <div class="personal-overall">
                         <?php
-                        if (have_rows('pi_list_question', 'option')):
-                            while (have_rows('pi_list_question', 'option')):
+                        if (have_rows('ttns_pi_list_question_04', 'option')):
+                            while (have_rows('ttns_pi_list_question_04', 'option')):
                                 the_row(); ?>
                                 <div class="pi_question-row">
                                     <div class="row center-row">
@@ -361,8 +361,8 @@ Template name: Thông tin nhân sự - Personal Information
                 <div class="col-md-6 align-row">
                     <div class="personal-overall">
                         <?php
-                        if (have_rows('pi_list_question', 'option')):
-                            while (have_rows('pi_list_question', 'option')):
+                        if (have_rows('ttns_pi_list_question_05', 'option')):
+                            while (have_rows('ttns_pi_list_question_05', 'option')):
                                 the_row(); ?>
                                 <div class="pi_question-row">
                                     <div class="row center-row">
