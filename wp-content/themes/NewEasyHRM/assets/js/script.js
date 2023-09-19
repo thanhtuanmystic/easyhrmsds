@@ -130,18 +130,6 @@ $(document).ready(function () {
         );
     }
   });
-
-  // Phân hệ (hover and unhover ẩn hiện các dropdown của header)
-
-  // $(".hrm_nav-link").hover(
-  //   function () {
-  //     $(this).parent().find(".dropdown").addClass("dp-block");
-  //   },
-
-  //   function () {
-  //     $(".dropdown").removeClass("dp-block");
-  //   }
-  // );
 });
 
 function scrollMouse(classFirst, nameClassAdd) {
@@ -270,6 +258,60 @@ $(document).ready(function () {
         console.log(data);
         $("#hrm_form_register").html(data);
         // $("#formdkdt img").css("display", "none");
+      },
+    });
+    return false;
+  });
+});
+$(document).ready(function () {
+  //khai báo nút submit form
+  var submitt = $("#esi-form-register").find("button[type='submit']");
+
+  //khi thực hiện kích vào nút submit
+  submitt.click(function () {
+    //khai báo các biến
+    var hoten = $("input[name='hoten']").val();
+    var email = $("input[name='email']").val();
+    var phonenumber = $("input[name='phonenumber']").val();
+    var taxcode = $("input[name='taxcode']").val();
+    //
+    if (hoten == "") {
+      alert("Vui lòng nhập tên");
+      return false;
+    }
+    if (email == "") {
+      alert("Vui lòng nhập mã số thuế");
+      return false;
+    }
+
+    if (phonenumber == "") {
+      alert("Vui lòng nhập điện thoại");
+      return false;
+    }
+    if (taxcode == "") {
+      alert("Vui lòng nhập mã số thuế");
+      return false;
+    }
+    if (phonenumber.length < 10) {
+      alert("Vui lòng số điện thoại chính xác!");
+      return false;
+    }
+    if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email) == false) {
+      alert("Địa chỉ Email không hợp lệ, hãy nhập lại");
+      return false;
+    }
+
+    // $("#formdkdt img").css("display", "block");
+
+    var data = $("form#esi-form-register").serialize();
+
+    $.ajax({
+      type: "POST",
+      url: "../wp-content/themes/NewEasyHRM/sendmail.php",
+      data: data,
+      success: function (data) {
+        console.log(data);
+        $("#esi-form-register").html(data);
       },
     });
     return false;

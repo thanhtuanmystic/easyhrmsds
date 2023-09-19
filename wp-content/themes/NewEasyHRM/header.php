@@ -47,7 +47,7 @@
             text-align: left;
             width: 300px;
             display: none;
-            padding-top: 10px;
+            padding-top: 15px;
             left: -74%;
             padding-left: 20px;
             top: 100%;
@@ -56,13 +56,16 @@
           }
 
           .children {
-            margin-bottom: 5px;
+            margin-bottom: 10px;
 
           }
 
           .children a {
             color: var(--gray-2, #263856);
             font-size: 15px;
+          }
+          .children a:hover {
+            color: var(--blue-2, #2951a0);;
           }
 
           .dp-block {
