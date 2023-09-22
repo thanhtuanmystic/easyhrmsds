@@ -1332,7 +1332,15 @@ footer {
 .pi_title-blue {
   color: var(--Blue1, #172d58);
   font-family: Nunito Sans;
-  font-size: 32px;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 184%; /* 58.88px */
+}
+.pi_title-orange {
+  color: var(--orange-2, #f26522);
+  font-family: Nunito Sans;
+  font-size: 24px;
   font-style: normal;
   font-weight: 800;
   line-height: 184%; /* 58.88px */
@@ -1677,4 +1685,161 @@ footer {
   font-style: normal;
   font-weight: 800;
   line-height: 211%; /* 42.2px */
+}
+.tkbox {
+  width: 238px;
+  height: 224px;
+  border-radius: 8px;
+  border: 1px solid #bdc9e2;
+  background: #fff;
+  /* 1 */
+  box-shadow: 8px 8px 11px 0px rgba(23, 45, 88, 0.2);
+  position: relative;
+}
+
+.tkbox-above {
+  position: absolute;
+  top: -6%;
+  left: 68%;
+}
+
+.tkbox-below {
+  position: absolute;
+  z-index: 20;
+  bottom: -12%;
+  left: -5%;
+}
+
+.tkbox-text {
+  color: #000;
+  text-align: center;
+  font-family: Nunito Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 180.5%;
+  /* 28.88px */
+}
+
+.tkbox-icon {
+  text-align: center;
+}
+
+.tkbox {
+  padding: 43px 23px 33px;
+}
+#tk_smart_timekeeping {
+  margin-bottom: 100px;
+}
+
+#tk_featured {
+}
+.featured-head {
+  color: var(--orange-2, #f26522);
+  font-family: Nunito Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 184%; /* 44.16px */
+}
+.featured-information {
+}
+.featured-every-head {
+  color: var(--Blue2, #2951a0);
+  font-family: Nunito Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 184%; /* 36.8px */
+}
+.featured-sub-every-head {
+  color: #000;
+  font-family: Nunito Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 184%; /* 29.44px */
+}
+.mb24 {
+  margin-bottom: 24px;
+}
+.mb100 {
+  margin-bottom: 100px;
+}
+.tk-pros {
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-family: Nunito Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 166.5%; /* 39.96px */
+  background: var(
+    --gradient,
+    linear-gradient(287deg, #f15922 12.78%, #f6921e 95.8%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.bg-blue {
+  height: 307px;
+  background: var(--Blue2, #2951a0);
+}
+
+.bg-white {
+  height: 480px;
+}
+
+#carouselExampleIndicators {
+  position: absolute;
+  width: 72%;
+  top: 11%;
+  left: 15%;
+}
+
+.set-salary-feats {
+  position: relative;
+}
+
+.tk-slider-title {
+  color: #fff;
+  text-align: center;
+  font-family: Nunito Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 176.4%;
+  /* 35.28px */
+}
+.tk-form-left-title {
+  color: #fff;
+  font-family: Nunito Sans;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 184%;
+  /* 58.88px */
+  text-transform: uppercase;
+  margin-bottom: 36px;
+}
+
+.tk-form-featured {
+  display: flex;
+  align-items: center;
+  margin-bottom: 36px;
+}
+
+.tk-form-featured-content {
+  color: #fff;
+  text-align: center;
+  font-family: Nunito Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 211%;
+  /* 33.76px */
 }
