@@ -19,6 +19,7 @@ p {
 .ol,
 ul {
   padding: 0;
+  margin: 0;
 }
 .seperation {
   height: 2px;
@@ -64,19 +65,11 @@ ul li {
 
 /* Header */
 
-header {
-  width: 100%;
-  position: fixed;
-  left: 0;
-  top: 0;
-  z-index: 999999;
-}
 .mobile-btn {
   display: none;
 }
 .logo {
   width: 126px;
-  height: 36px;
 }
 .hotline-header {
   display: flex;
@@ -147,6 +140,7 @@ header {
 }
 /* Banner HRM */
 #hrm_banner {
+  padding-top: 50px;
 }
 .banner-picture-right {
   width: 100%;
@@ -167,12 +161,23 @@ header {
 }
 .slogan {
   color: var(--gray-2, #263856);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   font-family: Nunito Sans;
-  font-size: 32px;
+  font-size: 50px;
   font-style: normal;
-  font-weight: 800;
-  line-height: 173.5%; /* 55.52px */
-  margin-bottom: 46px;
+  font-weight: 900;
+  line-height: 120%; /* 60px */
+  text-transform: uppercase;
+  padding-left: 15%;
+}
+.hrm-subslogan {
+  color: var(--gray-2, #263856);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: Nunito Sans;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 120%; /* 43.2px */
   text-transform: uppercase;
 }
 
@@ -186,7 +191,9 @@ header {
 .slogan img {
 }
 .button-banner {
-  margin-bottom: 46px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  /* padding-left: 30%; */
 }
 .give-consultation {
   display: inline-flex;
@@ -194,7 +201,7 @@ header {
   justify-content: center;
   align-items: center;
   gap: 10px;
-  border-radius: 8px;
+  border-radius: 10000px;
   border: none;
   background: #2951a0;
   color: #fff;
@@ -211,11 +218,12 @@ header {
   justify-content: center;
   align-items: center;
   gap: 10px;
-  border-radius: 8px;
+  border-radius: 10000px;
   background: var(
     --gradient,
     linear-gradient(322deg, #f15922 0%, #f6921e 100%)
   );
+  box-shadow: -1px 9px 10px 0px rgba(241, 89, 34, 0.2);
   color: #fff;
   font-family: Nunito Sans;
   font-size: 16px;
@@ -224,10 +232,9 @@ header {
   line-height: 150%; /* 24px */
   border: none;
   margin-left: 20px;
-  box-shadow: -1px 9px 10px 0px rgba(241, 89, 34, 0.2);
 }
 .data-box {
-  width: 100%;
+  width: 90%;
   flex-shrink: 0;
   border-radius: 8px;
   border: 1px solid #bdc9e2;
@@ -294,8 +301,8 @@ header {
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
-  line-height: 211%;
   margin-bottom: 50px;
+  padding-right: 30%;
 }
 .loadmore-btn {
   display: inline-flex;
@@ -303,7 +310,7 @@ header {
   justify-content: center;
   align-items: center;
   gap: 10px;
-  border-radius: 8px;
+  border-radius: 1000px;
   background: var(
     --gradient,
     linear-gradient(322deg, #f15922 0%, #f6921e 100%)
@@ -315,14 +322,13 @@ header {
   font-weight: 800;
   line-height: 150%; /* 24px */
   border: none;
-  margin-top: 40px;
 }
 .application-btn {
   display: inline-flex;
-  padding: 10px 29px;
+  padding: 10px 20px;
   justify-content: center;
   align-items: center;
-  border-radius: 8px;
+  border-radius: 1000px;
   background: #2951a0;
   color: #fff;
   font-family: Nunito Sans;
@@ -332,6 +338,7 @@ header {
   line-height: 150%; /* 24px */
   margin-left: 20px;
   border: none;
+  margin-top: 20px;
 }
 .loadmore-btn:hover,
 .application-btn:hover {
@@ -343,7 +350,6 @@ header {
   background: rgba(254, 240, 233, 0.6);
   padding-top: 70px;
   padding-bottom: 76px;
-  margin-top: 140px;
 }
 .featured-box {
   display: flex;
@@ -365,7 +371,9 @@ header {
   background-color: #fff;
 }
 .hrm-ref1 {
-  color: var(--Blue2, #2951a0);
+  /* color: var(--Blue2, #2951a0); */
+  color: var(--orange-2, #f26522);
+
   font-family: Nunito Sans;
   font-size: 24px;
   font-style: normal;
@@ -380,6 +388,9 @@ header {
   font-weight: 800;
   line-height: 211%; /* 33.76px */
 }
+.hrm-ref-detail {
+  width: 80%;
+}
 .hrm-ref-detail li::before {
   content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
   color: var(--blue-2, #2951a0); /* Change the color */
@@ -391,10 +402,16 @@ header {
 .hrm-ref-detail li {
   color: var(--gray-1, #151f2f);
   font-family: Nunito Sans;
-  font-size: 16px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 600;
-  line-height: 197%; /* 31.52px */
+  text-align: justify;
+}
+.padding-left-featured {
+  padding-left: 14%;
+}
+.padding-right-featured {
+  padding-right: 14%;
 }
 .staff-info-management {
   padding-bottom: 50px;
@@ -406,22 +423,22 @@ header {
 }
 .time-management {
   background-color: #fff;
-  padding-top: 120px;
+  padding-top: 60px;
   padding-bottom: 40px;
 }
 .salary-calculation {
   background: rgba(254, 240, 233, 0.6);
-  padding-top: 70px;
-  padding-bottom: 70px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .great-experience {
-  padding-top: 115px;
-  padding-bottom: 134px;
+  padding-top: 60px;
+  padding-bottom: 6%;
 }
 .labor-contract {
   background: rgba(254, 240, 233, 0.6);
-  padding-top: 80px;
-  padding-bottom: 136px;
+  padding-top: 40px;
+  padding-bottom: 60px;
 }
 
 /* Banner chia cắt */
@@ -470,8 +487,8 @@ header {
 
 /* Câu chuyện khách hàng */
 #hrm_customer_stories {
-  padding-top: 100px;
-  padding-bottom: 140px;
+  background: #fef0e9;
+  padding-bottom: 40px;
 }
 .customer-box {
   width: 344px;
@@ -551,7 +568,7 @@ header {
   min-height: 788px;
   flex-shrink: 0;
   border-radius: 16px;
-  padding: 100px 0;
+  padding: 20px 0;
   background: #fef0e9;
 }
 .customer_stories_background img {
@@ -631,8 +648,8 @@ header {
 }
 /* Khách hàng tiêu biểu */
 #hrm_signature_customer {
-  padding-top: 60px;
-  padding-bottom: 150px;
+  padding-top: 20px;
+  padding-bottom: 60px;
 }
 .brand-list {
   display: flex;
@@ -646,30 +663,29 @@ header {
 /* Báo giá HRM */
 #hrm_price {
   background: rgba(254, 240, 233, 0.6);
-  padding-bottom: 54px;
+  padding: 0 20% 54px;
 }
 .price-quote {
   border-radius: 8px;
   border: 1.5px solid var(--orange-5, #fef0e9);
   background: #fff;
   box-shadow: 8px 8px 11px 0px rgba(23, 45, 88, 0.2);
-  min-height: 250px;
   position: relative;
-  padding: 30px;
+  min-height: 180px;
+  padding: 10px;
 }
 .showdetail {
   display: none;
 }
 .minhight-500 {
-  min-height: 500px !important;
+  /* min-height: 500px !important; */
 }
 .hrm-title {
   color: var(--orange-2, #f26522);
   font-family: Nunito Sans;
-  font-size: 32px;
+  font-size: 30px;
   font-style: normal;
   font-weight: 800;
-  line-height: 211%; /* 67.52px */
   display: flex;
   align-items: center;
   padding-top: 40px;
@@ -694,9 +710,9 @@ header {
 }
 .price-quote-title {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .quote-title-icon {
   width: 57px;
@@ -705,10 +721,12 @@ header {
 .quote-title-name {
   color: var(--gray-2, #263856);
   font-family: Nunito Sans;
-  font-size: 24px;
+  font-size: 22px;
   font-style: normal;
   font-weight: 800;
-  line-height: 211%; /* 50.64px */
+}
+.price-quote-detail {
+  margin-bottom: 40%;
 }
 .quote-seperation {
   display: flex;
@@ -723,7 +741,6 @@ header {
   font-weight: bold; /* If you want it to be bold */
   display: inline-block; /* Needed to add space between the bullet and the text */
   width: 1em; /* Also needed for space (tweak if needed) */
-  margin-left: -1em; /* Also needed for space (tweak if needed) */
 }
 .quote-ref-detail li {
   color: var(--gray-1, #151f2f);
@@ -747,7 +764,6 @@ header {
   font-weight: bold; /* If you want it to be bold */
   display: inline-block; /* Needed to add space between the bullet and the text */
   width: 1em; /* Also needed for space (tweak if needed) */
-  margin-left: -1em; /* Also needed for space (tweak if needed) */
 }
 .quote-btn {
   width: 100%;
@@ -755,9 +771,8 @@ header {
   align-items: center;
   justify-content: center;
   position: absolute;
-  bottom: 0;
+  bottom: 10%;
   left: 0;
-  margin-bottom: 50px;
   z-index: 10;
 }
 .quote-btn-mid {
@@ -766,9 +781,8 @@ header {
   align-items: center;
   justify-content: center;
   position: absolute;
-  bottom: 0;
+  bottom: 10%;
   left: 0;
-  margin-bottom: 50px;
   z-index: 10;
 }
 .loadmore-btn-mid {
@@ -777,7 +791,7 @@ header {
   justify-content: center;
   align-items: center;
   gap: 10px;
-  border-radius: 8px;
+  border-radius: 1000px;
   background: #fff;
   color: var(--orange-2, #f26522);
   font-family: Nunito Sans;
@@ -793,7 +807,7 @@ header {
   border-radius: 8px;
   border: 1.5px solid var(--orange-5, #fef0e9);
   background: #fff;
-  padding: 40px;
+  padding: 20px;
   padding-bottom: 70px;
   display: none;
 }
@@ -812,16 +826,14 @@ header {
   color: #263856;
   text-align: center;
   font-family: Nunito Sans;
-  margin-bottom: 30px;
   font-size: 20px;
   font-style: normal;
   font-weight: 800;
   line-height: 150%; /* 30px */
-  margin-top: 40px;
 }
 .showing-detail {
   /* width: 357px; */
-  min-height: 350px;
+  min-height: 260px;
   border-radius: 8px;
   border: 1px solid rgba(38, 56, 86, 0.3);
   background: #fff;
@@ -912,7 +924,6 @@ header {
 }
 /* Đăng ký tư vấn */
 #hrm_consulation_register {
-  height: 1000px;
   padding-top: 60px;
 }
 .form-register {
@@ -971,7 +982,7 @@ header {
 
 /* Câu hỏi thường gặp */
 .click-question {
-  font-size: 16px !important;
+  font-size: 13px !important;
 }
 #hrm_question {
 }
@@ -997,7 +1008,7 @@ header {
 .the-answer {
   color: #000;
   font-family: Nunito Sans;
-  font-size: 16px;
+  font-size: 13px;
   font-style: normal;
   font-weight: 600;
   line-height: 211%; /* 33.76px */
@@ -1126,6 +1137,11 @@ footer {
   margin-top: 165px;
 }
 /* Responsive */
+@media (max-width: 1200px) {
+  .search-box {
+    display: none !important;
+  }
+}
 @media (max-width: 1023px) {
   .featured-box {
     height: 280px;
@@ -1171,11 +1187,7 @@ footer {
   .consulation-header {
     margin-left: 0;
   }
-  .search-icon,
-  .hotline-header,
-  .consulation-header {
-    display: none;
-  }
+
   .facebook-link {
     display: none;
   }
@@ -1347,6 +1359,9 @@ footer {
 }
 .mt-100 {
   margin-top: 100px;
+}
+.mt-20 {
+  margin-top: 20px;
 }
 .pi_sub-title-blue {
   color: var(--Blue1, #172d58);
@@ -1794,7 +1809,7 @@ footer {
   height: 480px;
 }
 
-#carouselExampleIndicators {
+.slider-position {
   position: absolute;
   width: 72%;
   top: 11%;

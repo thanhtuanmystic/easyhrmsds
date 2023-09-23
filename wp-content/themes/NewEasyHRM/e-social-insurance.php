@@ -23,6 +23,7 @@ Template name: Bảo hiểm xã hội điện tử - Electronic Social Insurance
                     </a>
                     <a href="#hrm_consulation_register">
                         <button class="give-consultation">Nhận tư vấn</button>
+
                     </a>
                     <a href="tel: 1900545415">
                         <button class="buy-now">Mua ngay</button>
@@ -253,7 +254,8 @@ Template name: Bảo hiểm xã hội điện tử - Electronic Social Insurance
     <div class="container">
         <div class="row center-row">
             <div class="col-md-6">
-                <img style="width: 100%" src="https://easyhrm.vn/wp-content/uploads/2023/09/image_2023_09_19T07_39_44_324Z.png" alt="">
+                <img style="width: 100%"
+                    src="https://easyhrm.vn/wp-content/uploads/2023/09/image_2023_09_19T07_39_44_324Z.png" alt="">
             </div>
             <div class="col-md-6">
                 <form id="esi-form-register">

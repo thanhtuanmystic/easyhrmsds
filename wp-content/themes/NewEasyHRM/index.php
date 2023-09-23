@@ -4,11 +4,11 @@
     <div class="row center-row">
       <div class="col-md-6">
         <p class="slogan slide-left">
-          Dễ dàng tự động hóa<span>
-            <img src="https://easyhrm.vn/wp-content/uploads/2023/08/Rectangle-92.png" alt="" /></span>
-          <br />quản trị nhân sự doanh nghiệp
+          Dễ dàng <span>
+            <img src="https://easyhrm.vn/wp-content/uploads/2023/08/Rectangle-92.png" alt="" /></span> <br> tự động hóa
+          <br /> <span class="hrm-subslogan">quản trị nhân sự doanh nghiệp</span>
         </p>
-        <div class="button-banner slide-left">
+        <div style="padding-left: 15%" class="button-banner slide-left">
           <a href="#hrm_consulation_register">
             <button class="give-consultation">Nhận tư vấn</button>
           </a>
@@ -19,7 +19,7 @@
       </div>
       <div class="col-md-6 slide-right">
         <img class="banner-picture-right"
-          src="https://easyhrm.vn/wp-content/uploads/2023/09/image_2023_09_11T01_37_10_525Z.png" alt="" />
+          src="https://easyhrm.vn/wp-content/uploads/2023/09/image_2023_09_23T01_33_33_048Z.png" alt="" />
       </div>
       <div class="col-md-12 data-box">
         <div class="row">
@@ -99,14 +99,14 @@
 <section id="hrm_featured">
   <div class="container">
     <div class="hrm-title justify-content-center">
-      <div style="margin-left: 60px">EASYHRM CÓ GÌ NỔI BẬT</div>
+      <div style="">EASYHRM CÓ GÌ NỔI BẬT</div>
 
-      <div style="margin-left: 60px" class="seperation-fix"></div>
+      <div style="" class="seperation-fix"></div>
     </div>
 
     <div class="row">
       <div class="col-md-12 center-row animation_img_right">
-        <img style="width: 80%" src="https://easyhrm.vn/wp-content/uploads/2023/09/image_2023_09_08T03_50_13_297Z.png"
+        <img class="featured-big-image" src="https://easyhrm.vn/wp-content/uploads/2023/09/image_2023_09_23T02_07_45_306Z.png"
           alt="" />
       </div>
     </div>
@@ -121,42 +121,44 @@
     </div>
     <div class="row center-row staff-info-management">
       <div class="col-md-6">
-        <div class="hrm-ref1">Quản lý thông tin nhân sự</div>
-        <div class="hrm-ref2">1. Giao diện trực quan, dễ dàng theo dõi</div>
-        <ul class="hrm-ref-detail">
-          <li>
-            Quản lý dễ dàng nắm bắt được các thông tin người lao động.
-            Dashboard tổng quan thông qua biểu đồ, số liệu rõ ràng.
-          </li>
-          <li>
-            Phần mềm cập nhật đầy đủ quy trình nhân sự, quyết định, phúc
-            lợi, nghỉ việc,...
-          </li>
-        </ul>
-        <div class="hrm-ref2">
-          2. Quản lý dữ liệu tập trung, dễ dàng truy xuất với bộ lọc thông
-          minh
+        <div class="padding-left-featured">
+          <div class="hrm-ref1">Quản lý thông tin nhân sự</div>
+          <div class="hrm-ref2">1. Giao diện trực quan, dễ dàng theo dõi</div>
+          <ul class="hrm-ref-detail">
+            <li>
+              Quản lý dễ dàng nắm bắt được các thông tin người lao động.
+              Dashboard tổng quan thông qua biểu đồ, số liệu rõ ràng.
+            </li>
+            <li>
+              Phần mềm cập nhật đầy đủ quy trình nhân sự, quyết định, phúc
+              lợi, nghỉ việc,...
+            </li>
+          </ul>
+          <div class="hrm-ref2">
+            2. Quản lý dữ liệu tập trung, dễ dàng truy xuất <br> với bộ lọc thông
+            minh
+          </div>
+          <ul class="hrm-ref-detail">
+            <li>
+              Tổng hợp, quản lý tập trung dữ liệu hồ sơ nhân viên chi tiết về
+              sơ yếu lý lịch, lịch sử lương, thưởng, kỷ luật, lộ trình thăng
+              tiến...
+            </li>
+            <li>
+              Thao tác phê duyệt đơn từ nhân viên dễ dàng chỉ cần 1 điểm chạm
+              phê duyệt
+            </li>
+            <li>
+              Import dữ liệu hoặc xuất thông tin ra file excel tiện lợi, nhanh
+              chóng
+            </li>
+          </ul>
+          <button class="loadmore-btn">Xem thêm</button>
+          <button class="application-btn">Ứng dụng thực tiễn</button>
         </div>
-        <ul class="hrm-ref-detail">
-          <li>
-            Tổng hợp, quản lý tập trung dữ liệu hồ sơ nhân viên chi tiết về
-            sơ yếu lý lịch, lịch sử lương, thưởng, kỷ luật, lộ trình thăng
-            tiến...
-          </li>
-          <li>
-            Thao tác phê duyệt đơn từ nhân viên dễ dàng chỉ cần 1 điểm chạm
-            phê duyệt
-          </li>
-          <li>
-            Import dữ liệu hoặc xuất thông tin ra file excel tiện lợi, nhanh
-            chóng
-          </li>
-        </ul>
-        <button class="loadmore-btn">Xem thêm</button>
-        <button class="application-btn">Ứng dụng thực tiễn</button>
       </div>
       <div class="col-md-6 animation_img_right">
-        <img style="width: 100%" src="https://easyhrm.vn/wp-content/uploads/2023/08/image_2023_08_30T02_03_56_685Z.png"
+        <img style="width: 100%" src="https://easyhrm.vn/wp-content/uploads/2023/09/image_2023_09_23T02_12_15_684Z.png"
           alt="" />
       </div>
     </div>
@@ -169,48 +171,50 @@
             src="https://easyhrm.vn/wp-content/uploads/2023/09/image_2023_09_06T01_08_29_043Z.png" alt="" />
         </div>
         <div class="col-md-6">
-          <div class="hrm-ref1">Chi tiết thông tin nhân viên</div>
-          <div class="hrm-ref2">
-            1. Hiển thị chi tiết thông tin hồ sơ người dùng trên giao diện
-            Mobile App, Web, …
+          <div class="padding-right-featured">
+            <div class="hrm-ref1">Chi tiết thông tin nhân viên</div>
+            <div class="hrm-ref2">
+              1. Hiển thị chi tiết thông tin hồ sơ người dùng trên giao diện
+              Mobile App, Web, …
+            </div>
+            <ul class="hrm-ref-detail">
+              <li>
+                Đầy đủ thông tin về sơ yếu lý lịch, thông tin làm việc, quá
+                trình lương, khen thưởng, kỷ luật
+              </li>
+            </ul>
+            <div class="hrm-ref2">
+              2. Thực hiện đăng ký nghỉ, giải trình công thuận tiện bằng App
+              mobile:
+            </div>
+            <ul class="hrm-ref-detail">
+              <li>Thao tác đơn giản, dễ dàng</li>
+              <li>
+                Tình trạng đơn đăng ký được từ chối/ phê duyệt được gửi thông
+                báo
+              </li>
+              <li>Cấp quản lý nhận được đơn đăng ký</li>
+            </ul>
+            <div class="hrm-ref2">
+              3. Theo dõi bảng công, phiếu lương, hợp đồng chi tiết:
+            </div>
+            <ul class="hrm-ref-detail">
+              <li>
+                Hiển thị bảng công chi tiết theo từng ngày với thời gian
+                checkin, checkout, nghỉ, làm việc ngoài công ty... Việc giải
+                trình trở nên dễ dàng, chính xác tuyệt đối.
+              </li>
+              <li>
+                Bảng lương theo từng kỳ, thuận tiện cho người dùng đối soát
+              </li>
+              <li>
+                Cập nhật lịch sử trạng thái hợp đồng, phụ lục hợp đồng lao
+                động
+              </li>
+            </ul>
+            <button class="loadmore-btn">Xem thêm</button>
+            <button class="application-btn">Ứng dụng thực tiễn</button>
           </div>
-          <ul class="hrm-ref-detail">
-            <li>
-              Đầy đủ thông tin về sơ yếu lý lịch, thông tin làm việc, quá
-              trình lương, khen thưởng, kỷ luật
-            </li>
-          </ul>
-          <div class="hrm-ref2">
-            2. Thực hiện đăng ký nghỉ, giải trình công thuận tiện bằng App
-            mobile:
-          </div>
-          <ul class="hrm-ref-detail">
-            <li>Thao tác đơn giản, dễ dàng</li>
-            <li>
-              Tình trạng đơn đăng ký được từ chối/ phê duyệt được gửi thông
-              báo
-            </li>
-            <li>Cấp quản lý nhận được đơn đăng ký</li>
-          </ul>
-          <div class="hrm-ref2">
-            3. Theo dõi bảng công, phiếu lương, hợp đồng chi tiết:
-          </div>
-          <ul class="hrm-ref-detail">
-            <li>
-              Hiển thị bảng công chi tiết theo từng ngày với thời gian
-              checkin, checkout, nghỉ, làm việc ngoài công ty... Việc giải
-              trình trở nên dễ dàng, chính xác tuyệt đối.
-            </li>
-            <li>
-              Bảng lương theo từng kỳ, thuận tiện cho người dùng đối soát
-            </li>
-            <li>
-              Cập nhật lịch sử trạng thái hợp đồng, phụ lục hợp đồng lao
-              động
-            </li>
-          </ul>
-          <button class="loadmore-btn">Xem thêm</button>
-          <button class="application-btn">Ứng dụng thực tiễn</button>
         </div>
       </div>
     </div>
@@ -219,37 +223,39 @@
     <div class="container">
       <div class="row center-row">
         <div class="col-md-6">
-          <div class="hrm-ref1">Quản lý chấm công</div>
-          <div class="hrm-ref2">
-            1. Tổng hợp kỳ công, dữ liệu chấm công dễ dàng
+          <div class="padding-left-featured">
+            <div class="hrm-ref1">Quản lý chấm công</div>
+            <div class="hrm-ref2">
+              1. Tổng hợp kỳ công, dữ liệu chấm công dễ dàng
+            </div>
+            <ul class="hrm-ref-detail">
+              <li>
+                Theo dõi tổng quan tình hình đi sớm, về muộn, công tác của
+                nhân viên
+              </li>
+              <li>
+                HR có thể truy xuất dữ liệu chấm công từng ngày từ hỗ trợ tích
+                hợp trực tiếp với máy chấm công hoặc sử dụng giải pháp chấm
+                công APP mobile như GPS, Wifi, FaceID
+              </li>
+              <li>
+                HR dễ dàng kiểm tra báo cáo chấm công chi tiết theo từng ngày,
+                chi tiết check in - check out, xác nhận giải trình, …
+              </li>
+            </ul>
+            <div class="hrm-ref2">
+              2. Xếp ca làm việc cho nhân viên các bộ phận:
+            </div>
+            <ul class="hrm-ref-detail">
+              <li>
+                Kiểm tra bảng ca làm việc của từng nhân sự trong doanh nghiệp,
+                chi tiết, trực quan phù hợp chuỗi cửa hàng, nhiều ca kíp trong
+                ngày.
+              </li>
+            </ul>
+            <button class="loadmore-btn">Xem thêm</button>
+            <button class="application-btn">Ứng dụng thực tiễn</button>
           </div>
-          <ul class="hrm-ref-detail">
-            <li>
-              Theo dõi tổng quan tình hình đi sớm, về muộn, công tác của
-              nhân viên
-            </li>
-            <li>
-              HR có thể truy xuất dữ liệu chấm công từng ngày từ hỗ trợ tích
-              hợp trực tiếp với máy chấm công hoặc sử dụng giải pháp chấm
-              công APP mobile như GPS, Wifi, FaceID
-            </li>
-            <li>
-              HR dễ dàng kiểm tra báo cáo chấm công chi tiết theo từng ngày,
-              chi tiết check in - check out, xác nhận giải trình, …
-            </li>
-          </ul>
-          <div class="hrm-ref2">
-            2. Xếp ca làm việc cho nhân viên các bộ phận:
-          </div>
-          <ul class="hrm-ref-detail">
-            <li>
-              Kiểm tra bảng ca làm việc của từng nhân sự trong doanh nghiệp,
-              chi tiết, trực quan phù hợp chuỗi cửa hàng, nhiều ca kíp trong
-              ngày.
-            </li>
-          </ul>
-          <button class="loadmore-btn">Xem thêm</button>
-          <button class="application-btn">Ứng dụng thực tiễn</button>
         </div>
         <div class="col-md-6 animation_img_right">
           <img style="width: 100%"
@@ -262,37 +268,39 @@
     <div class="container">
       <div class="row center-row">
         <div class="col-md-6 animation_img_left">
-          <img src="https://easyhrm.vn/wp-content/uploads/2023/08/image_2023_08_30T02_48_20_341Z.png"
+          <img src="https://easyhrm.vn/wp-content/uploads/2023/09/image_2023_09_23T02_38_40_333Z.png"
             style="width: 100%" alt="" />
         </div>
         <div class="col-md-6">
-          <div class="hrm-ref1">Tính toán tiền lương - phụ cấp</div>
-          <div class="hrm-ref2">
-            1. Tính lương tự động dựa trên công thức được setup ngay trênf
-            phần mềm. Xử lý tùy biến nhanh chóng, chính xác.
+          <div class="padding-right-featured">
+            <div class="hrm-ref1">Tính toán tiền lương - phụ cấp</div>
+            <div class="hrm-ref2">
+              1. Tính lương tự động dựa trên công thức được setup ngay trên
+              phần mềm. Xử lý tùy biến nhanh chóng, chính xác.
+            </div>
+            <ul class="hrm-ref-detail">
+              <li>
+                Tính lương dựa trên các phần tử lương được thiết lập từ trước
+              </li>
+              <li>
+                Liên thông dữ liệu với phân hệ hồ sơ nhân sự, chấm công.
+              </li>
+              <li>
+                Tự động cập nhật các khoản giảm trừ xử lý vi phạm, khai báo
+                giữ lương
+              </li>
+            </ul>
+            <div class="hrm-ref2">2. Cập nhật thuế thu nhập cá nhân:</div>
+            <ul class="hrm-ref-detail">
+              <li>
+                Giảm thiểu sai sót xuống mức tối đa, giúp quá trình tính lương
+                <br />
+                nhanh chóng, thuận tiện
+              </li>
+            </ul>
+            <button class="loadmore-btn">Xem thêm</button>
+            <button class="application-btn">Ứng dụng thực tiễn</button>
           </div>
-          <ul class="hrm-ref-detail">
-            <li>
-              Tính lương dựa trên các phần tử lương được thiết lập từ trước
-            </li>
-            <li>
-              Liên thông dữ liệu với phân hệ hồ sơ nhân sự, chấm công.
-            </li>
-            <li>
-              Tự động cập nhật các khoản giảm trừ xử lý vi phạm, khai báo
-              giữ lương
-            </li>
-          </ul>
-          <div class="hrm-ref2">2. Cập nhật thuế thu nhập cá nhân:</div>
-          <ul class="hrm-ref-detail">
-            <li>
-              Giảm thiểu sai sót xuống mức tối đa, giúp quá trình tính lương
-              <br />
-              nhanh chóng, thuận tiện
-            </li>
-          </ul>
-          <button class="loadmore-btn">Xem thêm</button>
-          <button class="application-btn">Ứng dụng thực tiễn</button>
         </div>
       </div>
     </div>
@@ -374,11 +382,12 @@
 </section>
 <section id="hrm_customer_stories">
   <div class="container">
-    <div class="hrm-title justify-content-center">
-      <div>Câu chuyện khách hàng</div>
-      <div class="seperation-fix"></div>
-    </div>
+
     <div class="customer_stories_background">
+      <div class="hrm-title justify-content-center">
+        <div>Câu chuyện khách hàng</div>
+        <div class="seperation-fix"></div>
+      </div>
       <div class="row center-row">
         <div class="col-md-6 center-row">
           <div class="maps-box">
@@ -613,7 +622,9 @@
 
       <div class="seperation-fix"></div>
     </div>
-    <div class="brand-list">
+    <img class="signature-customer-img" style="display: block; margin: auto"
+      src="https://easyhrm.vn/wp-content/uploads/2023/09/image_2023_09_23T02_55_24_768Z-1.png" alt="">
+    <!-- <div class="brand-list">
       <div>
         <img src="https://easyhrm.vn/wp-content/uploads/2023/08/image_2023_08_30T07_06_39_620Z.png" alt="" />
       </div>
@@ -657,7 +668,7 @@
       <div>
         <img src="https://easyhrm.vn/wp-content/uploads/2023/09/image_2023_09_05T07_55_46_131Z.png" alt="" />
       </div>
-    </div>
+    </div> -->
   </div>
 </section>
 <section id="hrm_price">
@@ -672,16 +683,16 @@
     <div class="row">
       <div class="col-md-4 col-sm-12">
         <div class="price-quote">
-          <div class="price-quote-title text-center">
+          <div class="price-quote-title">
             <div class="quote-title-icon">
               <img style="width: 100%"
                 src="https://easyhrm.vn/wp-content/uploads/2023/08/image_2023_08_30T07_20_52_362Z.png" alt="" />
             </div>
-            <div class="quote-title-name">EASYHRM STANDARD</div>
+            <div class="quote-title-name">EASYHRM <br> STANDARD</div>
           </div>
           <div class="quote-seperation"></div>
           <div class="quote-btn showdetail-btn">
-            <button class="loadmore-btn quote-btn-fix">Xem chi tiết</button>
+            <button class="loadmore-btn">Xem chi tiết</button>
           </div>
           <div class="showdetail">
             <div class="price-quote-detail">
@@ -691,10 +702,10 @@
               </ul>
             </div>
             <div class="quote-btn detail-btn">
-              <button class="loadmore-btn quote-btn-fix">Báo giá</button>
+              <button class="loadmore-btn">Báo giá</button>
             </div>
             <div class="quote-btn detail-btn">
-              <button class="loadmore-btn quote-btn-fix">Báo giá</button>
+              <button class="loadmore-btn">Báo giá</button>
             </div>
           </div>
         </div>
@@ -705,18 +716,18 @@
                 background: var(--orange-2, #f26522);
                 box-shadow: 8px 8px 11px 0px rgba(23, 45, 88, 0.2);
               ">
-          <div class="price-quote-title text-center">
+          <div class="price-quote-title">
             <div class="quote-title-icon" style="padding: 6px">
               <img style="width: 100%"
                 src="https://easyhrm.vn/wp-content/uploads/2023/08/image_2023_08_30T07_36_56_056Z.png" alt="" />
             </div>
             <div class="quote-title-name" style="color: #fff">
-              EASYHRM PREMIUM
+              EASYHRM <br> PREMIUM
             </div>
           </div>
           <div class="quote-seperation"></div>
           <div class="quote-btn showdetail-btn">
-            <button class="loadmore-btn-mid quote-btn-fix">
+            <button class="loadmore-btn-mid">
               Xem chi tiết
             </button>
           </div>
@@ -734,12 +745,12 @@
               </ul>
             </div>
             <div class="quote-btn-mid detail-btn">
-              <button class="loadmore-btn-mid quote-btn-fix">
+              <button class="loadmore-btn-mid">
                 Báo giá
               </button>
             </div>
             <div class="quote-btn-mid detail-btn">
-              <button class="loadmore-btn-mid quote-btn-fix">
+              <button class="loadmore-btn-mid">
                 Báo giá
               </button>
             </div>
@@ -748,16 +759,16 @@
       </div>
       <div class="col-md-4 col-sm-12">
         <div class="price-quote">
-          <div class="price-quote-title text-center">
+          <div class="price-quote-title">
             <div class="quote-title-icon">
               <img style="width: 100%"
                 src="https://easyhrm.vn/wp-content/uploads/2023/08/image_2023_08_30T08_04_38_251Z.png" alt="" />
             </div>
-            <div class="quote-title-name">HĐLĐ ĐIỆN TỬ</div>
+            <div class="quote-title-name">EASYHRM HĐLĐ <br> ĐIỆN TỬ</div>
           </div>
           <div class="quote-seperation"></div>
           <div class="quote-btn showdetail-btn">
-            <button class="loadmore-btn quote-btn-fix">Xem chi tiết</button>
+            <button class="loadmore-btn">Xem chi tiết</button>
           </div>
           <div class="showdetail">
             <div class="price-quote-detail">
@@ -766,10 +777,10 @@
               </ul>
             </div>
             <div class="quote-btn detail-btn">
-              <button class="loadmore-btn quote-btn-fix">Báo giá</button>
+              <button class="loadmore-btn">Báo giá</button>
             </div>
             <div class="quote-btn detail-btn">
-              <button class="loadmore-btn quote-btn-fix">Báo giá</button>
+              <button class="loadmore-btn">Báo giá</button>
             </div>
           </div>
         </div>
@@ -842,7 +853,7 @@
           </div>
         </div>
       </div>
-      <div class="typeOfHrm center-row">
+      <div class="typeOfHrm center-row mt-20">
         <div>Gói cước trên 100 lao động</div>
         <div style="height: 28px; width: 28px">
           <img style="width: 100%; margin-left: 10px; margin-bottom: 10px"

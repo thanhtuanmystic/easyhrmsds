@@ -16,7 +16,7 @@ Template name: Thông tin nhân sự - Personal Information
                     Số hóa hồ sơ nhân sự, <br>
                     quản lý tập trung siêu dễ dàng
                 </div>
-                <div class="button-banner slide-left">
+                <div class="button-banner slide-left" >
                     <a href="#">
                         <button class="pi_free-trial">Trải nghiệm miễn phí</button>
                     </a>
