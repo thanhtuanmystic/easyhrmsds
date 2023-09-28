@@ -173,7 +173,7 @@ Template name: Thông tin nhân sự - Personal Information
                 </div>
                 <div class="col-md-6">
                     <img style="width: 100%"
-                        src="https://easyhrm.vn/wp-content/uploads/2023/09/image_2023_09_13T03_11_47_271Z.png" alt="">
+                        src="https://easyhrm.vn/wp-content/uploads/2023/09/image_2023_09_25T03_27_09_834Z.png" alt="">
                 </div>
                 <div class="col-md-6 align-row">
                     <div class="personal-overall">

@@ -133,6 +133,11 @@ $(document).ready(function () {
         );
     }
   });
+
+  // easyhrm standard
+  
+
+
 });
 
 function scrollMouse(classFirst, nameClassAdd) {
@@ -352,3 +357,4 @@ $(document).ready(function () {
     jsArrow.onclick = function () {
         navLinks.classList.toggle("show3");
     }
+

@@ -99,10 +99,10 @@
           <div class="social-media">
             <a href="#"><img src="https://easyhrm.vn/wp-content/uploads/2023/08/carbon_logo-youtube.png" alt="" /></a>
           </div>
-          <!-- <div class="social-media">
-            <a style="width: 24px; height: 24px" target="_blank" href="https://zalo.me/1647287051622286895"><img
-                src="https://easyhrm.vn/wp-content/uploads/2023/09/image_2023_09_14T09_18_45_733Z.png" alt="" /></a>
-          </div> -->
+          <div class="social-media">
+            <a target="_blank" href="https://zalo.me/1647287051622286895"><img
+                src="https://easyhrm.vn/wp-content/uploads/2023/09/Frame-1.png" alt="" /></a>
+          </div>
         </div>
         <div class="copyright">© 2023 Softdreams. All rights reserved.</div>
       </div>

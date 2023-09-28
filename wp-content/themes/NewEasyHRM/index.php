@@ -71,12 +71,11 @@
   <div class="container">
     <div class="row center-row">
       <div class="col-md-6 animation_img_left">
-        <img style="width: 100%" src="https://easyhrm.vn/wp-content/uploads/2023/09/image_2023_09_05T03_30_43_512Z.png"
-          alt="" />
+        <img style="width: 100%" src="https://easyhrm.vn/wp-content/uploads/2023/09/Group-127.png" alt="" />
       </div>
       <div class="col-md-6 col-sm-12">
         <div class="hrm-title">
-          <div>CHÚNG TÔI LÀ EASYHRM</div>
+          <div>Chúng tôi là EasyHRM</div>
           <div class="seperation-fix"></div>
         </div>
         <div class="hrm-content">
@@ -85,7 +84,7 @@
           hữu những tính năng thông minh,
           <span class="backtext">EasyHRM</span> giúp việc quản trị nhân sự
           trở nên dễ dàng ở mọi lúc, mọi nơi.
-          <br />
+          <br /><br />
           Chúng tôi hoàn toàn tự tin về chất lượng sản phẩm mang tới cho
           doanh nghiệp của bạn khi đã xây dựng thành công hệ sinh thái gồm
           EasyInvoice, EasyCa, Easybooks, Easydocs, EasyPIT, EasyCRM,...
@@ -99,15 +98,15 @@
 <section id="hrm_featured">
   <div class="container">
     <div class="hrm-title justify-content-center">
-      <div style="">EASYHRM CÓ GÌ NỔI BẬT</div>
+      <div style="">EasyHRM có gì nổi bật</div>
 
       <div style="" class="seperation-fix"></div>
     </div>
 
     <div class="row">
       <div class="col-md-12 center-row animation_img_right">
-        <img class="featured-big-image" src="https://easyhrm.vn/wp-content/uploads/2023/09/image_2023_09_23T02_07_45_306Z.png"
-          alt="" />
+        <img class="featured-big-image"
+          src="https://easyhrm.vn/wp-content/uploads/2023/09/image_2023_09_23T02_07_45_306Z.png" alt="" />
       </div>
     </div>
   </div>
@@ -115,104 +114,98 @@
 <section id="hrm_management">
   <div class="container">
     <div class="hrm-title justify-content-center">
-      <div>GIẢI PHÁP QUẢN LÝ NHÂN SỰ TOÀN DIỆN, DỄ DÀNG</div>
+      <div>Giải pháp quản lý nhân sự toàn diện, dễ dàng</div>
 
       <div class="seperation-fix"></div>
     </div>
     <div class="row center-row staff-info-management">
       <div class="col-md-6">
         <div class="padding-left-featured">
-          <div class="hrm-ref1">Quản lý thông tin nhân sự</div>
+          <div class="hrm-ref1"><img style="margin-right: 10px"
+              src="https://easyhrm.vn/wp-content/uploads/2023/09/image_2023_09_25T02_01_27_127Z.png" alt="">Quản lý
+            thông tin nhân sự</div>
           <div class="hrm-ref2">1. Giao diện trực quan, dễ dàng theo dõi</div>
           <ul class="hrm-ref-detail">
             <li>
-              Quản lý dễ dàng nắm bắt được các thông tin người lao động.
-              Dashboard tổng quan thông qua biểu đồ, số liệu rõ ràng.
+              Quản lý thông tin nhân sự với Dashboard tổng quan, biểu đồ, số liệu rõ ràng.
             </li>
             <li>
-              Phần mềm cập nhật đầy đủ quy trình nhân sự, quyết định, phúc
-              lợi, nghỉ việc,...
+              Cập nhật đầy đủ quy trình nhân sự, quyết định, phúc lợi, nghỉ việc,...
             </li>
           </ul>
           <div class="hrm-ref2">
-            2. Quản lý dữ liệu tập trung, dễ dàng truy xuất <br> với bộ lọc thông
-            minh
+            2. Quản lý dữ liệu tập trung, dễ dàng tìm kiếm, truy xuất
           </div>
           <ul class="hrm-ref-detail">
             <li>
-              Tổng hợp, quản lý tập trung dữ liệu hồ sơ nhân viên chi tiết về
-              sơ yếu lý lịch, lịch sử lương, thưởng, kỷ luật, lộ trình thăng
-              tiến...
+              Tổng hợp dữ liệu chi tiết về hồ sơ nhân viên (SYLL, lịch sử lương, thưởng, kỷ luật,...)
             </li>
             <li>
-              Thao tác phê duyệt đơn từ nhân viên dễ dàng chỉ cần 1 điểm chạm
-              phê duyệt
+              Phê duyệt đơn từ dễ dàng chỉ cần 1 điểm chạm
             </li>
             <li>
-              Import dữ liệu hoặc xuất thông tin ra file excel tiện lợi, nhanh
-              chóng
+              Nhập - xuất dữ liệu ra file excel tiện lợi, nhanh chóng
             </li>
           </ul>
-          <button class="loadmore-btn">Xem thêm</button>
+          <a target="_blank" href="https://easyhrm.vn/personal-information/"><button class="loadmore-btn">Xem
+              thêm</button></a>
           <button class="application-btn">Ứng dụng thực tiễn</button>
         </div>
       </div>
-      <div class="col-md-6 animation_img_right">
-        <img style="width: 100%" src="https://easyhrm.vn/wp-content/uploads/2023/09/image_2023_09_23T02_12_15_684Z.png"
-          alt="" />
+      <div class="col-md-6 align-row  animation_img_right">
+        <img style="width: 90%%" src="https://easyhrm.vn/wp-content/uploads/2023/09/Group-223-1.png" alt="" />
       </div>
     </div>
   </div>
   <div class="staff-info-detail">
     <div class="container">
       <div class="row center-row">
-        <div class="col-md-6 animation_img_left">
-          <img style="width: 100%"
-            src="https://easyhrm.vn/wp-content/uploads/2023/09/image_2023_09_06T01_08_29_043Z.png" alt="" />
+        <div class="col-md-6 align-row animation_img_left">
+          <img style="width: 90%" src="https://easyhrm.vn/wp-content/uploads/2023/09/image_2023_09_06T01_08_29_043Z.png"
+            alt="" />
         </div>
         <div class="col-md-6">
           <div class="padding-right-featured">
-            <div class="hrm-ref1">Chi tiết thông tin nhân viên</div>
+            <div class="hrm-ref1"><img style="margin-right: 10px"
+                src="https://easyhrm.vn/wp-content/uploads/2023/09/image_2023_09_25T02_03_38_339Z.png" />Chi tiết thông
+              tin nhân viên</div>
             <div class="hrm-ref2">
-              1. Hiển thị chi tiết thông tin hồ sơ người dùng trên giao diện
-              Mobile App, Web, …
+              1. Quản lý hồ sơ trực tiếp trên mọi nền tảng
             </div>
             <ul class="hrm-ref-detail">
               <li>
-                Đầy đủ thông tin về sơ yếu lý lịch, thông tin làm việc, quá
-                trình lương, khen thưởng, kỷ luật
+                Đầy đủ sơ yếu lý lịch, thông tin làm việc, quá trình lương, khen thưởng, kỷ luật
               </li>
             </ul>
             <div class="hrm-ref2">
-              2. Thực hiện đăng ký nghỉ, giải trình công thuận tiện bằng App
-              mobile:
+              2. Đăng ký nghỉ, giải trình trực tiếp bằng App mobile:
             </div>
             <ul class="hrm-ref-detail">
               <li>Thao tác đơn giản, dễ dàng</li>
               <li>
-                Tình trạng đơn đăng ký được từ chối/ phê duyệt được gửi thông
-                báo
+                Theo dõi tình trạng đơn đăng ký và gửi thông báo
               </li>
-              <li>Cấp quản lý nhận được đơn đăng ký</li>
+              <li>Cấp quản lý nhận được đơn đăng ký tức thì</li>
             </ul>
             <div class="hrm-ref2">
-              3. Theo dõi bảng công, phiếu lương, hợp đồng chi tiết:
+              3. Theo dõi bảng công, phiếu lương, hợp đồng
             </div>
             <ul class="hrm-ref-detail">
               <li>
-                Hiển thị bảng công chi tiết theo từng ngày với thời gian
-                checkin, checkout, nghỉ, làm việc ngoài công ty... Việc giải
-                trình trở nên dễ dàng, chính xác tuyệt đối.
+                Bảng công chi tiết với thời gian vào - ra, nghỉ, công tác...
               </li>
               <li>
-                Bảng lương theo từng kỳ, thuận tiện cho người dùng đối soát
+                Giải trình dễ dàng và chính xác tuyệt đối
               </li>
               <li>
-                Cập nhật lịch sử trạng thái hợp đồng, phụ lục hợp đồng lao
-                động
+                Bảng lương cập nhật theo từng kỳ, thuận tiện cho đối soát
+              </li>
+              <li>
+                Cập nhật lịch sử trạng thái hợp đồng, phụ lục hợp đồng lao động
               </li>
             </ul>
-            <button class="loadmore-btn">Xem thêm</button>
+            <a href="https://easyhrm.vn/staff-management/" target="_blank"><button class="loadmore-btn">Xem
+                thêm</button></a>
             <button class="application-btn">Ứng dụng thực tiễn</button>
           </div>
         </div>
@@ -224,14 +217,15 @@
       <div class="row center-row">
         <div class="col-md-6">
           <div class="padding-left-featured">
-            <div class="hrm-ref1">Quản lý chấm công</div>
+            <div class="hrm-ref1"> <img style="margin-right: 10px"
+                src="https://easyhrm.vn/wp-content/uploads/2023/09/image_2023_09_25T02_03_52_418Z.png" /> Quản lý chấm
+              công</div>
             <div class="hrm-ref2">
               1. Tổng hợp kỳ công, dữ liệu chấm công dễ dàng
             </div>
             <ul class="hrm-ref-detail">
               <li>
-                Theo dõi tổng quan tình hình đi sớm, về muộn, công tác của
-                nhân viên
+                Theo dõi tổng quan tình trạng đi sớm, về muộn, công tác của nhân viên
               </li>
               <li>
                 HR có thể truy xuất dữ liệu chấm công từng ngày từ hỗ trợ tích
@@ -239,8 +233,8 @@
                 công APP mobile như GPS, Wifi, FaceID
               </li>
               <li>
-                HR dễ dàng kiểm tra báo cáo chấm công chi tiết theo từng ngày,
-                chi tiết check in - check out, xác nhận giải trình, …
+                Dễ dàng kiểm tra báo cáo chấm công theo từng ngày, chi tiết check in - check out, xác nhận giải trình, …
+
               </li>
             </ul>
             <div class="hrm-ref2">
@@ -257,9 +251,9 @@
             <button class="application-btn">Ứng dụng thực tiễn</button>
           </div>
         </div>
-        <div class="col-md-6 animation_img_right">
-          <img style="width: 100%"
-            src="https://easyhrm.vn/wp-content/uploads/2023/08/image_2023_08_30T02_32_45_349Z.png" alt="" />
+        <div class="col-md-6 align-row  animation_img_right">
+          <img style="width: 70%" src="https://easyhrm.vn/wp-content/uploads/2023/08/image_2023_08_30T02_32_45_349Z.png"
+            alt="" />
         </div>
       </div>
     </div>
@@ -267,13 +261,15 @@
   <div class="salary-calculation">
     <div class="container">
       <div class="row center-row">
-        <div class="col-md-6 animation_img_left">
-          <img src="https://easyhrm.vn/wp-content/uploads/2023/09/image_2023_09_23T02_38_40_333Z.png"
-            style="width: 100%" alt="" />
+        <div class="col-md-6 align-row  animation_img_left">
+          <img src="https://easyhrm.vn/wp-content/uploads/2023/09/image_2023_09_25T02_24_46_753Z.png" style="width: 80%"
+            alt="" />
         </div>
         <div class="col-md-6">
           <div class="padding-right-featured">
-            <div class="hrm-ref1">Tính toán tiền lương - phụ cấp</div>
+            <div class="hrm-ref1"><img style="margin-right: 10px"
+                src="https://easyhrm.vn/wp-content/uploads/2023/09/image_2023_09_25T02_04_00_261Z.png" />Tính toán tiền
+              lương - phụ cấp</div>
             <div class="hrm-ref2">
               1. Tính lương tự động dựa trên công thức được setup ngay trên
               phần mềm. Xử lý tùy biến nhanh chóng, chính xác.
@@ -309,27 +305,34 @@
     <div class="container">
       <div class="row center-row">
         <div class="col-md-6">
-          <div class="hrm-ref1">
-            Tối ưu, trải nghiệm tuyệt vời kê khai <br />
-            BHXH, thuế TNCN
+          <div class="padding-left-featured">
+            <div style="display: flex; align-items: center">
+              <img style="margin-right: 10px"
+                src="https://easyhrm.vn/wp-content/uploads/2023/09/image_2023_09_25T02_04_08_044Z.png" />
+              <div class="hrm-ref1">
+                Tối ưu, trải nghiệm tuyệt vời kê khai
+                BHXH, thuế TNCN
+              </div>
+            </div>
+            <ul class="hrm-ref-detail">
+              <li>
+                EasyHRM là đơn vị tiên phong hỗ trợ có thể trực tiếp kê khai
+                hồ sơ BHXH nộp thẳng lên BHXH, cảnh báo các sai sót, tính tiền
+                đóng, tiền lãi BHXH theo biến động thực tế.
+              </li>
+              <li>
+                Cung cấp giải pháp tích hợp, template chứng từ thuế thu nhập
+                cá nhân điện tử theo đúng tiêu chuẩn Tổng Cục Thuế
+              </li>
+            </ul>
+            <a target="_bank" href="https://easyhrm.vn/e-social-insurance/"><button class="loadmore-btn">Xem
+                thêm</button></a>
+            <button class="application-btn">Ứng dụng thực tiễn</button>
           </div>
-          <ul class="hrm-ref-detail">
-            <li>
-              EasyHRM là đơn vị tiên phong hỗ trợ có thể trực tiếp kê khai
-              hồ sơ BHXH nộp thẳng lên BHXH, cảnh báo các sai sót, tính tiền
-              đóng, tiền lãi BHXH theo biến động thực tế.
-            </li>
-            <li>
-              Cung cấp giải pháp tích hợp, template chứng từ thuế thu nhập
-              cá nhân điện tử theo đúng tiêu chuẩn Tổng Cục Thuế
-            </li>
-          </ul>
-          <button class="loadmore-btn">Xem thêm</button>
-          <button class="application-btn">Ứng dụng thực tiễn</button>
         </div>
-        <div class="col-md-6 animation_img_right">
-          <img src="https://easyhrm.vn/wp-content/uploads/2023/09/image_2023_09_11T02_52_17_504Z.png"
-            style="width: 100%" alt="" />
+        <div class="col-md-6 align-row  animation_img_right">
+          <img src="https://easyhrm.vn/wp-content/uploads/2023/09/image_2023_09_11T02_52_17_504Z.png" style="width: 90%"
+            alt="" />
         </div>
       </div>
     </div>
@@ -337,45 +340,54 @@
   <div class="labor-contract">
     <div class="container">
       <div class="row center-row">
-        <div class="col-md-6 animation_img_left">
-          <img src="https://easyhrm.vn/wp-content/uploads/2023/08/image_2023_08_30T03_21_11_165Z.png"
-            style="width: 100%" alt="" />
+        <div class="col-md-6 align-row animation_img_left">
+          <img src="https://easyhrm.vn/wp-content/uploads/2023/08/image_2023_08_30T03_21_11_165Z.png" style="width: 90%"
+            alt="" />
         </div>
         <div class="col-md-6">
-          <div class="hrm-ref1">Hợp đồng lao động điện tử</div>
-          <ul class="hrm-ref-detail">
-            <li>
-              Thống kê chi tiết số lượng hợp đồng, biểu mẫu theo đặc thù đơn
-              vị và tình trạng ký hợp hợp đồng, cảnh báo hợp đồng sắp hết
-              hạn, tái ký, bổ nhiệm lại, …
-            </li>
-            <li>
-              Cung cấp mẫu hợp đồng lao động điện tử đảm bảo tính pháp lý
-              theo quy định của Luật Giao dịch điện tử sửa đổi, bổ sung.
-            </li>
-          </ul>
-          <button class="loadmore-btn">Xem thêm</button>
-          <button class="application-btn">Ứng dụng thực tiễn</button>
+          <div class="padding-right-featured">
+            <div class="hrm-ref1"><img style="margin-right: 10px"
+                src="https://easyhrm.vn/wp-content/uploads/2023/09/image_2023_09_25T02_04_16_669Z.png" />Hợp đồng lao
+              động điện tử</div>
+            <ul class="hrm-ref-detail">
+              <li>
+                Thống kê chi tiết số lượng hợp đồng, biểu mẫu theo đặc thù đơn
+                vị và tình trạng ký hợp hợp đồng, cảnh báo hợp đồng sắp hết
+                hạn, tái ký, bổ nhiệm lại, …
+              </li>
+              <li>
+                Cung cấp mẫu hợp đồng lao động điện tử đảm bảo tính pháp lý
+                theo quy định của Luật Giao dịch điện tử sửa đổi, bổ sung.
+              </li>
+            </ul>
+            <button class="loadmore-btn">Xem thêm</button>
+            <button class="application-btn">Ứng dụng thực tiễn</button>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </section>
 <section id="hrm_banner_seperation">
-  <img width="100%" src="https://easyhrm.vn/wp-content/uploads/2023/09/image_2023_09_05T09_12_24_121Z.png" alt="" />
-  <div class="container banner-seperation-content">
+  <div class="container ">
     <div class="row">
-      <div class="col-md-6">
-        <div class="banner-seperation-text">
-          Nhằm giúp doanh nghiệp chuẩn hóa HĐLĐ điện tử, chúng tôi được cấp
-          dịch vụ chứng thực chữ ký số công cộng (EasyCA), văn bản hợp đồng
-          điện tử EasyDocs theo quy định của Luật Giao dịch điện tử.
-        </div>
-        <a target="_blank" href="https://easyca.vn/">
-          <div class="banner-seperation-btn">
-            <button class="loadmore-btn-fix">Tìm hiểu thêm</button>
+      <div class="center-row col-lg-12 col-md-12 mb-4 mb-lg-0">
+        <div class="bg-image card shadow-1-strong" style="
+                  background-image: url('https://easyhrm.vn/wp-content/uploads/2023/09/image_2023_09_28T02_41_48_978Z.png'); background-size: cover;  border: 0;width: 960px;
+height: 223px;
+                  ">
+          <div style="padding: 4rem 2rem;" class="card-body text-white">
+            <p class="card-text">
+              Nhằm giúp doanh nghiệp chuẩn hóa HĐLĐ điện tử, chúng tôi được <br> cấp dịch vụ chứng thực chữ ký số công
+              cộng
+              (EasyCA), văn bản hợp <br> đồng điện tử EasyDocs theo quy định của Luật Giao dịch điện tử.
+            </p>
+            <a href="https://easyca.vn/" target="_blank" class="loadmore-btn-fix">Tìm hiểu thêm</a>
           </div>
-        </a>
+        </div>
+      </div>
+      <div class="col-lg-4 mb-4 mb-lg-0">
+
       </div>
     </div>
   </div>
@@ -674,7 +686,7 @@
 <section id="hrm_price">
   <div class="container">
     <div class="hrm-title justify-content-center">
-      <div>Báo giá phần mềm EASYHRM</div>
+      <div>Báo giá phần mềm EasyHrm</div>
       <div class="seperation-fix"></div>
     </div>
     <h4 class="hrm-sub-title">
@@ -688,7 +700,7 @@
               <img style="width: 100%"
                 src="https://easyhrm.vn/wp-content/uploads/2023/08/image_2023_08_30T07_20_52_362Z.png" alt="" />
             </div>
-            <div class="quote-title-name">EASYHRM <br> STANDARD</div>
+            <div class="quote-title-name">EasyHRM Standard</div>
           </div>
           <div class="quote-seperation"></div>
           <div class="quote-btn showdetail-btn">
@@ -722,7 +734,7 @@
                 src="https://easyhrm.vn/wp-content/uploads/2023/08/image_2023_08_30T07_36_56_056Z.png" alt="" />
             </div>
             <div class="quote-title-name" style="color: #fff">
-              EASYHRM <br> PREMIUM
+              EasyHRM Premium
             </div>
           </div>
           <div class="quote-seperation"></div>
@@ -764,7 +776,7 @@
               <img style="width: 100%"
                 src="https://easyhrm.vn/wp-content/uploads/2023/08/image_2023_08_30T08_04_38_251Z.png" alt="" />
             </div>
-            <div class="quote-title-name">EASYHRM HĐLĐ <br> ĐIỆN TỬ</div>
+            <div class="quote-title-name">EasyHRM Elabor</div>
           </div>
           <div class="quote-seperation"></div>
           <div class="quote-btn showdetail-btn">
@@ -1041,7 +1053,7 @@
   <div class="container">
     <div class="form-register">
       <div class="hrm-title hrm-title-mobile justify-content-center" style="margin-bottom: 0">
-        <div style="color: #fff">EASYHRM LẮNG NGHE VẤN ĐỀ CỦA BẠN</div>
+        <div style="color: #fff">EasyHRM lắng nghe vấn đề của bạn</div>
       </div>
       <div class="hrm-ref2 text-center" style="color: #fff">
         Chúng tôi luôn sẵn sàng lắng nghe vấn đề của bạn và doanh nghiệp bất
@@ -1077,7 +1089,7 @@
 </section>
 <section id="hrm_question">
   <div class="hrm-title justify-content-center">
-    <div>CÂU HỎI THƯỜNG GẶP</div>
+    <div>Câu hỏi thường gặp</div>
     <div class="seperation-fix"></div>
   </div>
   <div class="container">
@@ -1111,10 +1123,10 @@
 <section id="hrm_advance_hrm">
   <div class="container">
     <div style="margin-bottom: 40" class="hrm-title justify-content-center">
-      <div>KỸ NĂNG QUẢN TRỊ NHÂN SỰ CHUYÊN SÂU</div>
+      <div>Kỹ năng quản trị nhân sự chuyên sâu</div>
       <div class="seperation-fix"></div>
     </div>
-    <div style="color: var(--gray-1, #151f2f); margin-bottom: 70px" class="form-title">
+    <div style="color: var(--gray-1, #151f2f)" class="form-title16">
       Cùng EasyHRM nâng cao kỹ năng quản trị nhân sự của bạn với kiến thức
       hữu ích <br />
       từ những chuyên gia uy tín hàng đầu trong ngành

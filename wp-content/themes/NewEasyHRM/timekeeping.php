@@ -245,7 +245,6 @@ Template name: Quản lý chấm công - TimeKeeping
                         ?>
                     </div>
                 </div>
-
             </div>
         </div>
     </div>
@@ -259,7 +258,7 @@ Template name: Quản lý chấm công - TimeKeeping
         </div>
         <div class="bg-white"></div>
 
-        <div id="carouselExampleIndicators" class="carousel slide">
+        <div id="carouselExampleIndicators" class="carousel slide slider-position">
 
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"

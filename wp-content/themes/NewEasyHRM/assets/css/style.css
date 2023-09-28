@@ -9,6 +9,8 @@ html {
 body {
   margin-top: 100px;
 }
+.standardElement {
+}
 a {
   text-decoration: none;
   color: #fff;
@@ -24,8 +26,14 @@ ul {
 .seperation {
   height: 2px;
   background: var(--orange-5, #fef0e9);
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   margin-top: 30px;
+}
+.dpn {
+  display: none !important;
+}
+.dbbl {
+  display: block !important;
 }
 .center-row {
   display: flex;
@@ -280,6 +288,9 @@ ul li {
   line-height: 150%; /* 21px */
 }
 /* Chúng tôi là easyhrm */
+#hrm_introduction {
+  padding-bottom: 30px;
+}
 .seperation-fix {
   width: 282px;
   height: 2px;
@@ -290,19 +301,20 @@ ul li {
 .backtext {
   color: var(--gray-1, #151f2f);
   font-family: Nunito Sans;
-  font-size: 16px;
+  font-size: 15px;
   font-style: normal;
   font-weight: 700;
-  line-height: 211%; /* 33.76px */
+  line-height: 20px;
 }
 .hrm-content {
   color: var(--gray-1, #151f2f);
   font-family: Nunito Sans;
-  font-size: 16px;
+  font-size: 15px;
   font-style: normal;
   font-weight: 600;
-  margin-bottom: 50px;
-  padding-right: 30%;
+  line-height: 20px;
+  margin-bottom: 20px;
+  padding-right: 20%;
 }
 .loadmore-btn {
   display: inline-flex;
@@ -348,8 +360,7 @@ ul li {
 /* Easyhrm có gì nổi bật */
 #hrm_featured {
   background: rgba(254, 240, 233, 0.6);
-  padding-top: 70px;
-  padding-bottom: 76px;
+  padding-bottom: 50px;
 }
 .featured-box {
   display: flex;
@@ -377,19 +388,20 @@ ul li {
   font-family: Nunito Sans;
   font-size: 24px;
   font-style: normal;
-  font-weight: 800;
-  line-height: 211%; /* 50.64px */
+  font-weight: 650;
+  margin-bottom: 14px;
 }
 .hrm-ref2 {
   color: var(--Blue2, #2951a0);
   font-family: Nunito Sans;
   font-size: 16px;
   font-style: normal;
-  font-weight: 800;
+  font-weight: 600;
   line-height: 211%; /* 33.76px */
 }
 .hrm-ref-detail {
-  width: 80%;
+  /* width: 80%; */
+  margin-bottom: 20px;
 }
 .hrm-ref-detail li::before {
   content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
@@ -397,48 +409,50 @@ ul li {
   font-weight: bold; /* If you want it to be bold */
   display: inline-block; /* Needed to add space between the bullet and the text */
   width: 1em; /* Also needed for space (tweak if needed) */
-  margin-left: -1em; /* Also needed for space (tweak if needed) */
+  margin-left: 0em; /* Also needed for space (tweak if needed) */
 }
 .hrm-ref-detail li {
   color: var(--gray-1, #151f2f);
   font-family: Nunito Sans;
-  font-size: 14px;
+  font-size: 15px;
   font-style: normal;
   font-weight: 600;
   text-align: justify;
 }
 .padding-left-featured {
-  padding-left: 14%;
+  /* padding-left: 14%; */
+  width: 90%;
+  text-align: justify;
 }
 .padding-right-featured {
-  padding-right: 14%;
+  /* padding-right: 10%;
+  padding-left: 5%; */
+  width: 90%;
+  text-align: justify;
 }
+
 .staff-info-management {
-  padding-bottom: 50px;
+  padding-bottom: 20px;
 }
 .staff-info-detail {
   background: rgba(254, 240, 233, 0.6);
-  padding-top: 54px;
-  padding-bottom: 68px;
+  padding: 50px 0;
 }
 .time-management {
   background-color: #fff;
-  padding-top: 60px;
-  padding-bottom: 40px;
+  padding: 50px 0;
 }
 .salary-calculation {
   background: rgba(254, 240, 233, 0.6);
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 .great-experience {
-  padding-top: 60px;
-  padding-bottom: 6%;
+  padding: 50px 0;
 }
 .labor-contract {
   background: rgba(254, 240, 233, 0.6);
-  padding-top: 40px;
-  padding-bottom: 60px;
+  padding: 50px 0;
 }
 
 /* Banner chia cắt */
@@ -447,17 +461,23 @@ ul li {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-bottom: 50px;
+  padding-top: 30px;
 }
 .banner-seperation-content {
   position: absolute;
+  left: 16%;
 }
 .banner-seperation-text {
   color: #fff;
   font-family: Nunito Sans;
-  font-size: 20px;
+  font-size: 15px;
   font-style: normal;
-  font-weight: 800;
-  line-height: 197%; /* 39.4px */
+  font-weight: 600;
+  width: 75%;
+  text-align: justify;
+  line-height: 20px; /* 133.333% */
+  margin-bottom: 20px;
 }
 .banner-seperation-btn {
   display: inline-flex;
@@ -467,28 +487,34 @@ ul li {
   gap: 10px;
   border-radius: 8px;
   background: #fff;
-  margin-top: 50px;
 }
 .loadmore-btn-fix {
+  display: inline-flex;
+  padding: 10px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 100000px;
+  background: #fff;
+
+  /* 5 */
+  box-shadow: -1px 9px 10px 0px rgba(41, 81, 160, 0.2);
   font-family: Nunito Sans;
   font-size: 16px;
   font-style: normal;
   font-weight: 800;
   line-height: 150%; /* 24px */
-  background: var(
-    --gradient,
-    linear-gradient(322deg, #f15922 0%, #f6921e 100%)
-  );
+  color: orangered;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  border: none;
+  margin-top: 20px;
 }
 
 /* Câu chuyện khách hàng */
 #hrm_customer_stories {
   background: #fef0e9;
-  padding-bottom: 40px;
+  padding-bottom: 50px;
 }
 .customer-box {
   width: 344px;
@@ -568,7 +594,6 @@ ul li {
   min-height: 788px;
   flex-shrink: 0;
   border-radius: 16px;
-  padding: 20px 0;
   background: #fef0e9;
 }
 .customer_stories_background img {
@@ -648,8 +673,7 @@ ul li {
 }
 /* Khách hàng tiêu biểu */
 #hrm_signature_customer {
-  padding-top: 20px;
-  padding-bottom: 60px;
+  padding-bottom: 50px;
 }
 .brand-list {
   display: flex;
@@ -685,13 +709,12 @@ ul li {
   font-family: Nunito Sans;
   font-size: 30px;
   font-style: normal;
-  font-weight: 800;
+  font-weight: 650;
   display: flex;
   align-items: center;
-  padding-top: 40px;
-  margin-bottom: 60px;
+  padding-top: 55px;
+  margin-bottom: 20px;
   position: relative;
-  text-transform: uppercase;
 }
 .hrm-title img {
   width: 61px;
@@ -699,11 +722,11 @@ ul li {
   margin-left: 10px;
 }
 .hrm-sub-title {
-  color: var(--gray-2, #263856);
+  color: var(--Blue2, #2951a0);
   font-family: Nunito Sans;
-  font-size: 24px;
+  font-size: 20px;
   font-style: normal;
-  font-weight: 800;
+  font-weight: 600;
   line-height: 211%; /* 50.64px */
   text-align: center;
   margin-bottom: 60px;
@@ -823,12 +846,12 @@ ul li {
   width: 100%;
 }
 .typeOfHrm {
-  color: #263856;
+  color: var(--Blue2, #2951a0);
   text-align: center;
   font-family: Nunito Sans;
   font-size: 20px;
   font-style: normal;
-  font-weight: 800;
+  font-weight: 650;
   line-height: 150%; /* 30px */
 }
 .showing-detail {
@@ -840,13 +863,13 @@ ul li {
   box-shadow: 8px 8px 11px 0px rgba(23, 45, 88, 0.1);
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
 }
 .specific-price {
   text-align: center;
   font-family: Nunito Sans;
-  font-size: 36px;
+  font-size: 24px;
   font-style: normal;
   font-weight: 800;
   line-height: 150%; /* 54px */
@@ -855,13 +878,13 @@ ul li {
   -webkit-background-clip: text;
 }
 .vnd {
-  color: #516078;
+  color: #172d58;
   text-align: center;
   font-family: Nunito Sans;
-  font-size: 20px;
+  font-size: 16px;
   font-style: normal;
-  font-weight: 800;
-  line-height: 150%; /* 30px */
+  font-weight: 450;
+  line-height: 150%;
 }
 .type {
   color: #172d58;
@@ -903,9 +926,9 @@ ul li {
   font-family: Nunito Sans;
   font-size: 20px;
   font-style: italic;
-  font-weight: 800;
-  line-height: 150%; /* 30px */
-  margin-top: 50px;
+  /* font-weight: 800; */
+  line-height: 150%;
+  margin-top: 32px;
 }
 .note {
   margin-top: 48px;
@@ -924,13 +947,13 @@ ul li {
 }
 /* Đăng ký tư vấn */
 #hrm_consulation_register {
-  padding-top: 60px;
+  padding-top: 55px;
 }
 .form-register {
   border-radius: 32px;
   background: var(--Blue2, #2951a0);
   padding: 0 120px;
-  padding-bottom: 120px;
+  padding-bottom: 60px;
 }
 #hrm_form_register {
   padding: 0 60px;
@@ -939,7 +962,7 @@ ul li {
   border: 1px solid var(--gray-4, #9ba3b1);
   background: #fff;
   box-shadow: 0px 0px 7px 0px rgba(17, 34, 67, 0.2);
-  padding-top: 52px;
+  padding-top: 20px;
   padding-bottom: 40px;
 }
 .form-title {
@@ -950,6 +973,16 @@ ul li {
   font-style: normal;
   font-weight: 800;
   line-height: 211%; /* 42.2px */
+  margin-bottom: 20px;
+}
+.form-title16 {
+  color: var(--gray-1, #151f2f);
+  text-align: center;
+  font-family: Nunito Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 211%; /* 33.76px */
   margin-bottom: 20px;
 }
 .form-label {
@@ -982,7 +1015,7 @@ ul li {
 
 /* Câu hỏi thường gặp */
 .click-question {
-  font-size: 13px !important;
+  font-size: 16px !important;
 }
 #hrm_question {
 }
@@ -1008,7 +1041,7 @@ ul li {
 .the-answer {
   color: #000;
   font-family: Nunito Sans;
-  font-size: 13px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 600;
   line-height: 211%; /* 33.76px */
@@ -1020,8 +1053,7 @@ ul li {
 }
 /* Kỹ năng quản trị nhân sự chuyên sâu */
 #hrm_advance_hrm {
-  padding-top: 90px;
-  padding-bottom: 74px;
+  padding-bottom: 50px;
 }
 .news-thumbnail {
   margin-bottom: 12px;
@@ -1078,8 +1110,8 @@ ul li {
 /* Footer */
 footer {
   background: #ad3800;
-  padding-top: 80px;
-  padding-bottom: 50px;
+  padding-top: 50px;
+  padding-bottom: 25px;
 }
 .footer-logo {
   margin-bottom: 34px;
@@ -1292,9 +1324,8 @@ footer {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  margin-top: 120px;
+  /* margin-top: 120px; */
   position: relative;
-  text-transform: uppercase;
 }
 .pi_seperation-fix {
   width: 350px;
@@ -1305,11 +1336,11 @@ footer {
   bottom: 0;
 }
 .pi-subtitle {
-  color: var(--gray-2, #263856);
+  color: var(--Blue2, #2951a0);
   font-family: Nunito Sans;
-  font-size: 24px;
+  font-size: 20px;
   font-style: normal;
-  font-weight: 800;
+  font-weight: 600;
   line-height: 211%; /* 50.64px */
   display: flex;
   justify-content: center;
@@ -1320,7 +1351,7 @@ footer {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  min-height: 220px;
+  min-height: 168px;
   flex-shrink: 0;
   border-radius: 8px;
   border: 1px solid #bdc9e2;
@@ -1336,17 +1367,16 @@ footer {
   color: var(--gray-2, #263856);
   text-align: center;
   font-family: Nunito Sans;
-  font-size: 20px;
+  font-size: 16px;
   font-style: normal;
-  font-weight: 800;
   line-height: 184%; /* 36.8px */
 }
 .pi_title-blue {
-  color: var(--Blue1, #172d58);
+  color: var(--orange-2, #f26522);
   font-family: Nunito Sans;
   font-size: 24px;
   font-style: normal;
-  font-weight: 800;
+  font-weight: 650;
   line-height: 184%; /* 58.88px */
 }
 .pi_title-orange {
@@ -1363,6 +1393,9 @@ footer {
 .mt-20 {
   margin-top: 20px;
 }
+.mt-40 {
+  margin-top: 40px;
+}
 .pi_sub-title-blue {
   color: var(--Blue1, #172d58);
   font-family: Nunito Sans;
@@ -1370,22 +1403,20 @@ footer {
   font-style: normal;
   font-weight: 600;
   line-height: 184%; /* 36.8px */
-  margin-bottom: 60px;
 }
 .pi_question-row {
   margin-top: 24px;
   border-bottom: 2px solid #bdc9e2;
-  padding-bottom: 24px;
 }
 .pi_the-answer {
   display: none;
 }
 .pi_the-question {
-  color: var(--gray-1, #151f2f);
+  color: var(--Blue2, #2951a0);
   font-family: Nunito Sans;
-  font-size: 20px;
+  font-size: 16px;
   font-style: normal;
-  font-weight: 800;
+  font-weight: 600;
   line-height: 184%; /* 36.8px */
 }
 .pi_the-question:hover,
@@ -1393,12 +1424,12 @@ footer {
   cursor: pointer;
 }
 .personal-overall {
-  width: 100%;
+  width: 90%;
 }
 .pi_answer-detail {
   color: var(--gray-1, #151f2f);
   font-family: Nunito Sans;
-  font-size: 16px;
+  font-size: 15px;
   font-style: normal;
   font-weight: 600;
   line-height: 184%; /* 29.44px */
@@ -1408,7 +1439,7 @@ footer {
   align-items: center;
 }
 .pi_features {
-  padding: 40px 0;
+  padding: 50px 0;
 }
 .pi_banner-middle {
   position: relative;
@@ -1553,20 +1584,22 @@ footer {
 
 /* Staff Management */
 .sm_title-blue {
+  width: 90%;
   color: var(--Blue1, #172d58);
   font-family: Nunito Sans;
   font-size: 24px;
   font-style: normal;
   font-weight: 800;
   line-height: 184%; /* 58.88px */
+  text-align: justify;
 }
 .textt {
-  color: var(--Blue1, #172d58);
+  color: var(--Blue2, #2951a0);
   text-align: center;
   font-family: Nunito Sans;
   font-size: 20px;
   font-style: normal;
-  font-weight: 800;
+  font-weight: 600;
   line-height: 211%; /* 42.2px */
 }
 .iconn {
@@ -1580,27 +1613,25 @@ footer {
   font-style: normal;
   font-weight: 800;
   line-height: 176.4%; /* 42.336px */
-  margin-bottom: 50px;
-  margin-top: 15%;
+  margin-bottom: 20px;
 }
 .auto-srm-featured {
   display: flex;
   align-items: center;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .esi_featured_subtext {
-  color: #000;
+  color: var(--Blue2, #2951a0);
   text-align: center;
   font-family: Nunito Sans;
   font-size: 16px;
   font-style: normal;
-  font-weight: 800;
+  font-weight: 600;
   line-height: 160%; /* 25.6px */
   margin-top: 24px;
 }
 .esi_banner {
-  margin-top: 60px;
   position: relative;
 }
 .esi_banner_text {
@@ -1616,7 +1647,7 @@ footer {
 }
 #esi_form_register {
   background: var(--Blue2, #2951a0);
-  padding: 60px 0;
+  padding: 50px 0;
 }
 .esi_form_title {
   color: #fff;
@@ -1626,6 +1657,7 @@ footer {
   font-weight: 800;
   line-height: 184%; /* 58.88px */
   text-align: center;
+  margin-bottom: 30px;
 }
 .esi_form_subtitle {
   color: #fff;
@@ -1640,18 +1672,18 @@ footer {
 .bahaiba {
   color: #fff;
   font-family: Nunito Sans;
-  font-size: 48px;
+  font-size: 43px;
   font-style: normal;
   font-weight: 800;
-  line-height: 184%;
 }
+
 .esi-form {
   border-radius: 21px;
   background: #fff;
-  padding: 32px 58px;
+  padding: 30px 40px;
 }
 .esi-form-title {
-  color: var(--gray-2, #263856);
+  color: var(--Blue2, #2951a0);
   font-family: Nunito Sans;
   font-size: 20px;
   font-style: normal;
@@ -1660,7 +1692,6 @@ footer {
   text-align: center;
 }
 .esi-form-element {
-  margin-top: 24px;
 }
 .esi-form-element input {
   padding: 8px 8px 8px 16px;
@@ -1857,4 +1888,190 @@ footer {
   font-weight: 800;
   line-height: 211%;
   /* 33.76px */
+}
+
+/* Easyhrm Standard */
+#standard {
+}
+.standard-title {
+  color: var(--orange-2, #f26522);
+  font-family: Nunito Sans;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 650;
+  line-height: 176.4%; /* 56.448px */
+  text-align: center;
+}
+.standard-title-first {
+  color: var(--orange-2, #f26522);
+  font-family: Nunito Sans;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 176.4%; /* 56.448px */
+  text-align: center;
+}
+
+.standard-sub-title {
+  color: var(--Blue2, #2951a0);
+  text-align: center;
+  font-family: Nunito Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 176.4%; /* 31.752px */
+}
+.standard-list-button {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-evenly; */
+  /* align-items: center; */
+  /* margin-top: 10px; */
+  /* padding: 0 15%; */
+  /* margin-bottom: 50px; */
+  position: fixed;
+  bottom: 10%;
+  right: 0;
+  z-index: 99;
+  min-height: 120px;
+  justify-content: space-evenly;
+}
+.standard-active {
+  display: inline-flex;
+  width: 100%;
+  padding: 5px 30px;
+  align-items: center;
+  gap: 8px;
+  border-radius: 36px;
+  background: var(
+    --gradient,
+    linear-gradient(287deg, #f15922 12.78%, #f6921e 95.8%)
+  );
+
+  /* 4 */
+  box-shadow: -1px 9px 10px 0px rgba(241, 89, 34, 0.2);
+  color: #fff;
+  font-family: Nunito Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 176.4%; /* 31.752px */
+}
+.standard-active2 {
+  display: inline-flex;
+  padding: 5px 30px;
+  align-items: center;
+  gap: 8px;
+  border-radius: 36px;
+  background: var(
+    --gradient,
+    linear-gradient(287deg, #f15922 12.78%, #f6921e 95.8%)
+  );
+
+  /* 4 */
+  box-shadow: -1px 9px 10px 0px rgba(241, 89, 34, 0.2);
+  color: #fff;
+  font-family: Nunito Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 176.4%; /* 31.752px */
+}
+#standard_featured {
+  padding: 50px 0;
+}
+.standard-hide {
+  width: 100%;
+  display: inline-flex;
+  padding: 5px 30px;
+  align-items: center;
+  gap: 8px;
+  border-radius: 36px;
+  background: var(--blue5, #eaeef6);
+  color: #000;
+  font-family: Nunito Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 176.4%; /* 31.752px */
+}
+.standard-hide2 {
+  display: inline-flex;
+  padding: 5px 30px;
+  align-items: center;
+  gap: 8px;
+  border-radius: 36px;
+  background: var(--blue5, #eaeef6);
+  color: #000;
+  font-family: Nunito Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 176.4%; /* 31.752px */
+}
+.standard-list-button-header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 20px 0;
+  padding: 0 26%;
+}
+.standard-featured-box {
+  border-radius: 16px;
+  border: 1px solid #bdc9e2;
+  background: #fff;
+  margin-bottom: 20px;
+
+  /* 1 */
+  box-shadow: 8px 8px 11px 0px rgba(23, 45, 88, 0.2);
+  padding: 21px 24px;
+}
+.featured-heading {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.featured-heading-icon {
+}
+.featured-heading-text {
+  color: var(--Blue2, #2951a0);
+  font-family: Nunito Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 176.4%; /* 31.752px */
+}
+.featured-content {
+  color: var(--Blue1, #172d58);
+  font-family: Nunito Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 176.4%; /* 26.46px */
+}
+#standard_price {
+  background: #fef6f2;
+  padding: 50px 0;
+}
+.standard-expired {
+  margin-bottom: 10%;
+}
+.standard-title-form {
+  color: #fff;
+  text-align: center;
+  font-family: Nunito Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 173.5%; /* 41.64px */
+  padding-top: 40px;
+}
+.standard-ref2 {
+  color: #fff;
+  text-align: center;
+  font-family: Nunito Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%; /* 25.6px */
 }

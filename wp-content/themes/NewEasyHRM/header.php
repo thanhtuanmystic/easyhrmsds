@@ -99,6 +99,10 @@
         font-weight: 700;
     }
 
+    nav .navbar .links li a:hover {
+        color: orangered;
+    }
+
     .links li:hover .htmlcss-arrow,
     .links li:hover .js-arrow {
         transform: rotate(180deg);
@@ -146,7 +150,7 @@
     }
 
     .navbar .links li .sub-menu a:hover {
-        color: red;
+        color: orangered;
     }
 
     .navbar .links li .sub-menu .more-arrow {
@@ -287,7 +291,7 @@
             top: 0;
             left: -100%;
             display: block;
-            max-width: 270px;
+            /* max-width: 270px; */
             width: 100%;
             background: #3E8DA8;
             line-height: 40px;
@@ -304,6 +308,7 @@
         }
 
         .sidebar-logo .logo-name {
+            width: 50%;
             font-size: 25px;
             color: #fff;
         }
@@ -414,7 +419,9 @@
                             src="https://easyhrm.vn/wp-content/uploads/2023/02/A5.png" alt=""></a></div>
                 <div class="nav-links">
                     <div class="sidebar-logo">
-                        <span class="logo-name">Logo</span>
+                        <span class="logo-name">
+                            <img style="width: 100%" src="https://easyhrm.vn/wp-content/uploads/2023/02/A5.png" alt="">
+                        </span>
                         <i class='bx bx-x'><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                 viewBox="0 0 24 24">
                                 <path fill="currentColor"
@@ -432,34 +439,34 @@
                             </i>
                             <ul class="htmlCss-sub-menu sub-menu">
                                 <li class="more">
-                                    <span><a href="#">EasyHRM Standard</a>
-                                        <i class='bx bxs-chevron-right arrow more-arrow'>
+                                    <span><a href="https://easyhrm.vn/easyhrm-standard/">EasyHRM Standard</a>
+                                        <!-- <i class='bx bxs-chevron-right arrow more-arrow'>
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24">
                                                 <path fill="currentColor"
                                                     d="M10.707 17.707L16.414 12l-5.707-5.707l-1.414 1.414L13.586 12l-4.293 4.293z" />
                                             </svg>
-                                        </i>
+                                        </i> -->
                                     </span>
-                                    <ul class="more-sub-menu sub-menu">
+                                    <!-- <ul class="more-sub-menu sub-menu">
                                         <li><a href="https://easyhrm.vn/personal-information/">EasyHRM thông tin nhân
                                                 sự</a></li>
                                         <li><a href="https://easyhrm.vn/staff-management/">EasyHRM nhân viên</a></li>
                                         <li><a href="https://easyhrm.vn/e-social-insurance/">EasyHRM bảo hiểm xã hội
                                                 điện tử</a></li>
-                                    </ul>
+                                    </ul> -->
                                 </li>
                                 <li class="more">
                                     <span><a href="#">EasyHRM Premium</a>
-                                        <i class='bx bxs-chevron-right arrow more-arrow'>
+                                        <!-- <i class='bx bxs-chevron-right arrow more-arrow'>
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24">
                                                 <path fill="currentColor"
                                                     d="M10.707 17.707L16.414 12l-5.707-5.707l-1.414 1.414L13.586 12l-4.293 4.293z" />
                                             </svg>
-                                        </i>
+                                        </i> -->
                                     </span>
-                                    <ul class="more-sub-menu sub-menu">
+                                    <!-- <ul class="more-sub-menu sub-menu">
                                         <li><a href="#">EasyHRM thông tin nhân
                                                 sự</a></li>
                                         <li><a href="#">EasyHRM nhân viên</a></li>
@@ -468,7 +475,7 @@
                                         <li><a href="#">EasyHRM quản lý, phê duyệt chấm công</a></li>
                                         <li><a href="#">EasyHRM tiền lương</a></li>
 
-                                    </ul>
+                                    </ul> -->
                                 </li>
                                 <li class="more">
                                     <span><a href="#">EasyHRM HĐLĐ Điện tử</a>
