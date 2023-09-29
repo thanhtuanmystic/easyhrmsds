@@ -147,7 +147,7 @@ Template name: EasyHRM Standard
         <div class="container">
             <div class="standard-title">Dễ dàng quản lý hồ sơ số</div>
             <div class="center-row">
-                <img style="width: 50%;" src="https://easyhrm.vn/wp-content/uploads/2023/09/Group-33857.png" alt="">
+                <img style="width: 50%;" src="https://easyhrm.vn/wp-content/uploads/2023/09/Group-395.png" alt="">
             </div>
         </div>
     </section>
@@ -308,7 +308,7 @@ Template name: EasyHRM Standard
                 <div class="item-box">
                     <div class="content-box">
                         <div class="pi_title-blue">
-                            03 Quản lý hợp đồng số tối ưu
+                            03 Trực tiếp giám sát, theo dõi hồ sơ cá nhân
                         </div>
                         <div class="personal-overall">
                             <?php
@@ -346,7 +346,34 @@ Template name: EasyHRM Standard
                             ?>
                         </div>
                     </div>
+                    <div class="img-box">
 
+                        <body>
+                            <div class="swiper mySwiper">
+                                <div class="swiper-wrapper">
+                                    <div style="width: auto !important" class="swiper-slide">
+                                        <img style="height: auto; width: auto"
+                                            src="https://easyhrm.vn/wp-content/uploads/2023/09/Group-33852.png" alt="">
+                                    </div>
+                                    <div style="width: auto !important" class="swiper-slide">
+                                        <img style="height: auto; width: auto"
+                                            src="https://easyhrm.vn/wp-content/uploads/2023/09/Group-33848.png" alt="">
+                                    </div>
+
+
+                                </div>
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+
+                            </div>
+                        </body>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pi_features" style="background: rgba(254, 240, 233, 0.60);">
+            <div class="container">
+                <div class="item-box">
                     <div class="img-box">
 
                         <body>
@@ -365,10 +392,50 @@ Template name: EasyHRM Standard
                             </div>
                         </body>
                     </div>
+                    <div class="content-box">
+                        <div class="pi_title-blue">
+                            04 Quản lý hợp đồng số tối ưu
+                        </div>
+                        <div class="personal-overall">
+                            <?php
+                            if (have_rows('nv_pi_list_question_04', 'option')):
+                                while (have_rows('nv_pi_list_question_04', 'option')):
+                                    the_row(); ?>
+                                    <div class="pi_question-row">
+                                        <div class="row center-row">
+                                            <div class="col-md-12">
+                                                <div style="text-align: left" class="pi_the-question pi_click-question">
+                                                    <?php echo get_sub_field('pi_question', 'option') ?>
+                                                </div>
+                                            </div>
+                                            <!-- <div class="col-md-1 openclose">
+                                                <img src="https://easyhrm.vn/wp-content/uploads/2023/08/tabler_caret-down-filled-1.png"
+                                                    alt="" />
+                                            </div> -->
+                                        </div>
+                                        <div class="pi_the-answer">
+                                            <?php if (have_rows('pi_answer', 'option')):
+                                                while (have_rows('pi_answer', 'option')):
+                                                    the_row(); ?>
+                                                    <li class="pi_answer-detail">
+                                                        <?php echo get_sub_field('pi_answer_detail', 'option') ?>
+                                                    </li>
+                                                    <?php
+                                                endwhile;
+                                            endif;
+                                            ?>
+                                        </div>
+                                    </div>
+                                    <?php
+                                endwhile;
+                            endif;
+                            ?>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
-
     </section>
     <section style="padding-bottom: 50px" id="sm_auto_staff_report_management">
         <div class="container">
@@ -498,12 +565,15 @@ Template name: EasyHRM Standard
                                     the_row(); ?>
                                     <div class="pi_question-row">
                                         <div class="row center-row">
-                                            <div class="col-md-12">
+                                            <div class="col-md-11">
                                                 <div style="text-align: left" class="pi_the-question pi_click-question">
                                                     <?php echo get_sub_field('pi_question', 'option') ?>
                                                 </div>
                                             </div>
-
+                                            <div class="col-md-1 openclose">
+                                                <img src="https://easyhrm.vn/wp-content/uploads/2023/08/tabler_caret-down-filled-1.png"
+                                                    alt="" />
+                                            </div>
                                         </div>
                                         <div class="pi_the-answer">
                                             <?php if (have_rows('pi_answer', 'option')):
@@ -597,12 +667,15 @@ Template name: EasyHRM Standard
                                     the_row(); ?>
                                     <div class="pi_question-row">
                                         <div class="row center-row">
-                                            <div class="col-md-12">
+                                            <div class="col-md-11">
                                                 <div style="text-align: left" class="pi_the-question pi_click-question">
                                                     <?php echo get_sub_field('pi_question', 'option') ?>
                                                 </div>
                                             </div>
-
+                                            <div class="col-md-1 openclose">
+                                                <img src="https://easyhrm.vn/wp-content/uploads/2023/08/tabler_caret-down-filled-1.png"
+                                                    alt="" />
+                                            </div>
                                         </div>
                                         <div class="pi_the-answer">
                                             <?php if (have_rows('pi_answer', 'option')):
@@ -661,10 +734,14 @@ Template name: EasyHRM Standard
                                     the_row(); ?>
                                     <div class="pi_question-row">
                                         <div class="row center-row">
-                                            <div class="col-md-12">
+                                            <div class="col-md-11">
                                                 <div style="text-align: left" class="pi_the-question pi_click-question">
                                                     <?php echo get_sub_field('pi_question', 'option') ?>
                                                 </div>
+                                            </div>
+                                            <div class="col-md-1 openclose">
+                                                <img src="https://easyhrm.vn/wp-content/uploads/2023/08/tabler_caret-down-filled-1.png"
+                                                    alt="" />
                                             </div>
                                         </div>
                                         <div class="pi_the-answer">
@@ -741,12 +818,15 @@ Template name: EasyHRM Standard
                                     the_row(); ?>
                                     <div class="pi_question-row">
                                         <div class="row center-row">
-                                            <div class="col-md-12">
+                                            <div class="col-md-11">
                                                 <div style="text-align: left" class="pi_the-question pi_click-question">
                                                     <?php echo get_sub_field('pi_question', 'option') ?>
                                                 </div>
                                             </div>
-
+                                            <div class="col-md-1 openclose">
+                                                <img src="https://easyhrm.vn/wp-content/uploads/2023/08/tabler_caret-down-filled-1.png"
+                                                    alt="" />
+                                            </div>
                                         </div>
                                         <div class="pi_the-answer">
                                             <?php if (have_rows('pi_answer', 'option')):
@@ -787,12 +867,15 @@ Template name: EasyHRM Standard
                                     the_row(); ?>
                                     <div class="pi_question-row">
                                         <div class="row center-row">
-                                            <div class="col-md-12">
+                                            <div class="col-md-11">
                                                 <div style="text-align: left" class="pi_the-question pi_click-question">
                                                     <?php echo get_sub_field('pi_question', 'option') ?>
                                                 </div>
                                             </div>
-
+                                            <div class="col-md-1 openclose">
+                                                <img src="https://easyhrm.vn/wp-content/uploads/2023/08/tabler_caret-down-filled-1.png"
+                                                    alt="" />
+                                            </div>
                                         </div>
                                         <div class="pi_the-answer">
                                             <?php if (have_rows('pi_answer', 'option')):
@@ -1145,9 +1228,7 @@ Template name: EasyHRM Standard
                             Tặng thêm <span class="time">6 tháng</span> sử dụng
                         </div>
 
-                        <a href="tel:  0916 825 201">
-                            <button class="loadmore-btn" style="">Tư vấn</button>
-                        </a>
+                        <button class="loadmore-btn" style="">Tư vấn</button>
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -1159,9 +1240,7 @@ Template name: EasyHRM Standard
                             Tặng thêm <span class="time">9 tháng</span> sử dụng
                         </div>
 
-                        <a href="tel:  0916 825 201">
-                            <button class="loadmore-btn" style="">Tư vấn</button>
-                        </a>
+                        <button class="loadmore-btn" style="">Tư vấn</button>
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -1173,9 +1252,7 @@ Template name: EasyHRM Standard
                             Tặng thêm <span class="time">12 tháng</span> sử dụng
                         </div>
 
-                        <a href="tel:  0916 825 201">
-                            <button class="loadmore-btn" style="">Tư vấn</button>
-                        </a>
+                        <button class="loadmore-btn" style="">Tư vấn</button>
                     </div>
                 </div>
             </div>
@@ -1193,9 +1270,7 @@ Template name: EasyHRM Standard
                             Tặng thêm <span class="time">6 tháng</span> sử dụng
                         </div>
 
-                        <a href="tel:  0916 825 201">
-                            <button class="loadmore-btn" style="">Tư vấn</button>
-                        </a>
+                        <button class="loadmore-btn" style="">Tư vấn</button>
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -1207,9 +1282,7 @@ Template name: EasyHRM Standard
                             Tặng thêm <span class="time">9 tháng</span> sử dụng
                         </div>
 
-                        <a href="tel:  0916 825 201">
-                            <button class="loadmore-btn" style="">Tư vấn</button>
-                        </a>
+                        <button class="loadmore-btn" style="">Tư vấn</button>
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -1221,9 +1294,7 @@ Template name: EasyHRM Standard
                             Tặng thêm <span class="time">12 tháng</span> sử dụng
                         </div>
 
-                        <a href="tel:  0916 825 201">
-                            <button class="loadmore-btn" style="">Tư vấn</button>
-                        </a>
+                        <button class="loadmore-btn" style="">Tư vấn</button>
                     </div>
                 </div>
             </div>
