@@ -10,7 +10,7 @@ Template name: EasyHRM Standard
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                 <path
                     d="M12.5 2.75C12.5 2.55109 12.421 2.36032 12.2803 2.21967C12.1397 2.07902 11.9489 2 11.75 2C11.5511 2 11.3603 2.07902 11.2197 2.21967C11.079 2.36032 11 2.55109 11 2.75V3H5.25C4.38805 3 3.5614 3.34241 2.9519 3.9519C2.34241 4.5614 2 5.38805 2 6.25V15.75C2 16.612 2.34241 17.4386 2.9519 18.0481C3.5614 18.6576 4.38805 19 5.25 19H7.648L6.173 20.77C6.0457 20.9229 5.98434 21.1201 6.00244 21.3182C6.02054 21.5164 6.1166 21.6992 6.2695 21.8265C6.4224 21.9538 6.6196 22.0152 6.81774 21.9971C7.01587 21.979 7.1987 21.8829 7.326 21.73L9.6 19H13.108C13.442 17.844 14.508 17 15.772 17H16.049C15.6371 16.596 15.3316 16.0964 15.1594 15.5458C14.9873 14.9951 14.9539 14.4104 15.0624 13.8438C15.1708 13.2771 15.4176 12.746 15.7808 12.2978C16.1441 11.8496 16.6125 11.4981 17.1444 11.2747C17.6763 11.0512 18.2552 10.9627 18.8296 11.017C19.404 11.0714 19.956 11.2668 20.4366 11.5861C20.9172 11.9053 21.3114 12.3384 21.5841 12.8467C21.8569 13.3551 21.9998 13.9231 22 14.5V6.25C22 5.8232 21.9159 5.40059 21.7526 5.00628C21.5893 4.61197 21.3499 4.25369 21.0481 3.9519C20.7463 3.65011 20.388 3.41072 19.9937 3.24739C19.5994 3.08406 19.1768 3 18.75 3H12.5V2.75ZM6 7.75C6 7.55109 6.07902 7.36032 6.21967 7.21967C6.36032 7.07902 6.55109 7 6.75 7H10.75C10.9489 7 11.1397 7.07902 11.2803 7.21967C11.421 7.36032 11.5 7.55109 11.5 7.75C11.5 7.94891 11.421 8.13968 11.2803 8.28033C11.1397 8.42098 10.9489 8.5 10.75 8.5H6.75C6.55109 8.5 6.36032 8.42098 6.21967 8.28033C6.07902 8.13968 6 7.94891 6 7.75ZM6.75 10H13.25C13.4489 10 13.6397 10.079 13.7803 10.2197C13.921 10.3603 14 10.5511 14 10.75C14 10.9489 13.921 11.1397 13.7803 11.2803C13.6397 11.421 13.4489 11.5 13.25 11.5H6.75C6.55109 11.5 6.36032 11.421 6.21967 11.2803C6.07902 11.1397 6 10.9489 6 10.75C6 10.5511 6.07902 10.3603 6.21967 10.2197C6.36032 10.079 6.55109 10 6.75 10ZM6.75 13H12.25C12.4489 13 12.6397 13.079 12.7803 13.2197C12.921 13.3603 13 13.5511 13 13.75C13 13.9489 12.921 14.1397 12.7803 14.2803C12.6397 14.421 12.4489 14.5 12.25 14.5H6.75C6.55109 14.5 6.36032 14.421 6.21967 14.2803C6.07902 14.1397 6 13.9489 6 13.75C6 13.5511 6.07902 13.3603 6.21967 13.2197C6.36032 13.079 6.55109 13 6.75 13ZM21 14.5C21 15.163 20.7366 15.7989 20.2678 16.2678C19.7989 16.7366 19.163 17 18.5 17C17.837 17 17.2011 16.7366 16.7322 16.2678C16.2634 15.7989 16 15.163 16 14.5C16 13.837 16.2634 13.2011 16.7322 12.7322C17.2011 12.2634 17.837 12 18.5 12C19.163 12 19.7989 12.2634 20.2678 12.7322C20.7366 13.2011 21 13.837 21 14.5ZM23 19.875C23 21.431 21.714 23 18.5 23C15.286 23 14 21.437 14 19.875V19.772C14 18.792 14.794 18 15.773 18H21.227C22.207 18 23 18.793 23 19.772V19.875Z"
-                    fill="#000" />
+                    fill="#172D58" />
             </svg>
             <div>Hồ sơ nhân sự</div>
         </div>
@@ -36,7 +36,64 @@ Template name: EasyHRM Standard
         </div>
     </a>
 </div>
+<style>
+    html,
+    body {
+        position: relative;
+        height: 100%;
+    }
 
+    .swiper {
+        height: 100%;
+    }
+
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+</style>
+<style>
+    .swiper-slide {
+        /* display: block !important; */
+        background: none;
+    }
+
+    /* .swiper-button-next,
+                                .swiper-button-prev {
+                                    top: 25%;
+                                }
+
+                                .swiper-button-next {
+                                    right: 16%;
+                                }
+
+                                @media (max-width: 1400px) {
+                                    .swiper-button-next {
+                                    right: 3%;
+                                }
+                                }
+
+                                .swiper-button-prev {
+                                    left: 0;
+                                } */
+
+    :root {
+        --swiper-navigation-size: 20px;
+    }
+
+    .swiper-slide {}
+</style>
 <section id="standard">
     <div class="container">
         <div class="standard-title-first">
@@ -97,7 +154,6 @@ Template name: EasyHRM Standard
         <div class="container">
             <div class="standard-title">
                 Mang đến trải nghiệm quản lý số cho nhân sự
-
             </div>
             <div class="pi-subtitle">
                 Cá nhân hóa trải nghiệm quản lý thông tin cá nhân, hồ sơ nhân sự tại doanh nghiệp
@@ -105,9 +161,8 @@ Template name: EasyHRM Standard
         </div>
         <div class="pi_features">
             <div class="container">
-                <div class="row">
-
-                    <div class="col-md-6">
+                <div class="item-box">
+                    <div class="content-box">
                         <div class="pi_title-blue">
                             01 Trực tiếp giám sát, theo dõi hồ sơ cá nhân
                         </div>
@@ -118,15 +173,15 @@ Template name: EasyHRM Standard
                                     the_row(); ?>
                                     <div class="pi_question-row">
                                         <div class="row center-row">
-                                            <div class="col-md-11">
+                                            <div class="col-md-12">
                                                 <div style="text-align: left" class="pi_the-question pi_click-question">
                                                     <?php echo get_sub_field('pi_question', 'option') ?>
                                                 </div>
                                             </div>
-                                            <div class="col-md-1 openclose">
+                                            <!-- <div class="col-md-1 openclose">
                                                 <img src="https://easyhrm.vn/wp-content/uploads/2023/08/tabler_caret-down-filled-1.png"
                                                     alt="" />
-                                            </div>
+                                            </div> -->
                                         </div>
                                         <div class="pi_the-answer">
                                             <?php if (have_rows('pi_answer', 'option')):
@@ -147,24 +202,63 @@ Template name: EasyHRM Standard
                             ?>
                         </div>
                     </div>
-                    <div class="col-md-6">
-                        <img style="width: 90%"
-                            src="https://easyhrm.vn/wp-content/uploads/2023/09/image_2023_09_13T03_11_47_271Z.png"
-                            alt="">
+                    <div class="img-box">
+
+                        <body>
+                            <div class="swiper mySwiper">
+                                <div class="swiper-wrapper">
+                                    <div style="width: auto !important" class="swiper-slide">
+                                        <img style="height: auto; width: auto"
+                                            src="https://easyhrm.vn/wp-content/uploads/2023/09/Group-33805.png" alt="">
+                                    </div>
+                                    <div style="width: auto !important" class="swiper-slide">
+                                        <img style="height: auto; width: auto"
+                                            src="https://easyhrm.vn/wp-content/uploads/2023/09/Group-33846.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+
+                            </div>
+                        </body>
                     </div>
                 </div>
             </div>
         </div>
         <div class="pi_features" style="background: rgba(254, 240, 233, 0.60);">
             <div class="container">
-                <div class="row">
+                <div class="item-box">
+                    <div class="img-box">
 
-                    <div class="col-md-6">
-                        <img style="width: 90%"
-                            src="https://easyhrm.vn/wp-content/uploads/2023/09/image_2023_09_13T03_11_47_271Z.png"
-                            alt="">
+                        <body>
+                            <div class="swiper mySwiper">
+                                <div class="swiper-wrapper">
+                                    <div style="width: auto !important" class="swiper-slide">
+                                        <img style="height: auto; width: auto"
+                                            src="https://easyhrm.vn/wp-content/uploads/2023/09/Group-33838.png" alt="">
+                                    </div>
+                                    <div style="width: auto !important" class="swiper-slide">
+                                        <img style="height: auto; width: auto"
+                                            src="https://easyhrm.vn/wp-content/uploads/2023/09/Group-33809-1.png"
+                                            alt="">
+                                    </div>
+                                    <div style="width: auto !important" class="swiper-slide">
+                                        <img style="height: auto; width: auto"
+                                            src="https://easyhrm.vn/wp-content/uploads/2023/09/Group-33813.png" alt="">
+                                    </div>
+                                    <div style="width: auto !important" class="swiper-slide">
+                                        <img style="height: auto; width: auto"
+                                            src="https://easyhrm.vn/wp-content/uploads/2023/09/Group-33814.png" alt="">
+                                    </div>
+
+                                </div>
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+
+                            </div>
+                        </body>
                     </div>
-                    <div class="col-md-6">
+                    <div class="content-box">
                         <div class="pi_title-blue">
                             02 Kiểm soát được quyền lợi, chế độ
                         </div>
@@ -175,15 +269,15 @@ Template name: EasyHRM Standard
                                     the_row(); ?>
                                     <div class="pi_question-row">
                                         <div class="row center-row">
-                                            <div class="col-md-11">
+                                            <div class="col-md-12">
                                                 <div style="text-align: left" class="pi_the-question pi_click-question">
                                                     <?php echo get_sub_field('pi_question', 'option') ?>
                                                 </div>
                                             </div>
-                                            <div class="col-md-1 openclose">
+                                            <!-- <div class="col-md-1 openclose">
                                                 <img src="https://easyhrm.vn/wp-content/uploads/2023/08/tabler_caret-down-filled-1.png"
                                                     alt="" />
-                                            </div>
+                                            </div> -->
                                         </div>
                                         <div class="pi_the-answer">
                                             <?php if (have_rows('pi_answer', 'option')):
@@ -210,9 +304,8 @@ Template name: EasyHRM Standard
         </div>
         <div class="pi_features">
             <div class="container">
-                <div class="row">
-
-                    <div class="col-md-6">
+                <div class="item-box">
+                    <div class="content-box">
                         <div class="pi_title-blue">
                             03 Trực tiếp giám sát, theo dõi hồ sơ cá nhân
                         </div>
@@ -223,15 +316,15 @@ Template name: EasyHRM Standard
                                     the_row(); ?>
                                     <div class="pi_question-row">
                                         <div class="row center-row">
-                                            <div class="col-md-11">
+                                            <div class="col-md-12">
                                                 <div style="text-align: left" class="pi_the-question pi_click-question">
                                                     <?php echo get_sub_field('pi_question', 'option') ?>
                                                 </div>
                                             </div>
-                                            <div class="col-md-1 openclose">
+                                            <!-- <div class="col-md-1 openclose">
                                                 <img src="https://easyhrm.vn/wp-content/uploads/2023/08/tabler_caret-down-filled-1.png"
                                                     alt="" />
-                                            </div>
+                                            </div> -->
                                         </div>
                                         <div class="pi_the-answer">
                                             <?php if (have_rows('pi_answer', 'option')):
@@ -252,25 +345,55 @@ Template name: EasyHRM Standard
                             ?>
                         </div>
                     </div>
-                    <div class="col-md-6">
-                        <img style="width: 90%"
-                            src="https://easyhrm.vn/wp-content/uploads/2023/09/image_2023_09_13T03_11_47_271Z.png"
-                            alt="">
+                    <div class="img-box">
+
+                        <body>
+                            <div class="swiper mySwiper">
+                                <div class="swiper-wrapper">
+                                    <div style="width: auto !important" class="swiper-slide">
+                                        <img style="height: auto; width: auto"
+                                            src="https://easyhrm.vn/wp-content/uploads/2023/09/Group-33852.png" alt="">
+                                    </div>
+                                    <div style="width: auto !important" class="swiper-slide">
+                                        <img style="height: auto; width: auto"
+                                            src="https://easyhrm.vn/wp-content/uploads/2023/09/Group-33848.png" alt="">
+                                    </div>
+
+
+                                </div>
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+
+                            </div>
+                        </body>
                     </div>
                 </div>
             </div>
         </div>
         <div class="pi_features" style="background: rgba(254, 240, 233, 0.60);">
             <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <img style="width: 90%"
-                            src="https://easyhrm.vn/wp-content/uploads/2023/09/image_2023_09_13T03_11_47_271Z.png"
-                            alt="">
+                <div class="item-box">
+                    <div class="img-box">
+
+                        <body>
+                            <div class="swiper mySwiper">
+                                <div class="swiper-wrapper">
+                                    <div style="width: auto !important" class="swiper-slide">
+                                        <img style="height: auto; width: auto"
+                                            src="https://easyhrm.vn/wp-content/uploads/2023/09/Group-33844.png" alt="">
+                                    </div>
+
+
+                                </div>
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+
+                            </div>
+                        </body>
                     </div>
-                    <div class="col-md-6">
+                    <div class="content-box">
                         <div class="pi_title-blue">
-                            04 Kiểm soát được quyền lợi, chế độ
+                            04 Quản lý hợp đồng số tối ưu
                         </div>
                         <div class="personal-overall">
                             <?php
@@ -279,15 +402,15 @@ Template name: EasyHRM Standard
                                     the_row(); ?>
                                     <div class="pi_question-row">
                                         <div class="row center-row">
-                                            <div class="col-md-11">
+                                            <div class="col-md-12">
                                                 <div style="text-align: left" class="pi_the-question pi_click-question">
                                                     <?php echo get_sub_field('pi_question', 'option') ?>
                                                 </div>
                                             </div>
-                                            <div class="col-md-1 openclose">
+                                            <!-- <div class="col-md-1 openclose">
                                                 <img src="https://easyhrm.vn/wp-content/uploads/2023/08/tabler_caret-down-filled-1.png"
                                                     alt="" />
-                                            </div>
+                                            </div> -->
                                         </div>
                                         <div class="pi_the-answer">
                                             <?php if (have_rows('pi_answer', 'option')):
@@ -316,11 +439,11 @@ Template name: EasyHRM Standard
     <section style="padding-bottom: 50px" id="sm_auto_staff_report_management">
         <div class="container">
             <div class="row center-row">
-                <div class="col-md-6 center-row">
+                <div class="col-md-6 col-lg-6 col-sm-12 center-row">
                     <img style="width: 60%"
                         src="https://easyhrm.vn/wp-content/uploads/2023/09/image_2023_09_14T03_56_06_783Z.png" alt="">
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 col-lg-6 col-sm-12">
                     <div style="" class="auto-srm-title">
                         EasyHRM giúp sếp tự động hóa quản trị hồ sơ nhân sự
                     </div>
@@ -426,8 +549,8 @@ Template name: EasyHRM Standard
         </div>
         <div class="pi_features">
             <div class="container">
-                <div class="row">
-                    <div class="col-md-6 ">
+                <div class="item-box">
+                    <div class="content-box">
                         <div class="pi_title-blue">
                             01 Tổng quan nhân sự doanh nghiệp
                         </div>
@@ -470,24 +593,64 @@ Template name: EasyHRM Standard
                             ?>
                         </div>
                     </div>
-                    <div class="col-md-6">
-                        <img style="width: 90%"
-                            src="https://easyhrm.vn/wp-content/uploads/2023/09/image_2023_09_13T03_11_47_271Z.png"
-                            alt="">
+                    <div class="img-box">                       
+                        <body>
+                            <div class="swiper mySwiper">
+                                <div class="swiper-wrapper">
+                                    <div style="width: auto !important" class="swiper-slide">
+                                        <img style="height: auto; width: auto"
+                                            src="https://easyhrm.vn/wp-content/uploads/2023/09/Group-33835.png" alt="">
+                                    </div>
+                                    <div style="width: auto !important" class="swiper-slide">
+                                        <img style="height: auto; width: auto"
+                                            src="https://easyhrm.vn/wp-content/uploads/2023/09/Group-33834.png" alt="">
+                                    </div>
+                                    <div style="width: auto !important" class="swiper-slide">
+                                        <img style="height: auto; width: auto"
+                                            src="https://easyhrm.vn/wp-content/uploads/2023/09/Group-33853.png" alt="">
+                                    </div>
+                                    
+                                </div>
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                            </div>
+                        </body>
                     </div>
                 </div>
             </div>
         </div>
         <div class="pi_features" style="background: rgba(254, 240, 233, 0.60);">
             <div class="container">
-                <div class="row">
-
-                    <div class="col-md-6">
-                        <img style="width: 90%"
-                            src="https://easyhrm.vn/wp-content/uploads/2023/09/image_2023_09_25T03_27_09_834Z.png"
-                            alt="">
+                <div class="item-box">
+                    <div class="img-box">
+                       
+                        <body>
+                            <div class="swiper mySwiper">
+                                <div class="swiper-wrapper">
+                                    <div style="width: auto !important" class="swiper-slide">
+                                        <img style="height: auto; width: auto"
+                                            src="https://easyhrm.vn/wp-content/uploads/2023/09/Group-33763-1.png" alt="">
+                                    </div>
+                                    <div style="width: auto !important" class="swiper-slide">
+                                        <img style="height: auto; width: auto"
+                                            src="https://easyhrm.vn/wp-content/uploads/2023/09/Group-33789.png" alt="">
+                                    </div>
+                                    <div style="width: auto !important" class="swiper-slide">
+                                        <img style="height: auto; width: auto"
+                                            src="https://easyhrm.vn/wp-content/uploads/2023/09/Group-33840.png" alt="">
+                                    </div>
+                                    <div style="width: auto !important" class="swiper-slide">
+                                        <img style="height: auto; width: auto"
+                                            src="https://easyhrm.vn/wp-content/uploads/2023/09/Group-33841.png" alt="">
+                                    </div>
+                                    
+                                </div>
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                            </div>
+                        </body>
                     </div>
-                    <div class="col-md-6">
+                    <div class="content-box">
                         <div class="pi_title-blue">
                             02 Hồ sơ nhân viên chi tiết
                         </div>
@@ -539,7 +702,7 @@ Template name: EasyHRM Standard
                 alt="" />
             <div style="margin-bottom: 7%;margin-left: 12%" class="container banner-seperation-content">
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-6 col-lg-6 col-sm-12">
                         <div>
                             <a target="_blank" href="#">
                                 <div class="" style="text-align: center; margin-top: 25%">
@@ -553,8 +716,8 @@ Template name: EasyHRM Standard
         </div>
         <div class="pi_features">
             <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
+                <div class="item-box">
+                    <div class="content-box">
                         <div class="pi_title-blue">
                             03 Ban hành quyết định nhanh chóng
                         </div>
@@ -597,24 +760,47 @@ Template name: EasyHRM Standard
                             ?>
                         </div>
                     </div>
-                    <div class="col-md-6">
-                        <img style="width: 90%"
-                            src="https://easyhrm.vn/wp-content/uploads/2023/09/image_2023_09_13T03_11_47_271Z.png"
-                            alt="">
+                    <div class="img-box">
+                 
+                        <body>
+                            <div class="swiper mySwiper">
+                                <div class="swiper-wrapper">
+                                    <div style="width: auto !important" class="swiper-slide">
+                                        <img style="height: auto; width: auto"
+                                            src="https://easyhrm.vn/wp-content/uploads/2023/09/Group-33836.png" alt="">
+                                    </div>
+                                    <div style="width: auto !important" class="swiper-slide">
+                                        <img style="height: auto; width: auto"
+                                            src="https://easyhrm.vn/wp-content/uploads/2023/09/Group-33788.png" alt="">
+                                    </div>                                                                     
+                                </div>
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                            </div>
+                        </body>
                     </div>
                 </div>
             </div>
         </div>
         <div class="pi_features" style="background: rgba(254, 240, 233, 0.60);">
             <div class="container">
-                <div class="row">
-
-                    <div class="col-md-6">
-                        <img style="width: 90%"
-                            src="https://easyhrm.vn/wp-content/uploads/2023/09/image_2023_09_13T03_11_47_271Z.png"
-                            alt="">
+                <div class="item-box">
+                    <div class="img-box">
+                      
+                        <body>
+                            <div class="swiper mySwiper">
+                                <div class="swiper-wrapper">
+                                    <div style="width: auto !important" class="swiper-slide">
+                                        <img style="height: auto; width: auto"
+                                            src="https://easyhrm.vn/wp-content/uploads/2023/09/Group-33786-1.png" alt="">
+                                    </div>                                                                      
+                                </div>
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                            </div>
+                        </body>
                     </div>
-                    <div class="col-md-6 ">
+                    <div class="content-box ">
                         <div class="pi_title-blue">
                             04 Phúc lợi & Phụ cấp minh bạch
                         </div>
@@ -657,14 +843,13 @@ Template name: EasyHRM Standard
                             ?>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
         <div class="pi_features">
             <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
+                <div class="item-box">
+                    <div class="content-box">
                         <div class="pi_title-blue">
                             05 Báo cáo & Thiết lập dễ dàng
                         </div>
@@ -707,10 +892,24 @@ Template name: EasyHRM Standard
                             ?>
                         </div>
                     </div>
-                    <div class="col-md-6">
-                        <img style="width: 90%"
-                            src="https://easyhrm.vn/wp-content/uploads/2023/09/image_2023_09_13T03_11_47_271Z.png"
-                            alt="">
+                    <div class="img-box">                      
+                        <body>
+                            <div class="swiper mySwiper">
+                                <div class="swiper-wrapper">
+                                    <div style="width: auto !important" class="swiper-slide">
+                                        <img style="height: auto; width: auto"
+                                            src="https://easyhrm.vn/wp-content/uploads/2023/09/Group-33787-1.png" alt="">
+                                    </div>
+                                    <div style="width: auto !important" class="swiper-slide">
+                                        <img style="height: auto; width: auto"
+                                            src="https://easyhrm.vn/wp-content/uploads/2023/09/Group-33792.png" alt="">
+                                    </div>                                 
+                                    
+                                </div>
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                            </div>
+                        </body>
                     </div>
                 </div>
             </div>
@@ -768,10 +967,10 @@ Template name: EasyHRM Standard
     <section id="esi_featured">
         <div class="pi_features">
             <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
+                <div class="item-box">
+                    <div class="content-box">
                         <div style="margin-bottom: 20px" class="pi_title-blue">
-                            Đăng ký, kê khai, nộp và nhận kết quả nghiệp vụ <br>
+                            Đăng ký, kê khai, nộp và nhận kết quả nghiệp vụ
                             BHXH trên nền tảng số
                         </div>
                         <div class="personal-overall">
@@ -798,10 +997,8 @@ Template name: EasyHRM Standard
 
                         </div>
                     </div>
-                    <div class="col-md-6">
-                        <img style="width: 90%"
-                            src="https://easyhrm.vn/wp-content/uploads/2023/09/image_2023_09_13T03_11_47_271Z.png"
-                            alt="">
+                    <div class="img-box">
+                        <img src="https://easyhrm.vn/wp-content/uploads/2023/09/Group-33819.png" alt="">
                     </div>
                 </div>
             </div>
@@ -829,13 +1026,11 @@ Template name: EasyHRM Standard
         </div> -->
         <div class="pi_features" style="background: rgba(254, 240, 233, 0.60);">
             <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <img style="width: 90%"
-                            src="https://easyhrm.vn/wp-content/uploads/2023/09/image_2023_09_13T03_11_47_271Z.png"
-                            alt="">
+                <div class="item-box">
+                    <div class="img-box">
+                        <img src="https://easyhrm.vn/wp-content/uploads/2023/09/Group-33828.png" alt="">
                     </div>
-                    <div class="col-md-6 ">
+                    <div class="content-box ">
                         <div style="margin-bottom: 20px" class="pi_title-blue">
                             Quản lý, lưu trữ và tra cứu các loại
                             hồ sơ, giấy tờ BHXH 1 cách dễ dàng
@@ -870,9 +1065,8 @@ Template name: EasyHRM Standard
         </div>
         <div class="pi_features">
             <div class="container">
-                <div class="row">
-
-                    <div class="col-md-6">
+                <div class="item-box">
+                    <div class="content-box">
                         <div style="margin-bottom: 20px" class="pi_title-blue">
                             Kiểm soát thu, chi BHXH của doanh nghiệp
                             và đối soát với BHXH Việt Nam
@@ -897,23 +1091,19 @@ Template name: EasyHRM Standard
 
                         </div>
                     </div>
-                    <div class="col-md-6">
-                        <img style="width: 90%"
-                            src="https://easyhrm.vn/wp-content/uploads/2023/09/image_2023_09_13T03_11_47_271Z.png"
-                            alt="">
+                    <div class="img-box">
+                        <img src="https://easyhrm.vn/wp-content/uploads/2023/09/Group-33829.png" alt="">
                     </div>
                 </div>
             </div>
         </div>
         <div class="pi_features" style="background: rgba(254, 240, 233, 0.60);">
             <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <img style="width: 90%"
-                            src="https://easyhrm.vn/wp-content/uploads/2023/09/image_2023_09_13T03_11_47_271Z.png"
-                            alt="">
+                <div class="item-box">
+                    <div class="img-box">
+                        <img src="https://easyhrm.vn/wp-content/uploads/2023/09/Group-33826.png" alt="">
                     </div>
-                    <div class="col-md-6">
+                    <div class="content-box">
                         <div style="margin-bottom: 20px" class="pi_title-blue">
                             Nâng cao trải nghiệm BHXH điện tử của
                             nhân viên, đảm bảo quyền lợi trong quá trình
@@ -947,7 +1137,7 @@ Template name: EasyHRM Standard
             Vì sao nên chọn EasyHRM Standard?
         </div>
         <div style="padding: 0px 12%; margin-top: 20px" class="row">
-            <div class="col-md-6">
+            <div class="col-md-6 col-lg-6 col-sm-12">
                 <div class="standard-featured-box">
                     <div class="featured-heading">
                         <div class="featured-heading-icon">
@@ -962,7 +1152,7 @@ Template name: EasyHRM Standard
                         đào tạo, phát triển nhân lực.</div>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 col-lg-6 col-sm-12">
                 <div class="standard-featured-box">
                     <div class="featured-heading">
                         <div class="featured-heading-icon">
@@ -972,39 +1162,39 @@ Template name: EasyHRM Standard
                             Tiết kiệm <span style="color: var(--orange-2, #F26522);">thời gian, chi phí</span>
                         </div>
                     </div>
-                    <div class="featured-content">Thay thế các thao tác nghiệp vụ thủ công, giúp HR có thêm
-                        nhiều thời gian tập trung nâng cao kỹ năng nghiệp vụ và
-                        đào tạo, phát triển nhân lực.</div>
+                    <div class="featured-content">Bất cứ nhân sự nào cũng có thể sử dụng chỉ với các thao tác
+                        thực hiện đơn giản, tinh giản hóa quản lý nhân sự với mức
+                        chi phí chỉ từ 33k mỗi tháng.</div>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 col-lg-6 col-sm-12">
                 <div class="standard-featured-box">
                     <div class="featured-heading">
                         <div class="featured-heading-icon">
                             <img src="https://easyhrm.vn/wp-content/uploads/2023/09/Group-283.png" alt="">
                         </div>
                         <div class="featured-heading-text">
-                            Tối ưu <span style="color: var(--orange-2, #F26522);">hiệu suất làm việc</span>
+                            Quản lý dữ liệu số <span style="color: var(--orange-2, #F26522);">dễ dàng</span>
                         </div>
                     </div>
-                    <div class="featured-content">Thay thế các thao tác nghiệp vụ thủ công, giúp HR có thêm
-                        nhiều thời gian tập trung nâng cao kỹ năng nghiệp vụ và
-                        đào tạo, phát triển nhân lực.</div>
+                    <div class="featured-content">Dữ liệu về hồ sơ nhân viên, văn bản hồ sơ được đồng bộ hóa,
+                        dễ dàng tìm kiếm, truy suất nhân chóng, tránh rủi ro thất lạc,
+                        mất mát.</div>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 col-lg-6 col-sm-12">
                 <div class="standard-featured-box">
                     <div class="featured-heading">
                         <div class="featured-heading-icon">
                             <img src="https://easyhrm.vn/wp-content/uploads/2023/09/Group-283.png" alt="">
                         </div>
                         <div class="featured-heading-text">
-                            Tối ưu <span style="color: var(--orange-2, #F26522);">hiệu suất làm việc</span>
+                            Bảo mật thông tin <span style="color: var(--orange-2, #F26522);">tuyệt đối</span>
                         </div>
                     </div>
-                    <div class="featured-content">Thay thế các thao tác nghiệp vụ thủ công, giúp HR có thêm
-                        nhiều thời gian tập trung nâng cao kỹ năng nghiệp vụ và
-                        đào tạo, phát triển nhân lực.</div>
+                    <div class="featured-content">Mọi thông tin về doanh nghiệp, cá nhân đều được bảo mật theo
+                        tiêu chuẩn ISO -270001 và Nghị định 117/2018/NĐ-CP
+                        của Chính phủ.</div>
                 </div>
             </div>
         </div>
@@ -1123,19 +1313,19 @@ Template name: EasyHRM Standard
             <form id="hrm_form_register">
                 <div class="form-title">ĐĂNG KÝ NHẬN TƯ VẤN MIỄN PHÍ</div>
                 <div class="row display_responsive">
-                    <div class="col-md-6 col-sm-12 form-element">
+                    <div class="col-md-6 col-lg-6 col-sm-12 col-sm-12 form-element">
                         <label for="" class="form-label">Họ tên</label>
                         <input type="text" class="form-control" placeholder="Ví dụ: Nguyễn Văn A" name="hoten" />
                     </div>
-                    <div class="col-md-6 col-sm-12 form-element">
+                    <div class="col-md-6 col-lg-6 col-sm-12 col-sm-12 form-element">
                         <label for="" class="form-label">Email</label>
                         <input type="text" class="form-control" placeholder="Ví dụ: Demo@softdreams.com" name="email" />
                     </div>
-                    <div class="col-md-6 col-sm-12 form-element">
+                    <div class="col-md-6 col-lg-6 col-sm-12 col-sm-12 form-element">
                         <label for="" class="form-label">Số điện thoại</label>
                         <input type="text" class="form-control" placeholder="Ví dụ: 0979686888" name="phonenumber" />
                     </div>
-                    <div class="col-md-6 col-sm-12 form-element">
+                    <div class="col-md-6 col-lg-6 col-sm-12 col-sm-12 form-element">
                         <label for="" class="form-label">Mã số thuế</label>
                         <input type="text" class="form-control" placeholder="Ví dụ: 135791113" name="taxcode" />
                     </div>
@@ -1155,10 +1345,10 @@ Template name: EasyHRM Standard
 
     <div class="container">
         <div class="row center-row">
-            <div class="col-md-6 center-row">
+            <div class="col-md-6 col-lg-6 col-sm-12 center-row">
                 <img src="https://easyhrm.vn/wp-content/uploads/2023/09/image_2023_09_19T07_39_44_324Z.png" alt="">
             </div>
-            <div class="col-md-6 center-row">
+            <div class="col-md-6 col-lg-6 col-sm-12 center-row">
                 <form style="width:70%" id="esi-form-register">
                     <div class="esi-form">
                         <div class="esi-form-title">
@@ -1403,4 +1593,14 @@ Template name: EasyHRM Standard
         });
     });
 
+</script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script>
+    var swiper = new Swiper(".mySwiper", {});
+    var swiper = new Swiper(".mySwiper", {
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+    });
 </script>

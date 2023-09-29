@@ -17,6 +17,7 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
     <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assets/css/style.css" />
     <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assets/css/animation.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
 
 
     <title>EasyHRM</title>
@@ -488,7 +489,7 @@
 
                         <li><a href="#">Khách hàng</a></li>
                         <li><a href="#">Cam kết</a></li>
-                        <li><a href="#">Nhà phân phối</a></li>
+                        <li><a target="_blank" href="https://app.easyhrm.vn/trial-registration">Nhà phân phối</a></li>
                         <li><a href="#">Tin tức</a></li>
                         <li><a href="#hrm_consulation_register">Liên hệ</a></li>
                     </ul>
