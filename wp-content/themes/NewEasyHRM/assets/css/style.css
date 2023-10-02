@@ -1218,6 +1218,9 @@ footer {
   .search-box {
     display: none !important;
   }
+  .standard-list-button-header {
+    padding: 0 !important;
+  }
 }
 @media screen and (max-width: 979px) {
   .img-box {
@@ -1228,6 +1231,10 @@ footer {
   }
 }
 @media (max-width: 1023px) {
+  .standard-active2,
+  .standard-hide2 {
+    padding: 12px 15px !important;
+  }
   .featured-box {
     height: 280px;
   }
@@ -1974,20 +1981,10 @@ footer {
   line-height: 176.4%; /* 31.752px */
 }
 .standard-list-button {
-  display: flex;
-  flex-direction: column;
-  /* justify-content: space-evenly; */
-  /* align-items: center; */
-  /* margin-top: 10px; */
-  /* padding: 0 15%; */
-  /* margin-bottom: 50px; */
-  position: fixed;
-  bottom: 10%;
-  right: 0;
-  z-index: 99;
-  min-height: 120px;
-  justify-content: space-evenly;
 }
+.standard-list-button a {
+}
+
 .standard-active {
   display: inline-flex;
   width: 100%;
@@ -2011,7 +2008,7 @@ footer {
 }
 .standard-active2 {
   display: inline-flex;
-  padding: 5px 30px;
+  padding: 15px 37px;
   align-items: center;
   gap: 8px;
   border-radius: 36px;
@@ -2024,9 +2021,9 @@ footer {
   box-shadow: -1px 9px 10px 0px rgba(241, 89, 34, 0.2);
   color: #fff;
   font-family: Nunito Sans;
-  font-size: 12px;
+  font-size: 18px;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   line-height: 176.4%; /* 31.752px */
 }
 #standard_featured {
@@ -2040,26 +2037,34 @@ footer {
   gap: 8px;
   border-radius: 36px;
   background: var(--blue5, #eaeef6);
-  color: #000;
+  color: var(--Blue2, #2951a0);
   font-family: Nunito Sans;
   font-size: 12px;
   font-style: normal;
   font-weight: bold;
   line-height: 176.4%; /* 31.752px */
 }
+/* .standard-hide:hover {
+  padding: 5px 30px;
+
+} */
 .standard-hide2 {
   display: inline-flex;
-  padding: 5px 30px;
+  padding: 15px 37px;
   align-items: center;
   gap: 8px;
   border-radius: 36px;
   background: var(--blue5, #eaeef6);
-  color: #000;
+  color: var(--Blue2, #2951a0);
   font-family: Nunito Sans;
-  font-size: 12px;
+  font-size: 18px;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   line-height: 176.4%; /* 31.752px */
+}
+.standard-hide2:hover {
+  color: var(--Blue1, #172d58);
+  box-shadow: 3px 3px 7px 0px rgba(23, 45, 88, 0.15);
 }
 .standard-list-button-header {
   display: flex;
@@ -2126,4 +2131,73 @@ footer {
   font-style: normal;
   font-weight: 600;
   line-height: 160%; /* 25.6px */
+}
+/* Head banner team */
+.banner {
+  text-align: center;
+}
+
+h1 {
+  color: green;
+}
+
+/* styling sidebar */
+.sidehoverbar {
+  position: fixed;
+  right: 0;
+  bottom: 30%;
+  z-index: 99;
+}
+
+.sidehoverbar a {
+  background: var(--blue5, #eaeef6);
+  position: absolute;
+  font-size: 22px;
+  text-decoration: none;
+  color: var(--Blue2, #2951a0);
+  padding: 10px;
+  border-radius: 25px 0px 0px 25px;
+  transition: 0.5s;
+  opacity: 0.5;
+}
+
+/* Hover effect on sidebar */
+.sidehoverbar a:hover {
+  right: 0px;
+  opacity: 1;
+  background: var(
+    --gradient,
+    linear-gradient(287deg, #f15922 12.78%, #f6921e 95.8%)
+  );
+  color: #fff;
+}
+/* float icons*/
+.sidehoverbar i {
+  float: right;
+}
+
+/* defining position of each nav bar */
+.hsns {
+  top: 50px;
+  width: 212px;
+  right: -162px;
+  height: 50px;
+}
+
+.ttnv {
+  top: 110px;
+  width: 262px;
+  height: 50px;
+  right: -216px;
+}
+
+.bhxh {
+  top: 170px;
+  width: 224px;
+  height: 50px;
+  right: -176px;
+}
+
+.hoverable-topic {
+  margin-left: 55px;
 }
