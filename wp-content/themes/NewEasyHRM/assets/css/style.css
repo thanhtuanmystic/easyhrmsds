@@ -1245,7 +1245,6 @@ footer {
     display: none;
   }
   .price-quote {
-    min-height: 400px;
   }
 
   .price-quote-detail {
@@ -1312,6 +1311,30 @@ footer {
   }
   .price-quote {
     margin-bottom: 10px;
+  }
+  .give-consulation-immediatetly {
+    display: none;
+  }
+  .mb-dpn {
+    display: none;
+  }
+  .esi_form_title {
+    font-size: 14px;
+  }
+  .bahaiba {
+    font-size: 24px;
+  }
+  #esi-form-register {
+    width: 100% !important;
+  }
+  .standard-list-button-header {
+    flex-direction: column;
+  }
+  .standard-list-button-header a {
+    margin-bottom: 10px;
+  }
+  .standard-title {
+    font-size: 20px;
   }
 }
 
@@ -2158,11 +2181,12 @@ h1 {
   padding: 10px;
   border-radius: 25px 0px 0px 25px;
   transition: 0.5s;
-  opacity: 0.5;
+  /* opacity: 0.5; */
 }
 
 /* Hover effect on sidebar */
-.sidehoverbar a:hover {
+.sidehoverbar a:hover,
+.sidehoverbar a:active {
   right: 0px;
   opacity: 1;
   background: var(
@@ -2179,25 +2203,40 @@ h1 {
 /* defining position of each nav bar */
 .hsns {
   top: 50px;
-  width: 212px;
-  right: -162px;
-  height: 50px;
+  width: 211px;
+  right: -159px;
+  height: 56px;
 }
 
 .ttnv {
   top: 110px;
-  width: 262px;
-  height: 50px;
+  width: 268px;
+  height: 56px;
   right: -216px;
 }
 
 .bhxh {
   top: 170px;
   width: 224px;
-  height: 50px;
-  right: -176px;
+  height: 56px;
+  right: -172px;
 }
 
 .hoverable-topic {
   margin-left: 55px;
+}
+.zoom-in-out-box {
+  animation: zoom-in-zoom-out 1s ease infinite;
+}
+
+@keyframes zoom-in-zoom-out {
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1.5, 1.5);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
 }

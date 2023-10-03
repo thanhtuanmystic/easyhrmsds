@@ -2,7 +2,7 @@
 <section id="hrm_banner">
   <div class="container">
     <div class="row center-row">
-      <div class="col-md-6">
+      <div class="col-md-12 col-lg-6 col-sm-12">
         <p class="slogan slide-left">
           Dễ dàng <span>
             <img src="https://easyhrm.vn/wp-content/uploads/2023/08/Rectangle-92.png" alt="" /></span> <br> tự động hóa
@@ -17,7 +17,7 @@
           </a>
         </div>
       </div>
-      <div class="col-md-6 slide-right">
+      <div class="col-md-12 col-lg-6 col-sm-12 slide-right">
         <img class="banner-picture-right"
           src="https://easyhrm.vn/wp-content/uploads/2023/09/Group-397.png" alt="" />
       </div>
@@ -702,7 +702,9 @@ height: 223px;
           </div>
           <div class="quote-seperation"></div>
           <div class="quote-btn showdetail-btn">
-            <button class="loadmore-btn">Xem chi tiết</button>
+           <a target="_blank" href="https://easyhrm.vn/easyhrm-standard/">
+           <button class="loadmore-btn">Xem chi tiết</button>
+           </a>
           </div>
           <div class="showdetail">
             <div class="price-quote-detail">
@@ -1061,19 +1063,19 @@ height: 223px;
       <form id="hrm_form_register">
         <div class="form-title">ĐĂNG KÝ NHẬN TƯ VẤN MIỄN PHÍ</div>
         <div class="row display_responsive">
-          <div class="col-md-6 col-sm-12 form-element">
+          <div class="col-lg-6 col-md-12 col-sm-12 form-element">
             <label for="" class="form-label">Họ tên</label>
             <input type="text" class="form-control" placeholder="Ví dụ: Nguyễn Văn A" name="hoten" />
           </div>
-          <div class="col-md-6 col-sm-12 form-element">
+          <div class="col-lg-6 col-md-12 col-sm-12 form-element">
             <label for="" class="form-label">Email</label>
             <input type="text" class="form-control" placeholder="Ví dụ: Demo@softdreams.com" name="email" />
           </div>
-          <div class="col-md-6 col-sm-12 form-element">
+          <div class="col-lg-6 col-md-12 col-sm-12 form-element">
             <label for="" class="form-label">Số điện thoại</label>
             <input type="text" class="form-control" placeholder="Ví dụ: 0979686888" name="phonenumber" />
           </div>
-          <div class="col-md-6 col-sm-12 form-element">
+          <div class="col-lg-6 col-md-12 col-sm-12 form-element">
             <label for="" class="form-label">Mã số thuế</label>
             <input type="text" class="form-control" placeholder="Ví dụ: 135791113" name="taxcode" />
           </div>

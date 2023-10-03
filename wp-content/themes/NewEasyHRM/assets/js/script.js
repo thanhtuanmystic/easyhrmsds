@@ -1,17 +1,17 @@
 $(document).ready(function () {
   // Price
-  $(".detail-btn").click(function () {
-    $(".price-detail-showing").hide();
+  // $(".detail-btn").click(function () {
+  //   $(".price-detail-showing").hide();
 
-    var index = $(this).closest(".col-md-4").index();
-    $(".price-detail-showing:eq(" + index + ")").slideToggle("slow");
-  });
-  $(".showdetail-btn").click(function () {
-    $(".showdetail").hide();
-    $(".price-detail-showing").hide();
+  //   var index = $(this).closest(".col-md-4").index();
+  //   $(".price-detail-showing:eq(" + index + ")").slideToggle("slow");
+  // });
+  // $(".showdetail-btn").click(function () {
+  //   $(".showdetail").hide();
+  //   $(".price-detail-showing").hide();
 
-    $(this).parent().find(".showdetail").slideDown();
-  });
+  //   $(this).parent().find(".showdetail").slideDown();
+  // });
   $(".click-question").click(function () {
     if (
       $(this).closest(".question-row").find(".the-answer").is(":hidden") == true
@@ -137,7 +137,6 @@ $(document).ready(function () {
   // easyhrm standard
 });
 
-
 function scrollMouse(classFirst, nameClassAdd) {
   $(classFirst).addClass("hidden");
   $(classFirst).each(function () {
@@ -175,6 +174,7 @@ function scrollMouse1(classFirst, nameClassAdd) {
   });
 }
 var width = $(window).width();
+
 if (width > 767) {
   $(window).scroll(function () {
     scrollMouse1(".featured-box", "slide-right");
@@ -182,7 +182,17 @@ if (width > 767) {
     scrollMouse1(".animation_img_left", "slide-left");
   });
 }
+$(window).scroll(function () {
+  var scroll = $(window).scrollTop();
 
+  
+  if (scroll >= 500) {
+    
+    $(".ttnv > svg").addClass("zoom-in-out-box");
+    $(".bhxh > svg").addClass("zoom-in-out-box");
+    $(".hsns > svg").addClass("zoom-in-out-box");
+  }
+}); //missing );
 function animateValue(obj, start, end, duration) {
   let startTimestamp = null;
   const step = (timestamp) => {
