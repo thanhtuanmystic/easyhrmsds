@@ -18,8 +18,7 @@
         </div>
       </div>
       <div class="col-md-12 col-lg-6 col-sm-12 slide-right">
-        <img class="banner-picture-right"
-          src="https://easyhrm.vn/wp-content/uploads/2023/09/Group-397.png" alt="" />
+        <img class="banner-picture-right" src="https://easyhrm.vn/wp-content/uploads/2023/09/Group-397.png" alt="" />
       </div>
       <div class="col-md-12 data-box">
         <div class="row">
@@ -146,7 +145,7 @@
           </li>
         </ul>
         <div class="btn-box">
-          <a target="_blank" href="https://easyhrm.vn/personal-information/"><button class="loadmore-btn">Xem
+          <a target="_blank" href=""><button class="loadmore-btn">Xem
               thêm</button></a>
           <button class="application-btn">Ứng dụng thực tiễn</button>
         </div>
@@ -160,8 +159,7 @@
     <div class="container">
       <div class="item-box">
         <div class="img-box animation_img_left">
-          <img src="https://easyhrm.vn/wp-content/uploads/2023/09/image_2023_09_06T01_08_29_043Z.png"
-            alt="" />
+          <img src="https://easyhrm.vn/wp-content/uploads/2023/09/image_2023_09_06T01_08_29_043Z.png" alt="" />
         </div>
         <div class="content-box">
           <div class="hrm-ref1"><img style="margin-right: 10px"
@@ -203,7 +201,7 @@
             </li>
           </ul>
           <div class="btn-box">
-            <a href="https://easyhrm.vn/staff-management/" target="_blank"><button class="loadmore-btn">Xem
+            <a href="" target="_blank"><button class="loadmore-btn">Xem
                 thêm</button></a>
             <button class="application-btn">Ứng dụng thực tiễn</button>
           </div>
@@ -254,8 +252,7 @@
           </div>
         </div>
         <div class="img-box animation_img_right">
-          <img  src="https://easyhrm.vn/wp-content/uploads/2023/08/image_2023_08_30T02_32_45_349Z.png"
-            alt="" />
+          <img src="https://easyhrm.vn/wp-content/uploads/2023/08/image_2023_08_30T02_32_45_349Z.png" alt="" />
         </div>
       </div>
     </div>
@@ -264,8 +261,7 @@
     <div class="container">
       <div class="item-box">
         <div class="img-box  animation_img_left">
-          <img src="https://easyhrm.vn/wp-content/uploads/2023/09/image_2023_09_25T02_24_46_753Z.png" 
-            alt="" />
+          <img src="https://easyhrm.vn/wp-content/uploads/2023/09/image_2023_09_25T02_24_46_753Z.png" alt="" />
         </div>
         <div class="content-box">
           <div class="hrm-ref1"><img style="margin-right: 10px"
@@ -309,7 +305,8 @@
       <div class="item-box">
         <div class="content-box">
           <div class="hrm-ref1"><img style="margin-right: 10px"
-              src="https://easyhrm.vn/wp-content/uploads/2023/09/image_2023_09_25T02_04_08_044Z.png" />Tối ưu trải nghiệm kê khai BHXH, thuế TNCN</div>
+              src="https://easyhrm.vn/wp-content/uploads/2023/09/image_2023_09_25T02_04_08_044Z.png" />Tối ưu trải
+            nghiệm kê khai BHXH, thuế TNCN</div>
           <ul class="hrm-ref-detail">
             <li>
               EasyHRM là đơn vị tiên phong hỗ trợ có thể trực tiếp kê khai
@@ -322,14 +319,13 @@
             </li>
           </ul>
           <div class="btn-box">
-            <a target="_bank" href="https://easyhrm.vn/e-social-insurance/"><button class="loadmore-btn">Xem
+            <a target="_bank" href=""><button class="loadmore-btn">Xem
                 thêm</button></a>
             <button class="application-btn">Ứng dụng thực tiễn</button>
           </div>
         </div>
         <div class="img-box animation_img_right">
-          <img src="https://easyhrm.vn/wp-content/uploads/2023/09/image_2023_09_11T02_52_17_504Z.png" 
-            alt="" />
+          <img src="https://easyhrm.vn/wp-content/uploads/2023/09/image_2023_09_11T02_52_17_504Z.png" alt="" />
         </div>
       </div>
     </div>
@@ -338,8 +334,7 @@
     <div class="container">
       <div class="item-box">
         <div class="img-box animation_img_left">
-          <img src="https://easyhrm.vn/wp-content/uploads/2023/08/image_2023_08_30T03_21_11_165Z.png"
-            alt="" />
+          <img src="https://easyhrm.vn/wp-content/uploads/2023/08/image_2023_08_30T03_21_11_165Z.png" alt="" />
         </div>
         <div class="content-box">
           <div class="hrm-ref1"><img style="margin-right: 10px"
@@ -702,9 +697,9 @@ height: 223px;
           </div>
           <div class="quote-seperation"></div>
           <div class="quote-btn showdetail-btn">
-           <a target="_blank" href="https://easyhrm.vn/easyhrm-standard/">
-           <button class="loadmore-btn">Xem chi tiết</button>
-           </a>
+            <a target="_blank" href="https://easyhrm.vn/easyhrm-standard/">
+              <button class="loadmore-btn">Xem chi tiết</button>
+            </a>
           </div>
           <div class="showdetail">
             <div class="price-quote-detail">
@@ -1055,7 +1050,7 @@ height: 223px;
       <div class="hrm-title hrm-title-mobile justify-content-center" style="margin-bottom: 0">
         <div style="color: #fff">EasyHRM lắng nghe vấn đề của bạn</div>
       </div>
-      <div class="hrm-ref2 text-center" style="color: #fff">
+      <div class="hrm-ref2 text-center" style="color: #fff; padding:0">
         Chúng tôi luôn sẵn sàng lắng nghe vấn đề của bạn và doanh nghiệp bất
         cứ lúc nào. Sứ mệnh của EasyHRM không chỉ mang đến sản phẩm tốt mà
         hơn cả là một giải pháp quản lý nhân sự toàn diện và dễ dàng.

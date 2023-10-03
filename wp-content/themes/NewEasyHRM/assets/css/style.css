@@ -1294,7 +1294,13 @@ footer {
     font-size: 12px;
   }
   .hrm-title {
-    font-size: 14px !important;
+    font-size: 20px !important;
+  }
+  .hrm-sub-title {
+    font-size: 18px;
+  }
+  #hrm_banner {
+    padding: 0;
   }
   .hrm-content {
     font-size: 12px !important;
@@ -1318,11 +1324,9 @@ footer {
   .mb-dpn {
     display: none;
   }
-  .esi_form_title {
-    font-size: 14px;
-  }
+ 
   .bahaiba {
-    font-size: 24px;
+    font-size: 24px !important;
   }
   #esi-form-register {
     width: 100% !important;
@@ -1334,7 +1338,38 @@ footer {
     margin-bottom: 10px;
   }
   .standard-title {
-    font-size: 20px;
+    font-size: 20px !important;
+  }
+  .pi-subtitle {
+    font-size: 18px;
+    text-align: center;
+  }
+  .pi_title-blue  {
+    font-size: 20px !important;
+  }
+  .pi_sub-title-blue {
+    font-size: 16px !important
+  }
+  .esi_form_title {
+    font-size: 20px !important;
+  }
+  .saying-box {
+    padding: 0 !important;
+  }
+  #pi_saying_of_the_day {
+    padding: 50px 0 50px !important;
+  }
+  .carousel-indicators {
+    bottom: -50px !important;
+  }
+  .slogan, .hrm-subslogan {
+    font-size: 25px !important;
+  } 
+  .loadmore-btn-fix {
+    display: none;
+  }
+  #hrm_price {
+    padding: 0 0 50px;
   }
 }
 

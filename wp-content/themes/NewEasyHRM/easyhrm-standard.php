@@ -1377,11 +1377,11 @@ Template name: EasyHRM Standard
         </div>
         <div style="margin-top: 20px; margin-bottom: 0" class="saying-box">
             <div class="row">
-                <div class="col-md-5">
+                <div class="col-md-5 col-sm-12">
                     <img style="width: 100%"
                         src="https://easyhrm.vn/wp-content/uploads/2023/09/image_2023_09_13T09_08_40_738Z.png" alt="">
                 </div>
-                <div class="col-md-7">
+                <div class="col-md-7 col-sm-12">
                     <div class="story-slider">
                         <div id="carouselExampleIndicators" style="height: 100%" class="carousel slide"
                             data-bs-ride="carousel">
