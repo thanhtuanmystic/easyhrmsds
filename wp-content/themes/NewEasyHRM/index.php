@@ -111,7 +111,7 @@
   </div>
 </section>
 <section id="hrm_management">
-  <div class="container">
+  <div class="container" style="padding-bottom: 50px">
     <div class="hrm-title justify-content-center">
       <div>Giải pháp quản lý nhân sự toàn diện, dễ dàng</div>
       <div class="seperation-fix"></div>
@@ -151,7 +151,7 @@
         </div>
       </div>
       <div class="img-box animation_img_right">
-        <img src="https://easyhrm.vn/wp-content/uploads/2023/09/Group-223-1.png" alt="" />
+        <img src="https://easyhrm.vn/wp-content/uploads/2023/10/Group-33901.png" alt="" />
       </div>
     </div>
   </div>

@@ -551,8 +551,6 @@ ul li {
   line-height: 150%; /* 24px */
   color: orangered;
   background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
   margin-top: 20px;
 }
 
@@ -1324,7 +1322,7 @@ footer {
   .mb-dpn {
     display: none;
   }
- 
+
   .bahaiba {
     font-size: 24px !important;
   }
@@ -1344,11 +1342,11 @@ footer {
     font-size: 18px;
     text-align: center;
   }
-  .pi_title-blue  {
+  .pi_title-blue {
     font-size: 20px !important;
   }
   .pi_sub-title-blue {
-    font-size: 16px !important
+    font-size: 16px !important;
   }
   .esi_form_title {
     font-size: 20px !important;
@@ -1362,9 +1360,10 @@ footer {
   .carousel-indicators {
     bottom: -50px !important;
   }
-  .slogan, .hrm-subslogan {
+  .slogan,
+  .hrm-subslogan {
     font-size: 25px !important;
-  } 
+  }
   .loadmore-btn-fix {
     display: none;
   }

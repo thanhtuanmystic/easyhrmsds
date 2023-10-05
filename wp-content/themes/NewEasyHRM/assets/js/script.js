@@ -185,12 +185,14 @@ if (width > 767) {
 $(window).scroll(function () {
   var scroll = $(window).scrollTop();
 
-  
-  if (scroll >= 500) {
-    
+  if (scroll >= 700) {
     $(".ttnv > svg").addClass("zoom-in-out-box");
     $(".bhxh > svg").addClass("zoom-in-out-box");
     $(".hsns > svg").addClass("zoom-in-out-box");
+  } else {
+    $(".ttnv > svg").removeClass("zoom-in-out-box");
+    $(".bhxh > svg").removeClass("zoom-in-out-box");
+    $(".hsns > svg").removeClass("zoom-in-out-box");
   }
 }); //missing );
 function animateValue(obj, start, end, duration) {

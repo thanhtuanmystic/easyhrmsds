@@ -1,6 +1,6 @@
 <?php
 /*
-Template name: EasyHRM Standard
+Template name: EasyHRM Premium
 */
 ?>
 <?php get_header() ?>
