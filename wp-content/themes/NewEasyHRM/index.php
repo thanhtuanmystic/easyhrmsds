@@ -1,4 +1,6 @@
-<?php get_header() ?>
+<?php get_header();
+?>
+
 <section id="hrm_banner">
   <div class="container">
     <div class="row center-row">

@@ -46,10 +46,11 @@
         top: 0;
         left: 0;
         width: 100%;
-        height: 100%;
-        height: 100px;
         background: #fff;
         z-index: 99;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     nav .navbar {
@@ -178,7 +179,7 @@
     .navbar .search-box {
         display: flex;
         position: relative;
-        height: 40px;
+        height: 46px;
         min-width: 250px;
     }
 
@@ -486,12 +487,12 @@
 
                             </ul>
                         </li>
-
                         <li><a href="#">Khách hàng</a></li>
                         <li><a href="#">Cam kết</a></li>
                         <li><a target="_blank" href="https://app.easyhrm.vn/trial-registration">Nhà phân phối</a></li>
                         <li><a href="#">Tin tức</a></li>
                         <li><a href="#hrm_consulation_register">Liên hệ</a></li>
+
                     </ul>
                 </div>
                 <div class="search-box">
@@ -516,6 +517,18 @@
                     </a>
                 </div>
             </div>
+            <?php if (is_page('easyhrm-standard')) { ?>
+                <div class="seperate_part"></div>
+                <div class="sticky-menu">
+                    <ul>
+                        <li style="color: orangered" class="sticky-li"><a href="#">EasyHRM Standard</a></li>
+                        <li class="sticky-li sticky-hsns"><a href="#standard_hosonhansu">Hồ sơ nhân sự</a></li>
+                        <li class="sticky-li sticky-ttnv"><a href="#standard_thongtinnhanvien">Thông tin nhân viên</a></li>
+                        <li class="sticky-li sticky-bhxh"><a href="#standard_baohiemxahoi">Bảo hiểm xã hội</a></li>
+                        <li class="sticky-li sticky-bg"><a href="#standard_price">Báo giá</a></li>
+                        <li class="sticky-li sticky-dkdt"><a href="#esi_form_register">Đăng ký dùng thử</a></li>
+                    </ul>
+                </div>
+            <?php } ?>
         </nav>
     </header>
-   

@@ -7,7 +7,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  margin-top: 100px;
+  margin-top: 80px;
   position: relative;
   height: 100%;
 }
@@ -511,7 +511,7 @@ ul li {
 }
 .banner-seperation-content {
   position: absolute;
-  left: 16%;
+  /* left: 16%; */
 }
 .banner-seperation-text {
   color: #fff;
@@ -1163,10 +1163,7 @@ footer {
   display: flex;
   margin-bottom: 24px;
 }
-.contact-icon {
-}
-.contact-icon img {
-}
+
 .hrm-slogan {
   color: #fff;
   font-family: Nunito Sans;
@@ -1219,6 +1216,9 @@ footer {
   .standard-list-button-header {
     padding: 0 !important;
   }
+  .sticky-li {
+    font-size: 12px !important;
+  }
 }
 @media screen and (max-width: 979px) {
   .img-box {
@@ -1227,8 +1227,15 @@ footer {
   .content-box {
     width: 100%;
   }
+  #pi_saying_of_the_day {
+    padding: 0 !important;
+  }
 }
 @media (max-width: 1023px) {
+  .sticky-menu, .seperate_part {
+    display: none !important;
+  }
+  
   .standard-active2,
   .standard-hide2 {
     padding: 12px 15px !important;
@@ -2197,80 +2204,48 @@ footer {
 h1 {
   color: green;
 }
-
-/* styling sidebar */
-.sidehoverbar {
-  position: fixed;
-  right: 0;
-  bottom: 30%;
-  z-index: 99;
+.seperate_part {
+  height: 1px;
+  width: 100%;
+  border: 1px solid #bdc9e2;
+  opacity: 0.5;
+  display: none;
+}
+.sticky-menu {
+  height: 60px;
+  background-color: #fff;
+  transition: 0.3s;
+  width: 70%;
+  box-shadow: 0 0 8px 3px rgba(0, 0, 0, 0.1);
+  display: none;
 }
 
-.sidehoverbar a {
-  background: var(--blue5, #eaeef6);
-  position: absolute;
-  font-size: 22px;
-  text-decoration: none;
-  color: var(--Blue2, #2951a0);
-  padding: 10px;
-  border-radius: 25px 0px 0px 25px;
-  transition: 0.5s;
-  /* opacity: 0.5; */
+.sticky-menu ul {
+  display: flex;
+  justify-content: space-around;
+  height: 100%;
+  align-items: center;
 }
-
-/* Hover effect on sidebar */
-.sidehoverbar a:hover,
-.sidehoverbar a:active {
-  right: 0px;
-  opacity: 1;
-  background: var(
-    --gradient,
-    linear-gradient(287deg, #f15922 12.78%, #f6921e 95.8%)
-  );
-  color: #fff;
+.sticky-li:hover {
+  color: orangered;
+  cursor: pointer;
 }
-/* float icons*/
-.sidehoverbar i {
-  float: right;
+.sticky-li {
+  font-family: Nunito Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  color: var(--gray-2, #263856);
 }
-
-/* defining position of each nav bar */
-.hsns {
-  top: 50px;
-  width: 211px;
-  right: -159px;
-  height: 56px;
+.sticky-li a {
+  color: inherit;
 }
-
-.ttnv {
-  top: 110px;
-  width: 268px;
-  height: 56px;
-  right: -216px;
+.sticky-li a:hover {
+  color: orangered;
 }
-
-.bhxh {
-  top: 170px;
-  width: 224px;
-  height: 56px;
-  right: -172px;
+.orangered {
+  color: orangered;
 }
-
-.hoverable-topic {
-  margin-left: 55px;
-}
-.zoom-in-out-box {
-  animation: zoom-in-zoom-out 1s ease infinite;
-}
-
-@keyframes zoom-in-zoom-out {
-  0% {
-    transform: scale(1, 1);
-  }
-  50% {
-    transform: scale(1.5, 1.5);
-  }
-  100% {
-    transform: scale(1, 1);
-  }
+#sm_digital_records {
+  padding: 50px 0;
 }

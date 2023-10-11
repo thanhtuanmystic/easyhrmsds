@@ -1,4 +1,36 @@
 $(document).ready(function () {
+  $(window).scroll(function () {
+    var scroll = $(window).scrollTop();
+
+    console.log(scroll);
+    if (scroll >= 300) {
+      $(".sticky-menu").slideDown();
+      $(".sticky-li").removeClass("orangered");
+      $(".sticky-hsns").addClass("orangered");
+      $(".seperate_part").css("display", "block");
+    } else {
+      $(".sticky-menu").hide();
+      $(".seperate_part").css("display", "none");
+    }
+    console.log(scroll);
+    // 3945: thong tin nhan vien, 6772: bhxh, 9958: dk dung thu, 9358: bao gia
+    if (scroll >= 3900) {
+      $(".sticky-li").removeClass("orangered");
+      $(".sticky-ttnv").addClass("orangered");
+    }
+    if (scroll >= 6900) {
+      $(".sticky-li").removeClass("orangered");
+      $(".sticky-bhxh").addClass("orangered");
+    }
+    if (scroll >= 9700) {
+      $(".sticky-li").removeClass("orangered");
+      $(".sticky-bg").addClass("orangered");
+    }
+    if (scroll >= 10400) {
+      $(".sticky-li").removeClass("orangered");
+      $(".sticky-dkdt").addClass("orangered");
+    }
+  }); //missing );
   // Price
   // $(".detail-btn").click(function () {
   //   $(".price-detail-showing").hide();
@@ -182,19 +214,7 @@ if (width > 767) {
     scrollMouse1(".animation_img_left", "slide-left");
   });
 }
-$(window).scroll(function () {
-  var scroll = $(window).scrollTop();
 
-  if (scroll >= 700) {
-    $(".ttnv > svg").addClass("zoom-in-out-box");
-    $(".bhxh > svg").addClass("zoom-in-out-box");
-    $(".hsns > svg").addClass("zoom-in-out-box");
-  } else {
-    $(".ttnv > svg").removeClass("zoom-in-out-box");
-    $(".bhxh > svg").removeClass("zoom-in-out-box");
-    $(".hsns > svg").removeClass("zoom-in-out-box");
-  }
-}); //missing );
 function animateValue(obj, start, end, duration) {
   let startTimestamp = null;
   const step = (timestamp) => {
