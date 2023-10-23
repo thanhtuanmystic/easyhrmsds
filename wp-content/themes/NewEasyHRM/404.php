@@ -13,7 +13,7 @@ get_header(); ?>
 if (get_theme_mod('404_block')):
     echo do_shortcode('[block id="' . get_theme_mod('404_block') . '"]');
 else:
-    ?>
+    ?>    
     <div id="primary" class="content-area">
         <main id="main" class="site-main container pt" role="main">
             <section class="error-404 not-found mt mb">
