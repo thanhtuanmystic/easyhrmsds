@@ -11,6 +11,8 @@ if (function_exists('acf_add_options_page')) {
         )
     );
 }
+add_filter('show_admin_bar', '__return_false');
+
 ?>
 
 
@@ -50,7 +52,11 @@ function sendMail($title, $content, $nTo, $mTo,$diachicc=''){
 		return 1;
 	}
 }
+function my_theme_setup(){
+    add_theme_support('post-thumbnails');
+}
 
+add_action('after_setup_theme', 'my_theme_setup');
 function sendMailAttachment($title, $content, $nTo, $mTo,$diachicc='',$file,$filename){
 	$nFrom = 'http://easyhrm.vn';
 	$mFrom = 'sds-noreply@softdreams.vn';	//dia chi email cua ban 
