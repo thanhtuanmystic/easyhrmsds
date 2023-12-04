@@ -13,7 +13,14 @@
 
     .img {
         margin-bottom: 10px;
+        overflow: hidden; 
         
+    }
+    .img img {
+        transition: transform .5s ease;
+    }
+    .img:hover img {
+        transform: scale(1.1);
     }
 
     .lh2-date {
@@ -26,9 +33,6 @@
 
     .lh2-img {
         width: 100%;
-        object-fit: cover;
-        overflow: hidden;
-        max-height: 230px;
     }
 </style>
 <div class="container">

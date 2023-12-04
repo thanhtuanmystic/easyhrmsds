@@ -28,6 +28,10 @@
     a:hover {
         text-decoration: underline;
     }
+    .content-area {
+        text-align: justify;
+        padding: 0 5rem;
+    }
 
     /* Additional styling can be added for images, blockquotes, etc. based on your design preferences */
 </style>
@@ -53,7 +57,6 @@
                             </span>
                         </div>
                     </div>
-
                     <div class="entry-content">
                         <?php the_content(); ?>
                     </div>
@@ -62,5 +65,4 @@
         </main>
     </div>
 </div>
-
 <?php get_footer(); ?>

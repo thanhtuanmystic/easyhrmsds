@@ -1128,19 +1128,46 @@ height: 223px;
       hữu ích <br />
       từ những chuyên gia uy tín hàng đầu trong ngành
     </div>
+    <style>
+      .news-thumbnail {
+        overflow: hidden;
+      }
+
+      .news-thumbnail img {
+        transition: transform .5s ease;
+      }
+
+      .news-thumbnail:hover img {
+        transform: scale(1.1);
+      }
+    </style>
     <div class="row">
-      <div class="col-md-4">
-        <div class="news-row">
-          <div class="news-thumbnail">
-            <img style="width: 100%"
-              src="https://easyhrm.vn/wp-content/uploads/2023/08/image_2023_08_31T02_30_39_053Z.png" alt="" />
-          </div>
-          <div class="news-release-date">28/08/2023</div>
-          <div class="news-title">
-            Tài liệu hội thảo 08/07/2023: Xử lý quan hệ lao động trong bối
-            cảnh ...
-          </div>
-          <div class="news-author">
+      <?php
+      $args = array(
+        'post_status' => 'publish', // Chỉ lấy những bài viết được publish
+        'post_type' => 'post', // Lấy những bài viết thuộc post, nếu lấy những bài trong 'trang' thì để là page 
+        'showposts' => 3, // số lượng bài viết
+        // 'cat' => 1, // lấy bài viết trong chuyên mục có id là 1
+      );
+      ?>
+      <?php $getposts = new WP_query($args); ?>
+      <?php global $wp_query;
+      $wp_query->in_the_loop = true; ?>
+      <?php while ($getposts->have_posts()):
+        $getposts->the_post(); ?>
+        <div class="col-md-4">
+          <a href="<?php the_permalink(); ?>">
+            <div class="news-row">
+              <div style="" class="news-thumbnail">
+                <?php the_post_thumbnail('full'); ?>
+              </div>
+              <div class="news-release-date">
+                <?php the_date(); ?>
+              </div>
+              <div class="news-title">
+                <?php the_title(); ?>
+              </div>
+              <!-- <div class="news-author">
             <div class="author-avt">
               <img src="https://easyhrm.vn/wp-content/uploads/2023/08/image_2023_08_31T02_30_55_632Z.png" alt="" />
             </div>
@@ -1148,53 +1175,12 @@ height: 223px;
               <div class="author-name">Kristin Watson</div>
               <div class="author-position">HR Manager</div>
             </div>
-          </div>
+          </div> -->
+            </div>
+          </a>
         </div>
-      </div>
-      <div class="col-md-4">
-        <div class="news-row">
-          <div class="news-thumbnail">
-            <img style="width: 100%"
-              src="https://easyhrm.vn/wp-content/uploads/2023/08/image_2023_08_31T02_30_42_762Z.png" alt="" />
-          </div>
-          <div class="news-release-date">28/08/2023</div>
-          <div class="news-title">
-            Tài liệu hội thảo 08/07/2023: Xử lý quan hệ lao động trong bối
-            cảnh ...
-          </div>
-          <div class="news-author">
-            <div class="author-avt">
-              <img src="https://easyhrm.vn/wp-content/uploads/2023/08/image_2023_08_31T02_30_55_632Z.png" alt="" />
-            </div>
-            <div class="author-infor">
-              <div class="author-name">Kristin Watson</div>
-              <div class="author-position">HR Manager</div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="news-row">
-          <div class="news-thumbnail">
-            <img style="width: 100%"
-              src="https://easyhrm.vn/wp-content/uploads/2023/08/image_2023_08_31T02_30_51_963Z.png" alt="" />
-          </div>
-          <div class="news-release-date">28/08/2023</div>
-          <div class="news-title">
-            Tài liệu hội thảo 08/07/2023: Xử lý quan hệ lao động trong bối
-            cảnh ...
-          </div>
-          <div class="news-author">
-            <div class="author-avt">
-              <img src="https://easyhrm.vn/wp-content/uploads/2023/08/image_2023_08_31T02_30_55_632Z.png" alt="" />
-            </div>
-            <div class="author-infor">
-              <div class="author-name">Kristin Watson</div>
-              <div class="author-position">HR Manager</div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <?php endwhile;
+      wp_reset_postdata(); ?>
     </div>
   </div>
 </section>
