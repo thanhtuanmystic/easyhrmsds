@@ -522,11 +522,10 @@
                 <div class="sticky-menu">
                     <ul>
                         <li style="color: orangered" class="sticky-li"><a href="#">EasyHRM Standard</a></li>
-                        <li class="sticky-li sticky-hsns"><a href="#standard_hosonhansu">Hồ sơ nhân sự</a></li>
-                        <li class="sticky-li sticky-ttnv"><a href="#standard_thongtinnhanvien">Thông tin nhân viên</a></li>
-                        <li class="sticky-li sticky-bhxh"><a href="#standard_baohiemxahoi">Bảo hiểm xã hội</a></li>
-                        <li class="sticky-li sticky-bg"><a href="#standard_price">Báo giá</a></li>
-                        <li class="sticky-li sticky-dkdt"><a href="#esi_form_register">Đăng ký dùng thử</a></li>
+                        <li class="sticky-li sticky-hsns"><a class="scroll-link" href="#standard_hosonhansu">Thông tin nhân sự</a></li>
+                        <li class="sticky-li sticky-bhxh"><a class="scroll-link" href="#standard_baohiemxahoi">Bảo hiểm xã hội</a></li>
+                        <li class="sticky-li sticky-ttnv"><a class="scroll-link" href="#standard_thongtinnhanvien">Hồ sơ nhân viên</a></li>
+                        <li class="sticky-li sticky-bg"><a class="scroll-link" href="#standard_price">Báo giá</a></li>
                     </ul>
                 </div>
             <?php } ?>

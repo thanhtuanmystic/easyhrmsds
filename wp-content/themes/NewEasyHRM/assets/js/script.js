@@ -8,42 +8,34 @@ $(document).ready(function () {
       $(".sticky-li").removeClass("orangered");
       $(".sticky-hsns").addClass("orangered");
       $(".seperate_part").css("display", "block");
+      $(".backtotop").css("display", "flex");
     } else {
       $(".sticky-menu").hide();
       $(".seperate_part").css("display", "none");
+      $(".backtotop").css("display", "none");
     }
     console.log(scroll);
-    // 3945: thong tin nhan vien, 6772: bhxh, 9958: dk dung thu, 9358: bao gia
-    if (scroll >= 3900) {
-      $(".sticky-li").removeClass("orangered");
-      $(".sticky-ttnv").addClass("orangered");
-    }
-    if (scroll >= 6900) {
+    // 2728: bhxh, 4628: thong tin nhan vien, 6728: bao gia
+
+    if (scroll >= 2728) {
       $(".sticky-li").removeClass("orangered");
       $(".sticky-bhxh").addClass("orangered");
     }
-    if (scroll >= 9700) {
+    if (scroll >= 4628) {
+      $(".sticky-li").removeClass("orangered");
+      $(".sticky-ttnv").addClass("orangered");
+    }
+    if (scroll >= 6728) {
       $(".sticky-li").removeClass("orangered");
       $(".sticky-bg").addClass("orangered");
     }
-    if (scroll >= 10400) {
-      $(".sticky-li").removeClass("orangered");
-      $(".sticky-dkdt").addClass("orangered");
-    }
-  }); //missing );
-  // Price
-  // $(".detail-btn").click(function () {
-  //   $(".price-detail-showing").hide();
-
-  //   var index = $(this).closest(".col-md-4").index();
-  //   $(".price-detail-showing:eq(" + index + ")").slideToggle("slow");
-  // });
-  // $(".showdetail-btn").click(function () {
-  //   $(".showdetail").hide();
-  //   $(".price-detail-showing").hide();
-
-  //   $(this).parent().find(".showdetail").slideDown();
-  // });
+  });
+  $(".backtotop").click(function () {
+    // Sử dụng animate để tạo hiệu ứng cuộn mượt
+    $("html, body").animate({
+      scrollTop: 0,
+    });
+  });
   $(".click-question").click(function () {
     if (
       $(this).closest(".question-row").find(".the-answer").is(":hidden") == true
@@ -167,6 +159,19 @@ $(document).ready(function () {
   });
 
   // easyhrm standard
+});
+$(document).ready(function() {
+  // Bắt sự kiện click cho các liên kết có lớp "scroll-link"
+  $('.scroll-link').on('click', function(e) {
+      e.preventDefault();
+      // Lấy vị trí của phần tử cần scroll đến
+      const targetId = $(this).attr('href').substring(1);
+      const targetElement = $('#' + targetId);
+      // Scroll đến vị trí của phần tử
+      $('html, body').animate({
+          scrollTop: targetElement.offset().top - $('header').outerHeight() - 150
+      }, 500); 
+  });
 });
 
 function scrollMouse(classFirst, nameClassAdd) {

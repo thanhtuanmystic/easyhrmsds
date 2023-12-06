@@ -59,490 +59,454 @@ get_header() ?>
     :root {
         --swiper-navigation-size: 20px;
     }
+  
 </style>
+<div class="backtotop">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 100 100" fill="none">
+        <path
+            d="M97.108 44.1424L55.8581 2.89238C55.0734 2.14129 54.1483 1.55253 53.1356 1.15988C51.127 0.334728 48.8741 0.334728 46.8656 1.15988C45.8529 1.55253 44.9277 2.14129 44.1431 2.89238L2.89305 44.1424C2.12384 44.9116 1.51366 45.8248 1.09736 46.8298C0.681065 47.8349 0.466797 48.912 0.466797 49.9999C0.466797 52.1969 1.33955 54.3039 2.89305 55.8574C4.44656 57.4109 6.55357 58.2836 8.75055 58.2836C10.9475 58.2836 13.0545 57.4109 14.6081 55.8574L41.7506 28.6324V91.2499C41.7506 93.4379 42.6197 95.5363 44.1669 97.0835C45.7141 98.6307 47.8125 99.4999 50.0006 99.4999C52.1886 99.4999 54.287 98.6307 55.8342 97.0835C57.3814 95.5363 58.2506 93.4379 58.2506 91.2499V28.6324L85.3931 55.8574C86.16 56.6306 87.0725 57.2444 88.0778 57.6632C89.0831 58.0821 90.1615 58.2977 91.2505 58.2977C92.3396 58.2977 93.418 58.0821 94.4233 57.6632C95.4286 57.2444 96.3411 56.6306 97.108 55.8574C97.8813 55.0904 98.4951 54.178 98.9139 53.1726C99.3328 52.1673 99.5484 51.089 99.5484 49.9999C99.5484 48.9108 99.3328 47.8325 98.9139 46.8271C98.4951 45.8218 97.8813 44.9093 97.108 44.1424Z"
+            fill="white" />
+    </svg>
+</div>
 <section id="standard">
-    <div class="container "
-        style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+    <div class="container">
         <div class="standard-title-first">
-            EasyHRM Standard
+            EASYHRM STANDARD
         </div>
         <div class="standard-sub-title">
             Gói đặc biệt 3IN1 dễ dàng quản lý, dễ dàng sử dụng. <br>
-
+            Giúp tối giản hóa quản lý hồ sơ nhân sự, tích hợp BHXH và đồng bộ hóa văn bản, hợp đồng điện tử. 
         </div>
-        <img style="max-width: 100%" src="https://easyhrm.vn/wp-content/uploads/2023/10/Group-33902-1.png" alt="">
+        <style>
+            @media (max-width: 1200px) {
+
+            }
+        </style>
+        <div class="row padding12percent">
+            <div class="col-lg-4 col-md-12 col-sm-12">
+                <a class="scroll-link" href="#standard_hosonhansu">
+                    <div class="standard-list-feature">
+                        <img src="https://easyhrm.vn/wp-content/uploads/2023/12/Group-2609370.png" alt="">
+                        <div class="list-feature-name">Thông tin nhân sự</div>
+                        <div class="list-feature-des">Theo dõi tổng quan tình hình
+                            nhân lực</div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12">
+                <a class="scroll-link" href="#standard_baohiemxahoi">
+                    <div class="standard-list-feature">
+                        <img src="https://easyhrm.vn/wp-content/uploads/2023/12/Group-2609373.png" alt="">
+                        <div class="list-feature-name">Bảo hiểm xã hội</div>
+                        <div class="list-feature-des">Thực hiện nghiệp vụ trực tuyến dễ dàng</div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12">
+                <a class="scroll-link" href="#standard_thongtinnhanvien">
+                    <div class="standard-list-feature">
+                        <img src="https://easyhrm.vn/wp-content/uploads/2023/12/Group-2609374.png" alt="">
+                        <div class="list-feature-name">Hồ sơ nhân viên</div>
+                        <div class="list-feature-des">Quản lý chi tiết dữ liệu nhân viên</div>
+                    </div>
+                </a>
+            </div>
+        </div>
     </div>
 </section>
-<!-- Easyhrm ho so nhan su -->
+<!-- Easyhrm ho so nhan su(thong tin nhan su) -->
 <div class="standardElement" id="standard_hosonhansu">
     <section class="pi_personal_information">
         <div class="container">
             <div class="standard-title justify-content-center">
-                <div>EasyHRM hồ sơ nhân sự</div>
+                <div><img style="margin-right: 16px"
+                        src="https://easyhrm.vn/wp-content/uploads/2023/12/Group-2609370.png" alt="">EasyHRM thông tin
+                    nhân sự</div>
             </div>
             <div class="pi-subtitle">
                 Mọi thao tác quản trị nhân lực trở nên đơn giản hơn bao giờ hết!
             </div>
-            <div style="padding: 0 18%" class="row">
-                <div class="col-md-4">
-                    <div class="pi_featured-box">
-                        <div class="pi_fb-icon">
-                            <img src="https://easyhrm.vn/wp-content/uploads/2023/09/image_2023_09_13T02_49_08_994Z.png"
-                                alt="">
-                        </div>
-                        <div class="pi_fb-text">Số hóa hồ sơ nhân sự, <br>
-                            đồng bộ quản lý</div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="pi_featured-box">
-                        <div class="pi_fb-icon">
-                            <img src="https://easyhrm.vn/wp-content/uploads/2023/09/image_2023_09_13T02_53_01_652Z.png"
-                                alt="">
-                        </div>
-                        <div class="pi_fb-text">Quyết định khen thưởng/ <br>
-                            kỷ luật kịp thời</div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="pi_featured-box">
-                        <div class="pi_fb-icon">
-                            <img src="https://easyhrm.vn/wp-content/uploads/2023/09/image_2023_09_13T02_53_09_871Z.png"
-                                alt="">
-                        </div>
-                        <div class="pi_fb-text">Ban hành phúc lợi, <br> đãi
-                            ngộ minh bạch</div>
-                    </div>
-                </div>
-                <div class="col-md-2"></div>
-                <div class="col-md-4">
-                    <div class="pi_featured-box">
-                        <div class="pi_fb-icon">
-                            <img src="https://easyhrm.vn/wp-content/uploads/2023/09/image_2023_09_13T02_53_17_367Z.png"
-                                alt="">
-                        </div>
-                        <div class="pi_fb-text">Báo cáo tường minh, đầy đủ</div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="pi_featured-box">
-                        <div class="pi_fb-icon">
-                            <img src="https://easyhrm.vn/wp-content/uploads/2023/09/image_2023_09_13T02_53_22_628Z.png"
-                                alt="">
-                        </div>
-                        <div class="pi_fb-text">Thiết lập hệ thống số <br>
-                            dễ dàng</div>
-                    </div>
-                </div>
-                <div class="col-md-2"></div>
-
+            <div class="subtitle-border-bottom">
+                <svg xmlns="http://www.w3.org/2000/svg" width="898" height="2" viewBox="0 0 898 2" fill="none">
+                    <path d="M0 1H898" stroke="#BDC9E2" />
+                </svg>
             </div>
-            <div class="pi_features">
-                <div class="container">
-                    <div class="item-box">
-                        <div class="content-box">
-                            <div class="pi_title-blue">
-                                01 Tổng quan nhân sự doanh nghiệp
-                            </div>
-                            <div class="pi_sub-title-blue">
-                                Xây dựng chiến lược quản trị sáng suốt
-                            </div>
-                            <div class="personal-overall">
-                                <?php
-                                if (have_rows('ttns_pi_list_question_01', 'option')):
-                                    while (have_rows('ttns_pi_list_question_01', 'option')):
-                                        the_row(); ?>
-                                        <div class="pi_question-row">
-                                            <div class="row center-row">
-                                                <div class="col-md-12">
-                                                    <div style="text-align: left" class="pi_the-question pi_click-question">
-                                                        <?php echo get_sub_field('pi_question', 'option') ?>
-                                                    </div>
+        </div>
+        <div class="pi_features">
+            <div class="container">
+                <div class="item-box paddingleft12percent">
+                    <div class="content-box">
+                        <div class="pi_title-blue">
+                            1. Tổng quan nhân sự doanh nghiệp
+                        </div>
+                        <div class="pi_sub-title-blue">
+                            Xây dựng chiến lược quản trị sáng suốt
+                        </div>
+                        <div class="personal-overall">
+                            <?php
+                            if (have_rows('ttns_pi_list_question_01', 'option')):
+                                while (have_rows('ttns_pi_list_question_01', 'option')):
+                                    the_row(); ?>
+                                    <div class="pi_question-row">
+                                        <div class="row center-row">
+                                            <div class="col-md-12">
+                                                <div style="text-align: left" class="pi_the-question pi_click-question">
+                                                    <?php echo get_sub_field('pi_question', 'option') ?>
                                                 </div>
                                             </div>
-                                            <div class="pi_the-answer">
-                                                <?php if (have_rows('pi_answer', 'option')):
-                                                    while (have_rows('pi_answer', 'option')):
-                                                        the_row(); ?>
-                                                        <li class="pi_answer-detail">
-                                                            <?php echo get_sub_field('pi_answer_detail', 'option') ?>
-                                                        </li>
-                                                        <?php
-                                                    endwhile;
-                                                endif;
-                                                ?>
-                                            </div>
                                         </div>
-                                        <?php
-                                    endwhile;
-                                endif;
-                                ?>
-                            </div>
-                        </div>
-                        <div class="img-box">
-
-                            <body>
-                                <div class="swiper mySwiper">
-                                    <div class="swiper-wrapper">
-                                        <div style="width: auto !important" class="swiper-slide">
-                                            <img style="height: auto; width: auto"
-                                                src="https://easyhrm.vn/wp-content/uploads/2023/09/Group-33835.png"
-                                                alt="">
-                                        </div>
-                                        <div style="width: auto !important" class="swiper-slide">
-                                            <img style="height: auto; width: auto"
-                                                src="https://easyhrm.vn/wp-content/uploads/2023/09/Group-33834.png"
-                                                alt="">
-                                        </div>
-                                        <div style="width: auto !important" class="swiper-slide">
-                                            <img style="height: auto; width: auto"
-                                                src="https://easyhrm.vn/wp-content/uploads/2023/09/Group-33853.png"
-                                                alt="">
+                                        <div class="pi_the-answer">
+                                            <?php if (have_rows('pi_answer', 'option')):
+                                                while (have_rows('pi_answer', 'option')):
+                                                    the_row(); ?>
+                                                    <li class="pi_answer-detail">
+                                                        <?php echo get_sub_field('pi_answer_detail', 'option') ?>
+                                                    </li>
+                                                    <?php
+                                                endwhile;
+                                            endif;
+                                            ?>
                                         </div>
                                     </div>
-                                    <div class="swiper-button-next"></div>
-                                    <div class="swiper-button-prev"></div>
+                                    <?php
+                                endwhile;
+                            endif;
+                            ?>
+                        </div>
+                    </div>
+                    <div class="img-box">
+
+                        <body>
+                            <div class="swiper mySwiper">
+                                <div class="swiper-wrapper">
+                                    <div style="width: auto !important" class="swiper-slide">
+                                        <img style="height: auto; width: auto"
+                                            src="https://easyhrm.vn/wp-content/uploads/2023/11/Group-33982.png" alt="">
+                                    </div>
                                 </div>
-                            </body>
-                        </div>
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                            </div>
+                        </body>
                     </div>
                 </div>
             </div>
-            <div class="pi_features" style="background: rgba(254, 240, 233, 0.60);">
-                <div class="container">
-                    <div class="item-box">
-                        <div class="img-box">
+        </div>
+        <div class="pi_features" style="background: rgba(254, 240, 233, 0.60);">
+            <div class="container">
+                <div class="item-box paddingleft12percent">
+                    <div class="img-box">
 
-                            <body>
-                                <div class="swiper mySwiper">
-                                    <div class="swiper-wrapper">
-                                        <div style="width: auto !important" class="swiper-slide">
-                                            <img style="height: auto; width: auto"
-                                                src="https://easyhrm.vn/wp-content/uploads/2023/09/Group-33763-1.png"
-                                                alt="">
-                                        </div>
-                                        <div style="width: auto !important" class="swiper-slide">
-                                            <img style="height: auto; width: auto"
-                                                src="https://easyhrm.vn/wp-content/uploads/2023/09/Group-33789.png"
-                                                alt="">
-                                        </div>
-                                        <div style="width: auto !important" class="swiper-slide">
-                                            <img style="height: auto; width: auto"
-                                                src="https://easyhrm.vn/wp-content/uploads/2023/09/Group-33840.png"
-                                                alt="">
-                                        </div>
-                                        <div style="width: auto !important" class="swiper-slide">
-                                            <img style="height: auto; width: auto"
-                                                src="https://easyhrm.vn/wp-content/uploads/2023/09/Group-33841.png"
-                                                alt="">
-                                        </div>
+                        <body>
+                            <div class="swiper mySwiper">
+                                <div class="swiper-wrapper">
+                                    <div style="width: auto !important" class="swiper-slide">
+                                        <img style="height: auto; width: auto"
+                                            src="https://easyhrm.vn/wp-content/uploads/2023/12/Group-2609403.png"
+                                            alt="">
                                     </div>
-                                    <div class="swiper-button-next"></div>
-                                    <div class="swiper-button-prev"></div>
+                                    <div style="width: auto !important" class="swiper-slide">
+                                        <img style="height: auto; width: auto"
+                                            src="https://easyhrm.vn/wp-content/uploads/2023/12/Group-33912.png" alt="">
+                                    </div>
+                                    <div style="width: auto !important" class="swiper-slide">
+                                        <img style="height: auto; width: auto"
+                                            src="https://easyhrm.vn/wp-content/uploads/2023/12/Group-34074.png" alt="">
+                                    </div>
                                 </div>
-                            </body>
-                        </div>
-                        <div class="content-box">
-                            <div class="pi_title-blue">
-                                02 Hồ sơ nhân viên chi tiết
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
                             </div>
-                            <div class="pi_sub-title-blue">
-                                Tạo lập chiến lược người dùng thông minh
-                            </div>
-                            <div class="personal-overall">
-                                <?php
-                                if (have_rows('ttns_pi_list_question_02', 'option')):
-                                    while (have_rows('ttns_pi_list_question_02', 'option')):
-                                        the_row(); ?>
-                                        <div class="pi_question-row">
-                                            <div class="row center-row">
-                                                <div class="col-md-12">
-                                                    <div style="text-align: left" class="pi_the-question pi_click-question">
-                                                        <?php echo get_sub_field('pi_question', 'option') ?>
-                                                    </div>
-                                                </div>
-
-                                            </div>
-                                            <div class="pi_the-answer">
-                                                <?php if (have_rows('pi_answer', 'option')):
-                                                    while (have_rows('pi_answer', 'option')):
-                                                        the_row(); ?>
-                                                        <li class="pi_answer-detail">
-                                                            <?php echo get_sub_field('pi_answer_detail', 'option') ?>
-                                                        </li>
-                                                        <?php
-                                                    endwhile;
-                                                endif;
-                                                ?>
-                                            </div>
-                                        </div>
-                                        <?php
-                                    endwhile;
-                                endif;
-                                ?>
-                            </div>
-                        </div>
-
+                        </body>
                     </div>
-                </div>
-            </div>
-            <div class="pi_banner-middle">
-                <img width="100%" src="https://easyhrm.vn/wp-content/uploads/2023/09/image_2023_09_13T08_32_36_892Z.png"
-                    alt="" />
-                <div style="margin-bottom: 7%;margin-left: 12%" class="container banner-seperation-content">
-                    <div class="row">
-                        <div class="mb-dpn col-md-6 col-lg-6 col-sm-12">
-                            <div>
-                                <a target="_blank" href="#">
-                                    <div class="" style="text-align: center; margin-top: 25%">
-                                        <button class="give-consulation-immediatetly">Nhận tư vấn ngay</button>
-                                    </div>
-                                </a>
-                            </div>
+                    <div class="content-box">
+                        <div class="pi_title-blue">
+                            2. Thông tin nhân viên chi tiết
                         </div>
-                    </div>
-                </div>
-            </div>
-            <div class="pi_features">
-                <div class="container">
-                    <div class="item-box">
-                        <div class="content-box">
-                            <div class="pi_title-blue">
-                                03 Ban hành quyết định nhanh chóng
-                            </div>
-                            <div class="pi_sub-title-blue">
-                                Thực thi đồng bộ toàn hệ thống số
-                            </div>
-                            <div class="personal-overall">
-                                <?php
-                                if (have_rows('ttns_pi_list_question_03', 'option')):
-                                    while (have_rows('ttns_pi_list_question_03', 'option')):
-                                        the_row(); ?>
-                                        <div class="pi_question-row">
-                                            <div class="row center-row">
-                                                <div class="col-md-12">
-                                                    <div style="text-align: left" class="pi_the-question pi_click-question">
-                                                        <?php echo get_sub_field('pi_question', 'option') ?>
-                                                    </div>
+                        <div class="pi_sub-title-blue">
+                            Tạo lập chiến lược người dùng thông minh
+                        </div>
+                        <div class="personal-overall">
+                            <?php
+                            if (have_rows('ttns_pi_list_question_02', 'option')):
+                                while (have_rows('ttns_pi_list_question_02', 'option')):
+                                    the_row(); ?>
+                                    <div class="pi_question-row">
+                                        <div class="row center-row">
+                                            <div class="col-md-12">
+                                                <div style="text-align: left" class="pi_the-question pi_click-question">
+                                                    <?php echo get_sub_field('pi_question', 'option') ?>
                                                 </div>
                                             </div>
-                                            <div class="pi_the-answer">
-                                                <?php if (have_rows('pi_answer', 'option')):
-                                                    while (have_rows('pi_answer', 'option')):
-                                                        the_row(); ?>
-                                                        <li class="pi_answer-detail">
-                                                            <?php echo get_sub_field('pi_answer_detail', 'option') ?>
-                                                        </li>
-                                                        <?php
-                                                    endwhile;
-                                                endif;
-                                                ?>
-                                            </div>
                                         </div>
-                                        <?php
-                                    endwhile;
-                                endif;
-                                ?>
-                            </div>
-                        </div>
-                        <div class="img-box">
-
-                            <body>
-                                <div class="swiper mySwiper">
-                                    <div class="swiper-wrapper">
-                                        <div style="width: auto !important" class="swiper-slide">
-                                            <img style="height: auto; width: auto"
-                                                src="https://easyhrm.vn/wp-content/uploads/2023/09/Group-33836.png"
-                                                alt="">
-                                        </div>
-                                        <div style="width: auto !important" class="swiper-slide">
-                                            <img style="height: auto; width: auto"
-                                                src="https://easyhrm.vn/wp-content/uploads/2023/09/Group-33788.png"
-                                                alt="">
+                                        <div class="pi_the-answer">
+                                            <?php if (have_rows('pi_answer', 'option')):
+                                                while (have_rows('pi_answer', 'option')):
+                                                    the_row(); ?>
+                                                    <li class="pi_answer-detail">
+                                                        <?php echo get_sub_field('pi_answer_detail', 'option') ?>
+                                                    </li>
+                                                    <?php
+                                                endwhile;
+                                            endif;
+                                            ?>
                                         </div>
                                     </div>
-                                    <div class="swiper-button-next"></div>
-                                    <div class="swiper-button-prev"></div>
-                                </div>
-                            </body>
+                                    <?php
+                                endwhile;
+                            endif;
+                            ?>
                         </div>
                     </div>
+
                 </div>
             </div>
-            <div class="pi_features" style="background: rgba(254, 240, 233, 0.60);">
-                <div class="container">
-                    <div class="item-box">
-                        <div class="img-box">
-
-                            <body>
-                                <div class="swiper mySwiper">
-                                    <div class="swiper-wrapper">
-                                        <div style="width: auto !important" class="swiper-slide">
-                                            <img style="height: auto; width: auto"
-                                                src="https://easyhrm.vn/wp-content/uploads/2023/09/Group-33786-1.png"
-                                                alt="">
-                                        </div>
-                                    </div>
-                                    <div class="swiper-button-next"></div>
-                                    <div class="swiper-button-prev"></div>
-                                </div>
-                            </body>
+        </div>
+        <div class="pi_features">
+            <div class="container">
+                <div class="item-box paddingleft12percent">
+                    <div class="content-box">
+                        <div class="pi_title-blue">
+                            3. Ban hành quyết định nhanh chóng
                         </div>
-                        <div class="content-box ">
-                            <div class="pi_title-blue">
-                                04 Phúc lợi & Phụ cấp minh bạch
-                            </div>
-                            <div class="pi_sub-title-blue">
-                                Quản lý chi tiết mọi phát sinh
-                            </div>
-                            <div class="personal-overall">
-                                <?php
-                                if (have_rows('ttns_pi_list_question_04', 'option')):
-                                    while (have_rows('ttns_pi_list_question_04', 'option')):
-                                        the_row(); ?>
-                                        <div class="pi_question-row">
-                                            <div class="row center-row">
-                                                <div class="col-md-12">
-                                                    <div style="text-align: left" class="pi_the-question pi_click-question">
-                                                        <?php echo get_sub_field('pi_question', 'option') ?>
-                                                    </div>
+                        <div class="pi_sub-title-blue">
+                            Thực thi đồng bộ toàn hệ thống số
+                        </div>
+                        <div class="personal-overall">
+                            <?php
+                            if (have_rows('ttns_pi_list_question_03', 'option')):
+                                while (have_rows('ttns_pi_list_question_03', 'option')):
+                                    the_row(); ?>
+                                    <div class="pi_question-row">
+                                        <div class="row center-row">
+                                            <div class="col-md-12">
+                                                <div style="text-align: left" class="pi_the-question pi_click-question">
+                                                    <?php echo get_sub_field('pi_question', 'option') ?>
                                                 </div>
-
-                                            </div>
-                                            <div class="pi_the-answer">
-                                                <?php if (have_rows('pi_answer', 'option')):
-                                                    while (have_rows('pi_answer', 'option')):
-                                                        the_row(); ?>
-                                                        <li class="pi_answer-detail">
-                                                            <?php echo get_sub_field('pi_answer_detail', 'option') ?>
-                                                        </li>
-                                                        <?php
-                                                    endwhile;
-                                                endif;
-                                                ?>
                                             </div>
                                         </div>
-                                        <?php
-                                    endwhile;
-                                endif;
-                                ?>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="pi_features">
-                <div class="container">
-                    <div class="item-box">
-                        <div class="content-box">
-                            <div class="pi_title-blue">
-                                05 Báo cáo & Thiết lập dễ dàng
-                            </div>
-                            <div class="pi_sub-title-blue">
-                                Tiết kiệm tới 10 giờ quản lý nhân sự mỗi tuần
-                            </div>
-                            <div class="personal-overall">
-                                <?php
-                                if (have_rows('ttns_pi_list_question_05', 'option')):
-                                    while (have_rows('ttns_pi_list_question_05', 'option')):
-                                        the_row(); ?>
-                                        <div class="pi_question-row">
-                                            <div class="row center-row">
-                                                <div class="col-md-12">
-                                                    <div style="text-align: left" class="pi_the-question pi_click-question">
-                                                        <?php echo get_sub_field('pi_question', 'option') ?>
-                                                    </div>
-                                                </div>
-
-                                            </div>
-                                            <div class="pi_the-answer">
-                                                <?php if (have_rows('pi_answer', 'option')):
-                                                    while (have_rows('pi_answer', 'option')):
-                                                        the_row(); ?>
-                                                        <li class="pi_answer-detail">
-                                                            <?php echo get_sub_field('pi_answer_detail', 'option') ?>
-                                                        </li>
-                                                        <?php
-                                                    endwhile;
-                                                endif;
-                                                ?>
-                                            </div>
+                                        <div class="pi_the-answer">
+                                            <?php if (have_rows('pi_answer', 'option')):
+                                                while (have_rows('pi_answer', 'option')):
+                                                    the_row(); ?>
+                                                    <li class="pi_answer-detail">
+                                                        <?php echo get_sub_field('pi_answer_detail', 'option') ?>
+                                                    </li>
+                                                    <?php
+                                                endwhile;
+                                            endif;
+                                            ?>
                                         </div>
-                                        <?php
-                                    endwhile;
-                                endif;
-                                ?>
-                            </div>
-                        </div>
-                        <div class="img-box">
-
-                            <body>
-                                <div class="swiper mySwiper">
-                                    <div class="swiper-wrapper">
-                                        <div style="width: auto !important" class="swiper-slide">
-                                            <img style="height: auto; width: auto"
-                                                src="https://easyhrm.vn/wp-content/uploads/2023/09/Group-33787-1.png"
-                                                alt="">
-                                        </div>
-                                        <div style="width: auto !important" class="swiper-slide">
-                                            <img style="height: auto; width: auto"
-                                                src="https://easyhrm.vn/wp-content/uploads/2023/09/Group-33792.png"
-                                                alt="">
-                                        </div>
-
                                     </div>
-                                    <div class="swiper-button-next"></div>
-                                    <div class="swiper-button-prev"></div>
-                                </div>
-                            </body>
+                                    <?php
+                                endwhile;
+                            endif;
+                            ?>
                         </div>
+                    </div>
+                    <div class="img-box">
+
+                        <body>
+                            <div class="swiper mySwiper">
+                                <div class="swiper-wrapper">
+                                    <div style="width: auto !important" class="swiper-slide">
+                                        <img style="height: auto; width: auto"
+                                            src="https://easyhrm.vn/wp-content/uploads/2023/12/Group-34080.png" alt="">
+                                    </div>
+
+                                </div>
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                            </div>
+                        </body>
                     </div>
                 </div>
             </div>
+        </div>
     </section>
     <section id="pi_great_personal">
         <div class="container">
             <div class="standard-title text-center">
-                EasyHRM đồng hành cùng sếp xây dựng bộ máy nhân sự tinh nhuệ
+                EasyHRM đồng hành cùng sếp xây dựng
+                <br>
+                bộ máy nhân sự tinh nhuệ
             </div>
             <div>
-                <img style="width: 100%"
+                <img style="width: 100%; margin-top: 40px"
                     src="https://easyhrm.vn/wp-content/uploads/2023/09/image_2023_09_13T08_47_01_086Z.png" alt="">
+            </div>
+            <div class="great-personal-btn">
+                <a target="_blank" href="https://app.easyhrm.vn/trial-registration">
+                    <div class="great-personal-btn-try">Dùng thử</div>
+                </a>
+                <a class="scroll-link" href="#esi_form_register">
+                    <div class="great-personal-btn-consultation">Tư vấn</div>
+                </a>
             </div>
         </div>
     </section>
 
 </div>
-<!-- Easyhrm thong tin nhan vien -->
+<!-- Easy hrm bao hiem xa hoi -->
+<div class="standardElement" id="standard_baohiemxahoi">
+    <section id="esi_safeSolution">
+        <div class="standard-title justify-content-center">
+            <div><img style="margin-right: 16px" src="https://easyhrm.vn/wp-content/uploads/2023/12/Group-2609373.png"
+                    alt="">EasyHRM bảo hiểm xã hội</div>
+        </div>
+        <div class="pi-subtitle">
+            Quản lý BHXH tiện lợi trên nền tảng số, kết nối trực tiếp với Bảo hiểm xã hội Việt Nam 
+        </div>
+        <div class="subtitle-border-bottom">
+            <svg xmlns="http://www.w3.org/2000/svg" width="898" height="2" viewBox="0 0 898 2" fill="none">
+                <path d="M0 1H898" stroke="#BDC9E2" />
+            </svg>
+        </div>
+        <div style="padding: 55px 0; margin-top: 60px; background: #FEF6F2;">
+            <div class="container">
+                <div class="row padding12percent">
+                    <div style="margin-bottom: 32px; line-height: normal" class="pi_title-blue text-center">1. Giải pháp
+                        BHXH điện tử an toàn, tin cậy <br> đạt tiêu chuẩn quốc gia</div>
+                    <div class="col-lg-4 col-md-12 col-sm-12">
+                        <div class="pi_featured-box">
+                            <div class="">
+                                <img src="https://easyhrm.vn/wp-content/uploads/2023/09/Chua-co-ten-142-×-89-px.png"
+                                    alt="">
+                            </div>
+                            <div class="esi_featured_subtext">Bảo mật theo tiêu chuẩn iso</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-sm-12">
+                        <div class="pi_featured-box">
+                            <div class="">
+                                <img src="https://easyhrm.vn/wp-content/uploads/2023/09/Chua-co-ten-87-×-87-px.png"
+                                    alt="">
+                            </div>
+                            <div class="esi_featured_subtext">Đảm bảo nghị quyết 28-NQ/TW </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-sm-12">
+                        <div class="pi_featured-box">
+                            <div class="">
+                                <img src="https://easyhrm.vn/wp-content/uploads/2023/09/Chua-co-ten-171-×-84-px.png"
+                                    alt="">
+                            </div>
+                            <div class="esi_featured_subtext">Dữ liệu được mã hóa SSL</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section id="esi_featured">
+        <div class="pi_features">
+            <div class="container">
+                <div class="item-box paddingleft12percent">
+                    <div class="content-box">
+                        <div class="pi_title-blue">
+                            2. Thực hiện nghiệp vụ BHXH hoàn toàn
+                            trên nền tảng số
+                        </div>
+                        <div class="pi_sub-title-blue">Tiết kiệm thời gian và công sức cho HR</div>
+                        <div class="personal-overall">
+                            <div class="">
+                                <li class="pi_answer-detail">
+                                    Rút ngắn thời gian chờ xét duyệt, thao tác đơn giản
+                                </li>
+                                <li class="pi_answer-detail">
+                                    Danh sách thủ tục rõ ràng, có sẵn mẫu kê khai từng hạng mục tiện lợi
+                                </li>
+                                <li class="pi_answer-detail">
+                                    Giảm tải các quy trình hành chính và thủ tục cồng kềnh về thu/chi/ sổ thẻ
+                                </li>
+                                <li class="pi_answer-detail">
+                                    28+ Tính năng tiện ích về nghiệp vụ BHXH
+                                </li>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="img-box">
+                        <img src="https://easyhrm.vn/wp-content/uploads/2023/12/Group-2609399.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pi_features" style="background: rgba(254, 240, 233, 0.60);">
+            <div class="container">
+                <div class="item-box paddingleft12percent">
+                    <div class="img-box">
+                        <img src="https://easyhrm.vn/wp-content/uploads/2023/12/Group-34105.png" alt="">
+                    </div>
+                    <div class="content-box ">
+                        <div class="pi_title-blue">
+                            3. Kiểm soát thu, chi BHXH của doanh
+                            nghiệp và đối soát với BHXH Việt Nam
+                        </div>
+                        <div class="pi_sub-title-blue">
+                            Chuẩn xác về dữ liệu, giảm thiểu sai sót
+                        </div>
+                        <div class="personal-overall">
+                            <div class="">
+                                <li class="pi_answer-detail">
+                                    Tự động tính số tiền dự kiến phải đóng và được hưởng chế độ cho người lao động
+                                </li>
+                                <li class="pi_answer-detail">
+                                    Tổng hợp danh sách nộp và chi trả BHXH định kỳ tự động
+                                </li>
+                                <li class="pi_answer-detail">
+                                    Hỗ trợ hạn chế các sai sót về ngân sách đóng, chi trả BHXH
+                                </li>
+                                <li class="pi_answer-detail">
+                                    Tra cứu C12 giúp nắm được tình hình BHXH của doanh nghiệp
+                                </li>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="digital-convertion-banner">
+        <img src="https://easyhrm.vn/wp-content/uploads/2023/12/Group-2609407.png" alt="">
+        <div class="digital-convertion-btn">
+            <a target="_blank" href="https://app.easyhrm.vn/trial-registration">
+                <div class="great-personal-btn-try">Dùng thử</div>
+            </a>
+            <a href="#esi-form-register">
+                <div class="great-personal-btn-consultation digital-convertion-consulation">Tư vấn</div>
+            </a>
+        </div>
+    </div>
+</div>
+<!-- Easyhrm thong tin nhan vien(ho so nhan vien) -->
 <div class="standardElement" id="standard_thongtinnhanvien">
     <section id="sm_digital_records">
         <div class="container">
             <div class="standard-title justify-content-center">
-                <div>EasyHRM thông tin nhân viên</div>
+                <div><img style="margin-right: 16px"
+                        src="https://easyhrm.vn/wp-content/uploads/2023/12/Group-2609374.png" alt="">EasyHRM hồ sơ nhân
+                    viên</div>
             </div>
             <div class="pi-subtitle">
-                Dễ dàng quản lý hồ sơ số
+                Mang đến trải nghiệm quản lý số đa chiều cho nhân viên
             </div>
-            <div class="center-row">
-                <img style="width: 50%;" src="https://easyhrm.vn/wp-content/uploads/2023/09/Group-33857.png" alt="">
+            <div class="subtitle-border-bottom">
+                <svg xmlns="http://www.w3.org/2000/svg" width="662" height="2" viewBox="0 0 662 2" fill="none">
+                    <path d="M0 1H662" stroke="#BDC9E2" />
+                </svg>
             </div>
         </div>
     </section>
-    <section style="padding-top: 50px; padding-bottom: 10px" id="sm_digital_records_experience">
-        <div class="container">
-            <div class="standard-title">
-                Mang đến trải nghiệm quản lý số cho nhân sự
-            </div>
-            <div class="pi-subtitle">
-                Cá nhân hóa trải nghiệm quản lý thông tin cá nhân, hồ sơ nhân sự tại doanh nghiệp
-            </div>
-        </div>
+    <section id="sm_digital_records_experience">
         <div class="pi_features">
             <div class="container">
-                <div class="item-box">
+                <div class="item-box paddingleft12percent">
                     <div class="content-box">
                         <div class="pi_title-blue">
-                            01 Trực tiếp giám sát, theo dõi hồ sơ cá nhân
+                            1. Trực tiếp giám sát hồ sơ cá nhân
                         </div>
                         <div style="width: 90%" class="personal-overall">
                             <?php
@@ -587,11 +551,8 @@ get_header() ?>
                                 <div class="swiper-wrapper">
                                     <div style="width: auto !important" class="swiper-slide">
                                         <img style="height: auto; width: auto"
-                                            src="https://easyhrm.vn/wp-content/uploads/2023/09/Group-33805.png" alt="">
-                                    </div>
-                                    <div style="width: auto !important" class="swiper-slide">
-                                        <img style="height: auto; width: auto"
-                                            src="https://easyhrm.vn/wp-content/uploads/2023/09/Group-33846.png" alt="">
+                                            src="https://easyhrm.vn/wp-content/uploads/2023/12/Group-2609369.png"
+                                            alt="">
                                     </div>
                                 </div>
                                 <div class="swiper-button-next"></div>
@@ -605,7 +566,7 @@ get_header() ?>
         </div>
         <div class="pi_features" style="background: rgba(254, 240, 233, 0.60);">
             <div class="container">
-                <div class="item-box">
+                <div class="item-box paddingleft12percent">
                     <div class="img-box">
 
                         <body>
@@ -613,22 +574,8 @@ get_header() ?>
                                 <div class="swiper-wrapper">
                                     <div style="width: auto !important" class="swiper-slide">
                                         <img style="height: auto; width: auto"
-                                            src="https://easyhrm.vn/wp-content/uploads/2023/09/Group-33838.png" alt="">
+                                            src="https://easyhrm.vn/wp-content/uploads/2023/12/Group-34096.png" alt="">
                                     </div>
-                                    <div style="width: auto !important" class="swiper-slide">
-                                        <img style="height: auto; width: auto"
-                                            src="https://easyhrm.vn/wp-content/uploads/2023/09/Group-33809-1.png"
-                                            alt="">
-                                    </div>
-                                    <div style="width: auto !important" class="swiper-slide">
-                                        <img style="height: auto; width: auto"
-                                            src="https://easyhrm.vn/wp-content/uploads/2023/09/Group-33813.png" alt="">
-                                    </div>
-                                    <div style="width: auto !important" class="swiper-slide">
-                                        <img style="height: auto; width: auto"
-                                            src="https://easyhrm.vn/wp-content/uploads/2023/09/Group-33814.png" alt="">
-                                    </div>
-
                                 </div>
                                 <div class="swiper-button-next"></div>
                                 <div class="swiper-button-prev"></div>
@@ -638,7 +585,7 @@ get_header() ?>
                     </div>
                     <div class="content-box">
                         <div class="pi_title-blue">
-                            02 Kiểm soát được quyền lợi, chế độ
+                            2. Theo dõi sát sao quyền lợi, chế độ
                         </div>
                         <div class="personal-overall">
                             <?php
@@ -680,79 +627,15 @@ get_header() ?>
                 </div>
             </div>
         </div>
-        <div class="pi_features">
-            <div class="container">
-                <div class="item-box">
-                    <div class="content-box">
-                        <div class="pi_title-blue">
-                            03 Quản lý hợp đồng số tối ưu
-                        </div>
-                        <div class="personal-overall">
-                            <?php
-                            if (have_rows('nv_pi_list_question_03', 'option')):
-                                while (have_rows('nv_pi_list_question_03', 'option')):
-                                    the_row(); ?>
-                                    <div class="pi_question-row">
-                                        <div class="row center-row">
-                                            <div class="col-md-12">
-                                                <div style="text-align: left" class="pi_the-question pi_click-question">
-                                                    <?php echo get_sub_field('pi_question', 'option') ?>
-                                                </div>
-                                            </div>
-                                            <!-- <div class="col-md-1 openclose">
-                                                <img src="https://easyhrm.vn/wp-content/uploads/2023/08/tabler_caret-down-filled-1.png"
-                                                    alt="" />
-                                            </div> -->
-                                        </div>
-                                        <div class="pi_the-answer">
-                                            <?php if (have_rows('pi_answer', 'option')):
-                                                while (have_rows('pi_answer', 'option')):
-                                                    the_row(); ?>
-                                                    <li class="pi_answer-detail">
-                                                        <?php echo get_sub_field('pi_answer_detail', 'option') ?>
-                                                    </li>
-                                                    <?php
-                                                endwhile;
-                                            endif;
-                                            ?>
-                                        </div>
-                                    </div>
-                                    <?php
-                                endwhile;
-                            endif;
-                            ?>
-                        </div>
-                    </div>
-
-                    <div class="img-box">
-
-                        <body>
-                            <div class="swiper mySwiper">
-                                <div class="swiper-wrapper">
-                                    <div style="width: auto !important" class="swiper-slide">
-                                        <img style="height: auto; width: auto"
-                                            src="https://easyhrm.vn/wp-content/uploads/2023/09/Group-33844.png" alt="">
-                                    </div>
-                                </div>
-                                <div class="swiper-button-next"></div>
-                                <div class="swiper-button-prev"></div>
-
-                            </div>
-                        </body>
-                    </div>
-                </div>
-            </div>
-        </div>
-
     </section>
-    <section style="padding-bottom: 50px" id="sm_auto_staff_report_management">
+    <section id="sm_auto_staff_report_management">
         <div class="container">
             <div class="row center-row">
-                <div class="col-md-6 col-lg-6 col-sm-12 center-row">
+                <div class="col-md-12 col-lg-6 col-sm-12 center-row">
                     <img style="width: 60%"
                         src="https://easyhrm.vn/wp-content/uploads/2023/09/image_2023_09_14T03_56_06_783Z.png" alt="">
                 </div>
-                <div class="col-md-6 col-lg-6 col-sm-12">
+                <div class="col-md-12 col-lg-6 col-sm-12">
                     <div style="" class="auto-srm-title">
                         EasyHRM giúp sếp tự động hóa quản trị hồ sơ nhân sự
                     </div>
@@ -786,190 +669,16 @@ get_header() ?>
                             Thực hiện hoàn toàn trên hệ thống số
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
-    </section>
-</div>
-<!-- Easy hrm bao hiem xa hoi -->
-<div class="standardElement" id="standard_baohiemxahoi">
-    <section id="esi_safeSolution">
-        <div class="container">
-            <div class="standard-title justify-content-center">
-                <div>EasyHRM bảo hiểm xã hội</div>
-            </div>
-            <div class="pi-subtitle">
-                Giải pháp BHXH điện tử an toàn, tin cậy
-                đạt tiêu chuẩn quốc gia
-            </div>
-            <div style="margin-top: 48px; padding: 0 12%" class="row">
-                <div class="col-md-4">
-                    <div class="pi_featured-box">
-                        <div class="">
-                            <img src="https://easyhrm.vn/wp-content/uploads/2023/09/Chua-co-ten-142-×-89-px.png" alt="">
-                        </div>
-                        <div class="esi_featured_subtext">Bảo mật theo tiêu chuẩn iso</div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="pi_featured-box">
-                        <div class="">
-                            <img src="https://easyhrm.vn/wp-content/uploads/2023/09/Chua-co-ten-87-×-87-px.png" alt="">
-                        </div>
-                        <div class="esi_featured_subtext">Đảm bảo nghị quyết 28-NQ/TW </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="pi_featured-box">
-                        <div class="">
-                            <img src="https://easyhrm.vn/wp-content/uploads/2023/09/Chua-co-ten-171-×-84-px.png" alt="">
-                        </div>
-                        <div class="esi_featured_subtext">Dữ liệu được mã hóa SSL</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="esi_featured">
-        <div class="pi_features">
-            <div class="container">
-                <div class="item-box">
-                    <div class="content-box">
-                        <div style="margin-bottom: 20px" class="pi_title-blue">
-                            Đăng ký, kê khai, nộp và nhận kết quả nghiệp vụ
-                            BHXH trên nền tảng số
-                        </div>
-                        <div class="personal-overall">
-                            <div class="">
-                                <li class="pi_answer-detail">
-                                    Rút ngắn thời gian chờ xét duyệt, thao tác đơn giản
-                                </li>
-                                <li class="pi_answer-detail">
-                                    Thực hiện tiện lợi trên hệ thống số, tiết kiệm thời gian cho HR 
-                                </li>
-                                <li class="pi_answer-detail">
-                                    Danh sách thủ tục rõ ràng, có sẵn mẫu kê khai từng hạng mục tiện lợi
-                                </li>
-                                <li class="pi_answer-detail">
-                                    Giảm tải các quy trình hành chính và thủ tục cồng kềnh về thu/chi/ sổ thẻ
-                                </li>
-                                <li class="pi_answer-detail">
-                                    Trình ký mọi lúc, mọi nơi tại nhiều máy tính dữ liệu được đồng bộ chính xác
-                                </li>
-                                <li class="pi_answer-detail">
-                                    28+ Tính năng tiện ích về nghiệp vụ BHXH
-                                </li>
-                            </div>
-
+                    <div class="auto-srm-featured">
+                        <div class="great-personal-btn">
+                            <a target="_blank" href="https://app.easyhrm.vn/trial-registration">
+                                <div class="great-personal-btn-try auto-srm-free-trial">Trải nghiệm miễn phí</div>
+                            </a>
+                            <a class="scroll-link" href="#esi_form_register">
+                                <div class="great-personal-btn-consultation">Tư vấn</div>
+                            </a>
                         </div>
                     </div>
-                    <div class="img-box">
-                        <img src="https://easyhrm.vn/wp-content/uploads/2023/09/Group-33819.png" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="pi_features" style="background: rgba(254, 240, 233, 0.60);">
-            <div class="container">
-                <div class="item-box">
-                    <div class="img-box">
-                        <img src="https://easyhrm.vn/wp-content/uploads/2023/09/Group-33828.png" alt="">
-                    </div>
-                    <div class="content-box ">
-                        <div style="margin-bottom: 20px" class="pi_title-blue">
-                            Quản lý, lưu trữ và tra cứu các loại
-                            hồ sơ, giấy tờ BHXH 1 cách dễ dàng
-                        </div>
-                        <div class="personal-overall">
-                            <div class="">
-                                <li class="pi_answer-detail">
-                                    Danh sách hồ sơ được lưu trữ khoa học, dễ dàng truy xuất
-                                </li>
-                                <li class="pi_answer-detail">
-                                    Lưu trữ mọi giấy tờ, hồ sơ trên hệ thống số an toàn, bền vững
-                                </li>
-                                <li class="pi_answer-detail">
-                                    Tra cứu và sao chép các hồ sơ nhanh chóng
-                                </li>
-                                <li class="pi_answer-detail">
-                                    Tinh giản quá trình quản lý hồ sơ nhân sự
-                                </li>
-                                <li class="pi_answer-detail">
-                                    Cho phép xem quá trình tham gia BHXH của từng nhân viên
-                                </li>
-                                <li class="pi_answer-detail">
-                                    Tất cả lịch sử giao dịch đều được thông báo và quản lý minh bạch
-                                </li>
-                            </div>
-
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-        <div class="pi_features">
-            <div class="container">
-                <div class="item-box">
-                    <div class="content-box">
-                        <div style="margin-bottom: 20px" class="pi_title-blue">
-                            Kiểm soát thu, chi BHXH của doanh nghiệp
-                            và đối soát với BHXH Việt Nam
-                        </div>
-                        <div class="personal-overall">
-                            <div class="">
-                                <li class="pi_answer-detail">
-                                    Tự động tính số tiền dự kiến phải đóng và được hưởng chế độ cho
-                                    người lao động
-                                </li>
-                                <li class="pi_answer-detail">
-                                    Tổng hợp danh sách nộp và chi trả BHXH định kỳ tự động
-                                </li>
-                                <li class="pi_answer-detail">
-                                    Hỗ trợ hạn chế các sai sót về ngân sách đóng, chi trả BHXH
-                                </li>
-                                <li class="pi_answer-detail">
-                                    Tra cứu C12 giúp nắm được tình hình BHXH của doanh nghiệp
-                                </li>
-
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="img-box">
-                        <img src="https://easyhrm.vn/wp-content/uploads/2023/09/Group-33829.png" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="pi_features" style="background: rgba(254, 240, 233, 0.60);">
-            <div class="container">
-                <div class="item-box">
-                    <div class="img-box">
-                        <img src="https://easyhrm.vn/wp-content/uploads/2023/09/Group-33826.png" alt="">
-                    </div>
-                    <div class="content-box">
-                        <div style="margin-bottom: 20px" class="pi_title-blue">
-                            Nâng cao trải nghiệm BHXH điện tử của
-                            nhân viên, đảm bảo quyền lợi trong quá trình
-                            đóng góp và cống hiến cho doanh nghiệp
-                        </div>
-                        <div class="personal-overall">
-                            <div class="">
-                                <li class="pi_answer-detail">
-                                    Chủ động theo dõi thông tin BHXH trên cổng VSSID
-                                </li>
-                                <li class="pi_answer-detail">
-                                    Giám sát quá trình thực hiện nghĩa vụ BHXH của doanh nghiệp
-                                </li>
-                                <li class="pi_answer-detail">
-                                    Tra cứu các thông tin về sổ/ thẻ, hồ sơ BHXH dễ dàng
-                                </li>
-                            </div>
-
-                        </div>
-                    </div>
-
                 </div>
             </div>
         </div>
@@ -985,7 +694,7 @@ get_header() ?>
                 <div class="standard-featured-box">
                     <div class="featured-heading">
                         <div class="featured-heading-icon">
-                            <img src="https://easyhrm.vn/wp-content/uploads/2023/09/Group-283.png" alt="">
+                            <img src="https://easyhrm.vn/wp-content/uploads/2023/12/Group-2609406.png" alt="">
                         </div>
                         <div class="featured-heading-text">
                             Tối ưu <span style="color: var(--orange-2, #F26522);">hiệu suất làm việc</span>
@@ -1000,7 +709,7 @@ get_header() ?>
                 <div class="standard-featured-box">
                     <div class="featured-heading">
                         <div class="featured-heading-icon">
-                            <img src="https://easyhrm.vn/wp-content/uploads/2023/09/Group-283.png" alt="">
+                            <img src="https://easyhrm.vn/wp-content/uploads/2023/12/Group-2609404-1-1.png" alt="">
                         </div>
                         <div class="featured-heading-text">
                             Tiết kiệm <span style="color: var(--orange-2, #F26522);">thời gian, chi phí</span>
@@ -1030,7 +739,7 @@ get_header() ?>
                 <div class="standard-featured-box">
                     <div class="featured-heading">
                         <div class="featured-heading-icon">
-                            <img src="https://easyhrm.vn/wp-content/uploads/2023/09/Group-283.png" alt="">
+                            <img src="https://easyhrm.vn/wp-content/uploads/2023/12/Group-2609405.png" alt="">
                         </div>
                         <div class="featured-heading-text">
                             Bảo mật thông tin <span style="color: var(--orange-2, #F26522);">tuyệt đối</span>
@@ -1047,17 +756,19 @@ get_header() ?>
 <section id="standard_price">
     <div class="container">
         <div class="standard-title">
+            Báo giá
+        </div>
+        <div class="standard-sub-title">
             Chọn 1 gói phù hợp với doanh nghiệp của bạn!
         </div>
-
-        <div style="display: block; background: #FEF6F2; margin-top: 0; padding: 0 12%" class="price-detail-showing">
+        <div style="display: block; background: #FEF6F2; margin-top: 0" class="price-detail-showing padding12percent">
 
             <div style="margin-bottom: 20px" class="typeOfHrm center-row">
                 <div>Gói cước dưới 100 lao động</div>
-                
+
             </div>
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-lg-4 col-md-12 col-sm-12">
                     <div class="showing-detail" style="min-height: 160px">
                         <div class="specific-price">
                             589.000 <span class="vnd">VNĐ/12 tháng</span>
@@ -1067,11 +778,11 @@ get_header() ?>
                         </div>
 
                         <a href="tel:  0916 825 201">
-                            <button class="loadmore-btn" style="">Tư vấn</button>
+                            <button class="loadmore-btn price-consultation" style="">Tư vấn</button>
                         </a>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-lg-4 col-md-12 col-sm-12">
                     <div class="showing-detail" style="min-height: 160px">
                         <div class="specific-price">
                             989.000 <span class="vnd">VNĐ/24 tháng</span>
@@ -1081,11 +792,11 @@ get_header() ?>
                         </div>
 
                         <a href="tel:  0916 825 201">
-                            <button class="loadmore-btn" style="">Tư vấn</button>
+                            <button class="loadmore-btn price-consultation" style="">Tư vấn</button>
                         </a>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-lg-4 col-md-12 col-sm-12">
                     <div class="showing-detail" style="min-height: 160px">
                         <div class="specific-price">
                             1.289.000 <span class="vnd">VNĐ/36 tháng</span>
@@ -1095,7 +806,7 @@ get_header() ?>
                         </div>
 
                         <a href="tel:  0916 825 201">
-                            <button class="loadmore-btn" style="">Tư vấn</button>
+                            <button class="loadmore-btn price-consultation" style="">Tư vấn</button>
                         </a>
                     </div>
                 </div>
@@ -1105,7 +816,7 @@ get_header() ?>
 
             </div>
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-lg-4 col-md-12 col-sm-12">
                     <div class="showing-detail" style="min-height: 160px">
                         <div class="specific-price">
                             1.399.000 <span class="vnd">VNĐ/ 12 tháng</span>
@@ -1115,11 +826,11 @@ get_header() ?>
                         </div>
 
                         <a href="tel:  0916 825 201">
-                            <button class="loadmore-btn" style="">Tư vấn</button>
+                            <button class="loadmore-btn price-consultation" style="">Tư vấn</button>
                         </a>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-lg-4 col-md-12 col-sm-12">
                     <div class="showing-detail" style="min-height: 160px">
                         <div class="specific-price">
                             2.399.000 <span class="vnd">VNĐ/ 24 tháng</span>
@@ -1129,11 +840,11 @@ get_header() ?>
                         </div>
 
                         <a href="tel:  0916 825 201">
-                            <button class="loadmore-btn" style="">Tư vấn</button>
+                            <button class="loadmore-btn price-consultation" style="">Tư vấn</button>
                         </a>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-lg-4 col-md-12 col-sm-12">
                     <div class="showing-detail" style="min-height: 160px">
                         <div class="specific-price">
                             2.699.000 <span class="vnd">VNĐ/ 36 tháng</span>
@@ -1143,7 +854,7 @@ get_header() ?>
                         </div>
 
                         <a href="tel:  0916 825 201">
-                            <button class="loadmore-btn" style="">Tư vấn</button>
+                            <button class="loadmore-btn price-consultation" style="">Tư vấn</button>
                         </a>
                     </div>
                 </div>
@@ -1200,17 +911,17 @@ get_header() ?>
         </div>
     </div>
 </section>
-<section style="padding: 50px 0" id="hrm_signature_customer">
+<section style="padding: 55px 0" id="hrm_signature_customer">
     <div class="container">
         <div class="standard-title justify-content-center">
             <div>Khách hàng tiêu biểu</div>
 
         </div>
-        <img class="signature-customer-img" style="display: block; margin: auto"
+        <img class="signature-customer-img" style="max-width: 100%; display: block; margin: auto"
             src="https://easyhrm.vn/wp-content/uploads/2023/09/image_2023_09_23T02_55_24_768Z-1.png" alt="">
     </div>
 </section>
-<section style="padding: 50px 12% 50px" id="pi_saying_of_the_day">
+<section style="padding: 55px 12% 55px" id="pi_saying_of_the_day">
     <div class="container">
         <div class="standard-title text-center">
             Câu chuyện khách hàng
@@ -1301,6 +1012,7 @@ get_header() ?>
                                     </div>
                                 </div>
                             </div>
+
                             <div class="next-prev">
                                 <button class="carousel-control-prev" type="button"
                                     data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -1351,4 +1063,17 @@ get_header() ?>
             prevEl: ".swiper-button-prev",
         },
     });
+</script>
+<script>
+    $(document).ready(function () {
+        $(".standard-list-feature").click(function () {
+            // Loại bỏ class 'selected' khỏi tất cả các elements
+            $(".standard-list-feature").removeClass("selected");
+            $(".list-feature-name, .list-feature-des").css("color", "");
+            // Thêm class 'selected' vào element được click
+            $(this).addClass("selected");
+            $(this).find(".list-feature-name, .list-feature-des").css("color", "white");
+        });
+    });
+   
 </script>
