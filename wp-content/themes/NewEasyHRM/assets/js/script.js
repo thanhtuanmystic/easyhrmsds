@@ -217,6 +217,7 @@ if (width > 767) {
     scrollMouse1(".featured-box", "slide-right");
     scrollMouse1(".animation_img_right", "slide-right");
     scrollMouse1(".animation_img_left", "slide-left");
+    scrollMouse1(".animation_slide_bottom_to_show", "slide-bottom-to-show");
   });
 }
 

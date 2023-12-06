@@ -77,11 +77,6 @@ get_header() ?>
             Gói đặc biệt 3IN1 dễ dàng quản lý, dễ dàng sử dụng. <br>
             Giúp tối giản hóa quản lý hồ sơ nhân sự, tích hợp BHXH và đồng bộ hóa văn bản, hợp đồng điện tử. 
         </div>
-        <style>
-            @media (max-width: 1200px) {
-
-            }
-        </style>
         <div class="row padding12percent">
             <div class="col-lg-4 col-md-12 col-sm-12">
                 <a class="scroll-link" href="#standard_hosonhansu">
@@ -132,7 +127,7 @@ get_header() ?>
                 </svg>
             </div>
         </div>
-        <div class="pi_features">
+        <div class="pi_features animation_slide_bottom_to_show">
             <div class="container">
                 <div class="item-box paddingleft12percent">
                     <div class="content-box">
@@ -192,7 +187,7 @@ get_header() ?>
                 </div>
             </div>
         </div>
-        <div class="pi_features" style="background: rgba(254, 240, 233, 0.60);">
+        <div class="pi_features animation_slide_bottom_to_show" style="background: rgba(254, 240, 233, 0.60);">
             <div class="container">
                 <div class="item-box paddingleft12percent">
                     <div class="img-box">
@@ -262,7 +257,7 @@ get_header() ?>
                 </div>
             </div>
         </div>
-        <div class="pi_features">
+        <div class="pi_features animation_slide_bottom_to_show">
             <div class="container">
                 <div class="item-box paddingleft12percent">
                     <div class="content-box">
@@ -331,7 +326,7 @@ get_header() ?>
                 <br>
                 bộ máy nhân sự tinh nhuệ
             </div>
-            <div>
+            <div class="animation_slide_bottom_to_show">
                 <img style="width: 100%; margin-top: 40px"
                     src="https://easyhrm.vn/wp-content/uploads/2023/09/image_2023_09_13T08_47_01_086Z.png" alt="">
             </div>
@@ -368,7 +363,7 @@ get_header() ?>
                     <div style="margin-bottom: 32px; line-height: normal" class="pi_title-blue text-center">1. Giải pháp
                         BHXH điện tử an toàn, tin cậy <br> đạt tiêu chuẩn quốc gia</div>
                     <div class="col-lg-4 col-md-12 col-sm-12">
-                        <div class="pi_featured-box">
+                        <div class="pi_featured-box animation_slide_bottom_to_show">
                             <div class="">
                                 <img src="https://easyhrm.vn/wp-content/uploads/2023/09/Chua-co-ten-142-×-89-px.png"
                                     alt="">
@@ -376,7 +371,7 @@ get_header() ?>
                             <div class="esi_featured_subtext">Bảo mật theo tiêu chuẩn iso</div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-12 col-sm-12">
+                    <div class="col-lg-4 col-md-12 col-sm-12 animation_slide_bottom_to_show">
                         <div class="pi_featured-box">
                             <div class="">
                                 <img src="https://easyhrm.vn/wp-content/uploads/2023/09/Chua-co-ten-87-×-87-px.png"
@@ -385,7 +380,7 @@ get_header() ?>
                             <div class="esi_featured_subtext">Đảm bảo nghị quyết 28-NQ/TW </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-12 col-sm-12">
+                    <div class="col-lg-4 col-md-12 col-sm-12 animation_slide_bottom_to_show">
                         <div class="pi_featured-box">
                             <div class="">
                                 <img src="https://easyhrm.vn/wp-content/uploads/2023/09/Chua-co-ten-171-×-84-px.png"
@@ -400,7 +395,7 @@ get_header() ?>
         </div>
     </section>
     <section id="esi_featured">
-        <div class="pi_features">
+        <div class="pi_features animation_slide_bottom_to_show">
             <div class="container">
                 <div class="item-box paddingleft12percent">
                     <div class="content-box">
@@ -433,7 +428,7 @@ get_header() ?>
                 </div>
             </div>
         </div>
-        <div class="pi_features" style="background: rgba(254, 240, 233, 0.60);">
+        <div class="pi_features animation_slide_bottom_to_show" style="background: rgba(254, 240, 233, 0.60);">
             <div class="container">
                 <div class="item-box paddingleft12percent">
                     <div class="img-box">
@@ -501,7 +496,7 @@ get_header() ?>
         </div>
     </section>
     <section id="sm_digital_records_experience">
-        <div class="pi_features">
+        <div class="pi_features animation_slide_bottom_to_show">
             <div class="container">
                 <div class="item-box paddingleft12percent">
                     <div class="content-box">
@@ -564,7 +559,7 @@ get_header() ?>
                 </div>
             </div>
         </div>
-        <div class="pi_features" style="background: rgba(254, 240, 233, 0.60);">
+        <div class="pi_features animation_slide_bottom_to_show" style="background: rgba(254, 240, 233, 0.60);">
             <div class="container">
                 <div class="item-box paddingleft12percent">
                     <div class="img-box">
@@ -628,7 +623,7 @@ get_header() ?>
             </div>
         </div>
     </section>
-    <section id="sm_auto_staff_report_management">
+    <section class="animation_slide_bottom_to_show" id="sm_auto_staff_report_management">
         <div class="container">
             <div class="row center-row">
                 <div class="col-md-12 col-lg-6 col-sm-12 center-row">
@@ -690,7 +685,7 @@ get_header() ?>
             Vì sao nên chọn EasyHRM Standard?
         </div>
         <div style="padding: 0px 12%; margin-top: 20px" class="row">
-            <div class="col-md-6 col-lg-6 col-sm-12">
+            <div class="col-md-6 col-lg-6 col-sm-12 animation_slide_bottom_to_show">
                 <div class="standard-featured-box">
                     <div class="featured-heading">
                         <div class="featured-heading-icon">
@@ -705,7 +700,7 @@ get_header() ?>
                         đào tạo, phát triển nhân lực.</div>
                 </div>
             </div>
-            <div class="col-md-6 col-lg-6 col-sm-12">
+            <div class="col-md-6 col-lg-6 col-sm-12 animation_slide_bottom_to_show">
                 <div class="standard-featured-box">
                     <div class="featured-heading">
                         <div class="featured-heading-icon">
@@ -720,7 +715,7 @@ get_header() ?>
                         chi phí chỉ từ 33k mỗi tháng.</div>
                 </div>
             </div>
-            <div class="col-md-6 col-lg-6 col-sm-12">
+            <div class="col-md-6 col-lg-6 col-sm-12 animation_slide_bottom_to_show">
                 <div class="standard-featured-box">
                     <div class="featured-heading">
                         <div class="featured-heading-icon">
@@ -735,7 +730,7 @@ get_header() ?>
                         mất mát.</div>
                 </div>
             </div>
-            <div class="col-md-6 col-lg-6 col-sm-12">
+            <div class="col-md-6 col-lg-6 col-sm-12 animation_slide_bottom_to_show">
                 <div class="standard-featured-box">
                     <div class="featured-heading">
                         <div class="featured-heading-icon">
@@ -767,7 +762,7 @@ get_header() ?>
                 <div>Gói cước dưới 100 lao động</div>
 
             </div>
-            <div class="row">
+            <div class="row animation_slide_bottom_to_show">
                 <div class="col-lg-4 col-md-12 col-sm-12">
                     <div class="showing-detail" style="min-height: 160px">
                         <div class="specific-price">
@@ -815,7 +810,7 @@ get_header() ?>
                 <div>Gói cước trên 100 lao động</div>
 
             </div>
-            <div class="row">
+            <div class="row animation_slide_bottom_to_show">
                 <div class="col-lg-4 col-md-12 col-sm-12">
                     <div class="showing-detail" style="min-height: 160px">
                         <div class="specific-price">
@@ -863,7 +858,7 @@ get_header() ?>
         </div>
     </div>
 </section>
-<section id="esi_form_register">
+<section class="animation_slide_bottom_to_show" id="esi_form_register">
     <div class="esi_form_title">
         Trải nghiệm gói ưu đãi EasyHRM Standard chỉ từ
         <span class="bahaiba">323</span>k/năm
