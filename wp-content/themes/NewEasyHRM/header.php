@@ -459,7 +459,7 @@
                                     </ul> -->
                                 </li>
                                 <li class="more">
-                                    <span><a href="#">EasyHRM Premium</a>
+                                    <span><a href="https://easyhrm.vn/easyhrm-premium/">EasyHRM Premium</a>
                                         <!-- <i class='bx bxs-chevron-right arrow more-arrow'>
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24">
@@ -480,7 +480,7 @@
                                     </ul> -->
                                 </li>
                                 <li class="more">
-                                    <span><a href="#">EasyHRM HĐLĐ Điện tử</a>
+                                    <span><a href="https://easyhrm.vn/hdld-dien-tu/">EasyHRM HĐLĐ Điện tử</a>
                                     </span>
 
                                 </li>
@@ -526,6 +526,20 @@
                         <li class="sticky-li sticky-bhxh"><a class="scroll-link" href="#standard_baohiemxahoi">Bảo hiểm xã hội</a></li>
                         <li class="sticky-li sticky-ttnv"><a class="scroll-link" href="#standard_thongtinnhanvien">Hồ sơ nhân viên</a></li>
                         <li class="sticky-li sticky-bg"><a class="scroll-link" href="#standard_price">Báo giá</a></li>
+                    </ul>
+                </div>
+            <?php } ?>
+            <?php if (is_page('easyhrm-premium')) { ?>
+                <div class="seperate_part"></div>
+                <div class="sticky-menu">
+                    <ul>
+                        <li style="color: orangered" class="sticky-premium"><a href="#">EasyHRM Premium</a></li>
+                        <li class="sticky-premium sticky-pre-hsns"><a class="scroll-link" href="#standard_hosonhansu">Thông tin nhân sự</a></li>
+                        <li class="sticky-premium sticky-pre-cc"><a class="scroll-link" href="#premium_chamcong">Chấm công</a></li>
+                        <li class="sticky-premium sticky-pre-tl"><a class="scroll-link" href="#premium_tinhluong">Tính lương</a></li>
+                        <li class="sticky-premium sticky-pre-bhxh"><a class="scroll-link" href="#standard_baohiemxahoi">Bảo hiểm xã hội</a></li>
+                        <li class="sticky-premium sticky-pre-ttnv"><a class="scroll-link" href="#standard_thongtinnhanvien">Hồ sơ nhân viên</a></li>
+                       
                     </ul>
                 </div>
             <?php } ?>

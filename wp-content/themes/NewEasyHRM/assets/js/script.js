@@ -1,12 +1,13 @@
 $(document).ready(function () {
   $(window).scroll(function () {
     var scroll = $(window).scrollTop();
-
     console.log(scroll);
     if (scroll >= 300) {
       $(".sticky-menu").slideDown();
       $(".sticky-li").removeClass("orangered");
+      $(".sticky-premium").removeClass("orangered");
       $(".sticky-hsns").addClass("orangered");
+      $(".sticky-pre-hsns").addClass("orangered");
       $(".seperate_part").css("display", "block");
       $(".backtotop").css("display", "flex");
     } else {
@@ -15,8 +16,7 @@ $(document).ready(function () {
       $(".backtotop").css("display", "none");
     }
     console.log(scroll);
-    // 2728: bhxh, 4628: thong tin nhan vien, 6728: bao gia
-
+    // Standard: 2728: bhxh, 4628: thong tin nhan vien, 6728: bao gia
     if (scroll >= 2728) {
       $(".sticky-li").removeClass("orangered");
       $(".sticky-bhxh").addClass("orangered");
@@ -28,6 +28,23 @@ $(document).ready(function () {
     if (scroll >= 6728) {
       $(".sticky-li").removeClass("orangered");
       $(".sticky-bg").addClass("orangered");
+    }
+    // Premium:
+    if (scroll >= 2821) {
+      $(".sticky-premium").removeClass("orangered");
+      $(".sticky-pre-cc").addClass("orangered");
+    }
+    if (scroll >= 5821) {
+      $(".sticky-premium").removeClass("orangered");
+      $(".sticky-pre-tl").addClass("orangered");
+    }
+    if (scroll >= 7221) {
+      $(".sticky-premium").removeClass("orangered");
+      $(".sticky-pre-bhxh").addClass("orangered");
+    }
+    if (scroll >= 9121) {
+      $(".sticky-premium").removeClass("orangered");
+      $(".sticky-pre-ttnv").addClass("orangered");
     }
   });
   $(".backtotop").click(function () {
@@ -358,7 +375,7 @@ $(document).ready(function () {
         $("#esi-form-register").html(data);
       },
     });
-    return false;
+    return false;    
   });
 });
 // search-box open close js code
@@ -376,6 +393,7 @@ menuOpenBtn.onclick = function () {
 menuCloseBtn.onclick = function () {
   navLinks.style.left = "-100%";
 };
+
 
 // sidebar submenu open close js code
 let htmlcssArrow = document.querySelector(".htmlcss-arrow");

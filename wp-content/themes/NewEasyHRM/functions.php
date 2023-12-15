@@ -11,12 +11,7 @@ if (function_exists('acf_add_options_page')) {
         )
     );
 }
-add_filter('show_admin_bar', '__return_false');
 
-?>
-
-
-<?php
 function sendMail($title, $content, $nTo, $mTo,$diachicc=''){
 	$nFrom = 'http://easyhrm.vn';
 	$mFrom = 'sds-noreply@softdreams.vn';	//dia chi email cua ban 
@@ -56,7 +51,6 @@ function my_theme_setup(){
     add_theme_support('post-thumbnails');
 }
 
-add_action('after_setup_theme', 'my_theme_setup');
 function sendMailAttachment($title, $content, $nTo, $mTo,$diachicc='',$file,$filename){
 	$nFrom = 'http://easyhrm.vn';
 	$mFrom = 'sds-noreply@softdreams.vn';	//dia chi email cua ban 
@@ -93,5 +87,6 @@ function sendMailAttachment($title, $content, $nTo, $mTo,$diachicc='',$file,$fil
 		return 1;
 	}
 }
+
 
 ?>

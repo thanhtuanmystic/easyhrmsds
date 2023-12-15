@@ -20,6 +20,4 @@ if ($mail == 1) {
     <?php
 } else
     echo '<h3>Có lỗi xảy ra. <a href="http://easyhrm.vn/">Trở lại</a><h3>';
-
-
 ?>

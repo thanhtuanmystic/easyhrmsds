@@ -2382,6 +2382,7 @@ footer {
   padding: 0 12%;
 }
 
+
 .paddingleft12percent {
   padding-left: 12%;
 }
@@ -2434,21 +2435,21 @@ h1 {
   height: 100%;
   align-items: center;
 }
-.sticky-li:hover {
+.sticky-li:hover, .sticky-premium:hover {
   color: orangered;
   cursor: pointer;
 }
-.sticky-li {
+.sticky-li, .sticky-premium {
   font-family: Nunito Sans;
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
   color: var(--gray-2, #263856);
 }
-.sticky-li a {
+.sticky-li a, .sticky-premium a {
   color: inherit;
 }
-.sticky-li a:hover {
+.sticky-li a:hover, .sticky-premium a:hover {
   color: orangered;
 }
 .orangered {
@@ -2459,4 +2460,10 @@ h1 {
 }
 #sm_auto_staff_report_management {
   padding-top: 55px;
+}
+
+
+/* Premium */
+#premium_chamcong {
+  padding-bottom: 55px;
 }
