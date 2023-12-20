@@ -5,7 +5,7 @@ include('class.smtp.php');
 include "class.phpmailer.php";
 include "functions.php";
 $title = "Đăng ký tư vấn : http://easyhrm.vn";
-$content = "Họ và tên: " . trim($_POST['hoten']) . "<br>Email: " . trim($_POST['email']) . "<br>Điện thoại: " . trim($_POST['phonenumber']) . "<br>Mã số thuế: " . trim($_POST['taxcode']);
+$content = "Họ và tên: " . trim($_POST['hoten']) . "<br>Email: " . trim($_POST['email']) . "<br>Điện thoại: " . trim($_POST['phonenumber']) . "<br>Mã số thuế: " . trim($_POST['taxcode']) . "<br>Chức vụ: " . trim($_POST['chucvu']);
 $nTo = '';
 $mTo = 'contact@easyhrm.vn';
 $diachi = 'khaivv@softdreams.vn';

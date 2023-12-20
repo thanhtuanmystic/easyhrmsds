@@ -191,7 +191,6 @@ get_header() ?>
             <div class="container">
                 <div class="item-box paddingleft12percent">
                     <div class="img-box">
-
                         <body>
                             <div class="swiper mySwiper">
                                 <div class="swiper-wrapper">

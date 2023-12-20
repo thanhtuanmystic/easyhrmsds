@@ -60,6 +60,54 @@ get_header() ?>
     :root {
         --swiper-navigation-size: 20px;
     }
+
+    .premium-price {
+        color: #172D58;
+        text-align: center;
+        font-family: Nunito Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 150%;
+        /* 24px */
+        margin-bottom: 16px;
+    }
+
+    .premium-type {
+        margin-top: 16px;
+    }
+
+    .premium-type li {
+        color: #172D58;
+        font-family: Nunito Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 150%;
+        /* 21px */
+    }
+
+    .premium-type li span {
+        color: #172D58;
+        text-align: center;
+        font-family: Nunito Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 150%;
+        /* 21px */
+    }
+
+    .premium-price-note {
+        margin-top: 40px;
+        color: var(--Blue1, #172D58);
+        font-family: Nunito Sans;
+        font-size: 16px;
+        font-style: italic;
+        font-weight: 600;
+        line-height: 150%;
+        /* 24px */
+    }
 </style>
 <div class="backtotop">
     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 100 100" fill="none">
@@ -71,7 +119,7 @@ get_header() ?>
 <section id="standard">
     <div class="container">
         <div class="standard-title-first">
-            EASYHRM STANDARD
+            EASYHRM PREMIUM
         </div>
         <div class="standard-sub-title">
             Gói đặc biệt 3IN1 dễ dàng quản lý, dễ dàng sử dụng. <br>
@@ -148,7 +196,7 @@ get_header() ?>
                 </svg>
             </div>
         </div>
-        <div class="pi_features">
+        <div class="pi_features animation_slide_bottom_to_show">
             <div class="container">
                 <div class="item-box paddingleft12percent">
                     <div class="content-box">
@@ -208,7 +256,7 @@ get_header() ?>
                 </div>
             </div>
         </div>
-        <div class="pi_features" style="background: rgba(254, 240, 233, 0.60);">
+        <div class="pi_features animation_slide_bottom_to_show" style="background: rgba(254, 240, 233, 0.60);">
             <div class="container">
                 <div class="item-box paddingleft12percent">
                     <div class="img-box">
@@ -278,7 +326,7 @@ get_header() ?>
                 </div>
             </div>
         </div>
-        <div class="pi_features">
+        <div class="pi_features animation_slide_bottom_to_show">
             <div class="container">
                 <div class="item-box paddingleft12percent">
                     <div class="content-box">
@@ -347,7 +395,7 @@ get_header() ?>
                 <br>
                 bộ máy nhân sự tinh nhuệ
             </div>
-            <div>
+            <div class="animation_slide_bottom_to_show">
                 <img style="width: 100%; margin-top: 40px"
                     src="https://easyhrm.vn/wp-content/uploads/2023/09/image_2023_09_13T08_47_01_086Z.png" alt="">
             </div>
@@ -380,7 +428,7 @@ get_header() ?>
                 </svg>
             </div>
         </div>
-        <div class="pi_features">
+        <div class="pi_features animation_slide_bottom_to_show">
             <div class="container">
                 <div class="item-box paddingleft12percent">
                     <div class="content-box">
@@ -408,7 +456,7 @@ get_header() ?>
                 </div>
             </div>
         </div>
-        <div class="pi_features" style="background: rgba(254, 240, 233, 0.60);">
+        <div class="pi_features animation_slide_bottom_to_show" style="background: rgba(254, 240, 233, 0.60);">
             <div class="container">
                 <div class="item-box paddingleft12percent">
                     <div class="img-box">
@@ -578,7 +626,7 @@ get_header() ?>
                 align-items: center;
             }
         </style>
-        <div class="chamcong-slide-feature">
+        <div class="chamcong-slide-feature animation_slide_bottom_to_show">
             <div class="slide-1">
                 <div class="title">Chỉ mất 1h thiết lập nhưng bạn sẽ tiết kiệm được 30h quản lý <br>
                     chấm công - xếp ca - tổng hợp công mỗi tháng</div>
@@ -654,7 +702,7 @@ get_header() ?>
                 </div>
             </div>
         </div>
-        <div class="pi_features">
+        <div class="pi_features animation_slide_bottom_to_show">
             <div class="container">
                 <div class="item-box paddingleft12percent">
                     <div class="content-box">
@@ -679,7 +727,7 @@ get_header() ?>
                 </div>
             </div>
         </div>
-        <div class="chamcong-bottom-banner">
+        <div class="chamcong-bottom-banner animation_slide_bottom_to_show">
             <div style="margin-bottom: 24px" class="pi_title-blue text-center">
                 Trở thành doanh nghiệp dẫn đầu với giải pháp EasyHRM chấm công dễ dàng
             </div>
@@ -744,7 +792,7 @@ get_header() ?>
                 </svg>
             </div>
         </div>
-        <div class="pi_features">
+        <div class="pi_features animation_slide_bottom_to_show">
             <div class="container">
                 <div class="item-box paddingleft12percent">
                     <div class="content-box">
@@ -776,7 +824,7 @@ get_header() ?>
                 </div>
             </div>
         </div>
-        <div class="pi_features" style="background: rgba(254, 240, 233, 0.60);">
+        <div class="pi_features animation_slide_bottom_to_show" style="background: rgba(254, 240, 233, 0.60);">
             <div class="container">
                 <div class="item-box paddingleft12percent">
                     <div class="img-box">
@@ -816,7 +864,7 @@ get_header() ?>
                 </div>
             </div>
         </div>
-        <div class="tienluong-features">
+        <div class="tienluong-features animation_slide_bottom_to_show">
             <div style="margin-bottom: 24px" class="pi_title-blue text-center">
                 Bộ công cụ tính lương thưởng, KPIs thông minh trong kỷ nguyên số cho doanh nghiệp
             </div>
@@ -915,7 +963,7 @@ get_header() ?>
         </div>
     </section>
     <section id="esi_featured">
-        <div class="pi_features">
+        <div class="pi_features animation_slide_bottom_to_show">
             <div class="container">
                 <div class="item-box paddingleft12percent">
                     <div class="content-box">
@@ -948,7 +996,7 @@ get_header() ?>
                 </div>
             </div>
         </div>
-        <div class="pi_features" style="background: rgba(254, 240, 233, 0.60);">
+        <div class="pi_features animation_slide_bottom_to_show" style="background: rgba(254, 240, 233, 0.60);">
             <div class="container">
                 <div class="item-box paddingleft12percent">
                     <div class="img-box">
@@ -984,7 +1032,7 @@ get_header() ?>
             </div>
         </div>
     </section>
-    <div class="digital-convertion-banner">
+    <div class="digital-convertion-banner animation_slide_bottom_to_show">
         <img src="https://easyhrm.vn/wp-content/uploads/2023/12/Group-2609407.png" alt="">
         <div class="digital-convertion-btn">
             <a target="_blank" href="https://app.easyhrm.vn/trial-registration">
@@ -1016,7 +1064,7 @@ get_header() ?>
         </div>
     </section>
     <section id="sm_digital_records_experience">
-        <div class="pi_features">
+        <div class="pi_features animation_slide_bottom_to_show">
             <div class="container">
                 <div class="item-box paddingleft12percent">
                     <div class="content-box">
@@ -1079,7 +1127,7 @@ get_header() ?>
                 </div>
             </div>
         </div>
-        <div class="pi_features" style="background: rgba(254, 240, 233, 0.60);">
+        <div class="pi_features animation_slide_bottom_to_show" style="background: rgba(254, 240, 233, 0.60);">
             <div class="container">
                 <div class="item-box paddingleft12percent">
                     <div class="img-box">
@@ -1146,7 +1194,7 @@ get_header() ?>
     <section id="sm_auto_staff_report_management">
         <div class="container">
             <div class="row center-row">
-                <div class="col-md-12 col-lg-6 col-sm-12 center-row">
+                <div class="col-md-12 col-lg-6 col-sm-12 center-row animation_slide_bottom_to_show">
                     <img style="width: 60%"
                         src="https://easyhrm.vn/wp-content/uploads/2023/09/image_2023_09_14T03_56_06_783Z.png" alt="">
                 </div>
@@ -1277,20 +1325,21 @@ get_header() ?>
             Chọn 1 gói phù hợp với doanh nghiệp của bạn!
         </div>
         <div style="display: block; background: #FEF6F2; margin-top: 0" class="price-detail-showing padding12percent">
-
-            <div style="margin-bottom: 20px" class="typeOfHrm center-row">
-                <div>Gói cước dưới 100 lao động</div>
-
-            </div>
             <div class="row">
                 <div class="col-lg-4 col-md-12 col-sm-12">
                     <div class="showing-detail" style="min-height: 160px">
+                        <div class="premium-price">
+                            Đơn giá/ NLD/ Tháng
+                        </div>
                         <div class="specific-price">
-                            589.000 <span class="vnd">VNĐ/12 tháng</span>
+                            15.000 <span class="vnd">VNĐ</span>
                         </div>
-                        <div class="type">
-                            Tặng thêm <span class="time">6 tháng</span> sử dụng
-                        </div>
+                        <ul class="premium-type">
+                            <li>Số lao động thực tế:
+                                <span>10</span>
+                            </li>
+                            <li>Thời gian sử dụng: <span>12 tháng</span></li>
+                        </ul>
 
                         <a href="tel:  0916 825 201">
                             <button class="loadmore-btn price-consultation" style="">Tư vấn</button>
@@ -1299,12 +1348,18 @@ get_header() ?>
                 </div>
                 <div class="col-lg-4 col-md-12 col-sm-12">
                     <div class="showing-detail" style="min-height: 160px">
+                        <div class="premium-price">
+                            Đơn giá/ NLD/ Tháng
+                        </div>
                         <div class="specific-price">
-                            989.000 <span class="vnd">VNĐ/24 tháng</span>
+                            13.500 <span class="vnd">VNĐ</span>
                         </div>
-                        <div class="type">
-                            Tặng thêm <span class="time">9 tháng</span> sử dụng
-                        </div>
+                        <ul class="premium-type">
+                            <li>Số lao động thực tế:
+                                <span>11 đến 50</span>
+                            </li>
+                            <li>Thời gian sử dụng: <span>12 tháng</span></li>
+                        </ul>
 
                         <a href="tel:  0916 825 201">
                             <button class="loadmore-btn price-consultation" style="">Tư vấn</button>
@@ -1313,68 +1368,29 @@ get_header() ?>
                 </div>
                 <div class="col-lg-4 col-md-12 col-sm-12">
                     <div class="showing-detail" style="min-height: 160px">
+                        <div class="premium-price">
+                            Đơn giá/ NLD/ Tháng
+                        </div>
                         <div class="specific-price">
-                            1.289.000 <span class="vnd">VNĐ/36 tháng</span>
+                            12.750 <span class="vnd">VNĐ</span>
                         </div>
-                        <div class="type">
-                            Tặng thêm <span class="time">12 tháng</span> sử dụng
-                        </div>
+                        <ul class="premium-type">
+                            <li>Số lao động thực tế:
+                                <span>51 đến 100</span>
+                            </li>
+                            <li>Thời gian sử dụng: <span>12 tháng</span></li>
+                        </ul>
 
                         <a href="tel:  0916 825 201">
                             <button class="loadmore-btn price-consultation" style="">Tư vấn</button>
                         </a>
                     </div>
+                </div>
+                <div class="premium-price-note">
+                    <div>(*) Chưa bao gồm phí khởi tạo: 1.000.000đ</div>
+                    <div>(*) Quy mô trên 100 nhân sự sẽ được đề xuất khảo sát cụ thể </div>
                 </div>
             </div>
-            <div style="margin-bottom: 20px" class="typeOfHrm center-row mt-40">
-                <div>Gói cước trên 100 lao động</div>
-
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-md-12 col-sm-12">
-                    <div class="showing-detail" style="min-height: 160px">
-                        <div class="specific-price">
-                            1.399.000 <span class="vnd">VNĐ/ 12 tháng</span>
-                        </div>
-                        <div class="type">
-                            Tặng thêm <span class="time">6 tháng</span> sử dụng
-                        </div>
-
-                        <a href="tel:  0916 825 201">
-                            <button class="loadmore-btn price-consultation" style="">Tư vấn</button>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-12 col-sm-12">
-                    <div class="showing-detail" style="min-height: 160px">
-                        <div class="specific-price">
-                            2.399.000 <span class="vnd">VNĐ/ 24 tháng</span>
-                        </div>
-                        <div class="type">
-                            Tặng thêm <span class="time">9 tháng</span> sử dụng
-                        </div>
-
-                        <a href="tel:  0916 825 201">
-                            <button class="loadmore-btn price-consultation" style="">Tư vấn</button>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-12 col-sm-12">
-                    <div class="showing-detail" style="min-height: 160px">
-                        <div class="specific-price">
-                            2.699.000 <span class="vnd">VNĐ/ 36 tháng</span>
-                        </div>
-                        <div class="type">
-                            Tặng thêm <span class="time">12 tháng</span> sử dụng
-                        </div>
-
-                        <a href="tel:  0916 825 201">
-                            <button class="loadmore-btn price-consultation" style="">Tư vấn</button>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="vat-notice">Ghi chú: Phần mềm không chịu thuế (VAT)</div>
         </div>
     </div>
 </section>

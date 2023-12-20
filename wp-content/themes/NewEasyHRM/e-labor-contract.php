@@ -40,21 +40,20 @@ Template name: Hợp đồng lao động điện tử - Electric labor contract
         align-items: center;
         gap: 10px;
         border-radius: 8px;
-        border: 1px solid var(--gradient, #F15922);
-        background: #FFF;
-
+        background: var(--gradient, linear-gradient(287deg, #F15922 12.78%, #F6921E 95.8%));
         /* 4 */
         box-shadow: -1px 9px 10px 0px rgba(241, 89, 34, 0.20);
+
+        color: #FFF;
         font-family: Nunito Sans;
         font-size: 16px;
         font-style: normal;
         font-weight: 800;
         line-height: 150%;
         /* 24px */
-        background: var(--gradient, linear-gradient(287deg, #F15922 12.78%, #F6921E 95.8%));
-        background-clip: text;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+    }
+    .elc-banner-btn .elc-free-trial:hover {
+        opacity: 0.8;
     }
 
     .elc-banner-btn {
@@ -81,6 +80,9 @@ Template name: Hợp đồng lao động điện tử - Electric labor contract
         font-weight: 800;
         line-height: 150%;
         /* 24px */
+    }
+    .elc-banner-btn .elc-give-consultation:hover {
+        opacity: 0.8;
     }
 
     #elc_cons_hr {
@@ -218,10 +220,10 @@ Template name: Hợp đồng lao động điện tử - Electric labor contract
                         đảm bảo tính pháp lý tuyệt đối
                     </div>
                     <div class="elc-banner-btn">
-                        <a href="#">
+                        <a href="https://app.easyhrm.vn/trial-registration">
                             <div class="elc-free-trial">Trải nghiệm miễn phí</div>
                         </a>
-                        <a href="#">
+                        <a class="scroll-link" href="#elc_form_register">
                             <div class="elc-give-consultation">Nhận tư vấn</div>
                         </a>
                     </div>
@@ -252,7 +254,7 @@ Template name: Hợp đồng lao động điện tử - Electric labor contract
         </div>
         <div style="margin-top: 50px" class="row">
             <div class="col-lg-6 col-sm-12 col-md-12">
-                <div class="different-exp-left">
+                <div class="different-exp-left animation_slide_bottom_to_show">
                     <img style="max-width: 100%" src="https://easyhrm.vn/wp-content/uploads/2023/12/Group-2609424.png"
                         alt="">
                 </div>
@@ -260,25 +262,25 @@ Template name: Hợp đồng lao động điện tử - Electric labor contract
             <div class="col-lg-6 col-sm-12 col-md-12">
                 <div class="row">
                     <div class="col-md-6">
-                        <div class="different-exp-featured">
+                        <div class="different-exp-featured animation_slide_bottom_to_show">
                             <img src="https://easyhrm.vn/wp-content/uploads/2023/12/Group-2609421.png" alt="">
                             <div class="different-exp-featured-des">Quản lý dễ dàng</div>
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <div class="different-exp-featured">
+                        <div class="different-exp-featured animation_slide_bottom_to_show">
                             <img src="https://easyhrm.vn/wp-content/uploads/2023/12/Group-2609415.png" alt="">
                             <div class="different-exp-featured-des">Tiết kiệm thời gian</div>
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <div class="different-exp-featured">
+                        <div class="different-exp-featured animation_slide_bottom_to_show">
                             <img src="https://easyhrm.vn/wp-content/uploads/2023/12/Group-2609417.png" alt="">
                             <div class="different-exp-featured-des">Tối ưu chi phí</div>
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <div class="different-exp-featured">
+                        <div class="different-exp-featured animation_slide_bottom_to_show">
                             <img src="https://easyhrm.vn/wp-content/uploads/2023/12/Group-2609418.png" alt="">
                             <div class="different-exp-featured-des">Bảo mật thông tin</div>
                         </div>
@@ -289,7 +291,7 @@ Template name: Hợp đồng lao động điện tử - Electric labor contract
         </div>
     </div>
 </section>
-<div class="pi_features">
+<div class="pi_features animation_slide_bottom_to_show">
     <div class="container">
         <div class="item-box paddingleft12percent">
             <div class="content-box ">
@@ -319,7 +321,7 @@ Template name: Hợp đồng lao động điện tử - Electric labor contract
         </div>
     </div>
 </div>
-<div class="pi_features" style="background: rgba(254, 240, 233, 0.60);">
+<div class="pi_features animation_slide_bottom_to_show" style="background: rgba(254, 240, 233, 0.60);">
     <div class="container">
         <div class="item-box paddingleft12percent">
             <div class="img-box">
@@ -353,7 +355,7 @@ Template name: Hợp đồng lao động điện tử - Electric labor contract
 <section id="elc_ecological_network">
     <div class="container">
         <div style="margin-top: 10px" class="row padding12percent d-flex align-items-center">
-            <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="col-lg-6 col-md-6 col-sm-12 animation_slide_bottom_to_show">
                 <div style="text-align: left; margin-bottom: 10px" class="standard-title">
                     Mạng lưới sinh thái lớn mạnh
                 </div>
@@ -377,7 +379,7 @@ Template name: Hợp đồng lao động điện tử - Electric labor contract
                         </svg> Kết nối với EasyDocs quản lý HĐLĐ, hồ sơ, văn bản điện tử siêu tiện lợi</li>
                 </ul>
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="col-lg-6 col-md-6 col-sm-12 animation_slide_bottom_to_show">
                 <img style="max-width: 100%" src="https://easyhrm.vn/wp-content/uploads/2023/12/12345-01-1.png" alt="">
             </div>
         </div>
@@ -385,11 +387,11 @@ Template name: Hợp đồng lao động điện tử - Electric labor contract
     <div style="background: #FEF6F2; padding: 55px 0" class="safe-policy">
         <div class="container">
             <div style="margin-top: 10px" class="row padding12percent d-flex align-items-center">
-                <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="col-lg-6 col-md-6 col-sm-12 animation_slide_bottom_to_show">
                     <img style="max-width: 100%"
                         src="https://easyhrm.vn/wp-content/uploads/2023/12/an-toan-hop-tac-01.png" alt="">
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="col-lg-6 col-md-6 col-sm-12 animation_slide_bottom_to_show">
                     <div style="text-align: left; margin-bottom: 10px" class="standard-title">
                         Pháp lý an toàn - An tâm hợp tác
                     </div>
@@ -404,7 +406,7 @@ Template name: Hợp đồng lao động điện tử - Electric labor contract
 </section>
 <section id="elc_form_register">
     <div class="first-div"></div>
-    <div class="second-div">
+    <div class="second-div animation_slide_bottom_to_show">
         <div class="container" style="height: 100%;">
             <div class="row" style="height: 100%;">
                 <div class="col-lg-6 d-flex justify-content-center paddingleft12percent"
@@ -507,7 +509,7 @@ Template name: Hợp đồng lao động điện tử - Electric labor contract
 <section style="padding: 55px 12% 55px" id="pi_saying_of_the_day">
     <div class="container">
         <div class="standard-title text-center">
-            Câu chuyện khách hàng            
+            Câu chuyện khách hàng
         </div>
         <div style="margin-top: 20px; margin-bottom: 0" class="saying-box">
             <div class="row">
@@ -525,7 +527,7 @@ Template name: Hợp đồng lao động điện tử - Electric labor contract
                                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
                                     aria-label="Slide 2"></button>
                                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                                    aria-label="Slide 3"></button>                                                                    
+                                    aria-label="Slide 3"></button>
                             </div>
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
@@ -551,7 +553,7 @@ Template name: Hợp đồng lao động điện tử - Electric labor contract
                                         </div>
                                     </div>
                                 </div>
-                                
+
                                 <div class="carousel-item">
                                     <div class="trichdan-icon">
                                         <img style="width: 100%"
