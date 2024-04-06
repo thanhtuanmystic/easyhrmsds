@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>EasyHRM</title>
+    <title><?php the_title() ?></title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
@@ -522,9 +522,12 @@
                 <div class="sticky-menu">
                     <ul>
                         <li style="color: orangered" class="sticky-li"><a href="#">EasyHRM Standard</a></li>
-                        <li class="sticky-li sticky-hsns"><a class="scroll-link" href="#standard_hosonhansu">Thông tin nhân sự</a></li>
-                        <li class="sticky-li sticky-bhxh"><a class="scroll-link" href="#standard_baohiemxahoi">Bảo hiểm xã hội</a></li>
-                        <li class="sticky-li sticky-ttnv"><a class="scroll-link" href="#standard_thongtinnhanvien">Hồ sơ nhân viên</a></li>
+                        <li class="sticky-li sticky-hsns"><a class="scroll-link" href="#standard_hosonhansu">Thông tin nhân
+                                sự</a></li>
+                        <li class="sticky-li sticky-bhxh"><a class="scroll-link" href="#standard_baohiemxahoi">Bảo hiểm xã
+                                hội</a></li>
+                        <li class="sticky-li sticky-ttnv"><a class="scroll-link" href="#standard_thongtinnhanvien">Hồ sơ
+                                nhân viên</a></li>
                         <li class="sticky-li sticky-bg"><a class="scroll-link" href="#standard_price">Báo giá</a></li>
                     </ul>
                 </div>
@@ -534,14 +537,56 @@
                 <div class="sticky-menu">
                     <ul>
                         <li style="color: orangered" class="sticky-premium"><a href="#">EasyHRM Premium</a></li>
-                        <li class="sticky-premium sticky-pre-hsns"><a class="scroll-link" href="#standard_hosonhansu">Thông tin nhân sự</a></li>
-                        <li class="sticky-premium sticky-pre-cc"><a class="scroll-link" href="#premium_chamcong">Chấm công</a></li>
-                        <li class="sticky-premium sticky-pre-tl"><a class="scroll-link" href="#premium_tinhluong">Tính lương</a></li>
-                        <li class="sticky-premium sticky-pre-bhxh"><a class="scroll-link" href="#standard_baohiemxahoi">Bảo hiểm xã hội</a></li>
-                        <li class="sticky-premium sticky-pre-ttnv"><a class="scroll-link" href="#standard_thongtinnhanvien">Hồ sơ nhân viên</a></li>
-                       
+                        <li class="sticky-premium sticky-pre-hsns"><a class="scroll-link" href="#standard_hosonhansu">Thông
+                                tin nhân sự</a></li>
+                        <li class="sticky-premium sticky-pre-cc"><a class="scroll-link" href="#premium_chamcong">Chấm
+                                công</a></li>
+                        <li class="sticky-premium sticky-pre-tl"><a class="scroll-link" href="#premium_tinhluong">Tính
+                                lương</a></li>
+                        <li class="sticky-premium sticky-pre-bhxh"><a class="scroll-link" href="#standard_baohiemxahoi">Bảo
+                                hiểm xã hội</a></li>
+                        <li class="sticky-premium sticky-pre-ttnv"><a class="scroll-link"
+                                href="#standard_thongtinnhanvien">Hồ sơ nhân viên</a></li>
+
                     </ul>
                 </div>
             <?php } ?>
         </nav>
     </header>
+    <div class="fix_tel">
+        <div class="div rung rise-shake">
+            <a target="_blank" href="https://zalo.me/1647287051622286895">
+                <img style="width: 50px;
+                margin-bottom: 2rem;
+                border: 1px solid #ccc;
+                border-radius: 2rem;" src="http://easyposs.vn/wp-content/uploads/2023/10/Logo-Zalo-Arc.webp" alt="">
+            </a>
+        </div>
+        <div class="div rung rise-shake">
+            <a target="_blank" href="https://www.facebook.com/messages/t/113784485150350">
+                <img style="width: 50px;
+                margin-bottom: 2rem;
+                border: 1px solid #ccc;
+                border-radius: 2rem;"
+                    src="https://easyhrm.vn/wp-content/uploads/2024/02/Facebook_Messenger_logo_2020.svg_.png" alt="">
+            </a>
+        </div>
+        <div class="ring-alo-phone ring-alo-green ring-alo-show" id="ring-alo-phoneIcon"
+            style="right: 150px; bottom: -12px;">
+            <div class="ring-alo-ph-circle">
+            </div>
+            <div class="ring-alo-ph-circle-fill">
+            </div>
+            <div class="ring-alo-ph-img-circle">
+                <a href="tel:0916 825 201 "><img class="lazy"
+                        src="https://easyhrm.vn/wp-content/uploads/2024/02/call.png" alt="G"></a>
+            </div>
+        </div>
+        <div class="tel">
+            <a href="tel:0916 825 201 ">
+                <p class="fone">
+                    0916 825 201
+                </p>
+            </a>
+        </div>
+    </div>

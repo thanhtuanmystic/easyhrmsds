@@ -87,6 +87,4 @@ function sendMailAttachment($title, $content, $nTo, $mTo,$diachicc='',$file,$fil
 		return 1;
 	}
 }
-
-
 ?>

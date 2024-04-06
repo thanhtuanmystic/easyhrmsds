@@ -1396,8 +1396,8 @@ get_header() ?>
 </section>
 <section id="esi_form_register">
     <div class="esi_form_title">
-        Trải nghiệm gói ưu đãi EasyHRM Standard chỉ từ
-        <span class="bahaiba">323</span>k/năm
+        Trải nghiệm gói ưu đãi EasyHRM Premium chỉ từ
+        <span class="bahaiba">12.000</span>k/tháng
     </div>
     <div class="container">
         <div class="row center-row">

@@ -175,6 +175,13 @@ Template name: Landing Page - Giải pháp quản lý BHXH tích hợp nhân s�
         padding: 80px 0;
     }
 
+    .our_product {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
     .hero_section-left .title {
         color: var(--Blue1, #172D58);
         font-family: Nunito Sans;
@@ -238,8 +245,8 @@ Template name: Landing Page - Giải pháp quản lý BHXH tích hợp nhân s�
         font-family: Nunito Sans;
         font-size: 28px;
         font-style: normal;
-        font-weight: 900;
-        line-height: 150%;
+        font-weight: 800;
+        line-height: 140%;
         /* 48px */
         margin-bottom: 16px;
         width: 90%;
@@ -339,9 +346,7 @@ Template name: Landing Page - Giải pháp quản lý BHXH tích hợp nhân s�
         line-height: normal;
     }
 
-    #easyhrm_solution {
-        padding-top: 80px;
-    }
+    #easyhrm_solution {}
 
     .lp-subtitle {
         color: var(--Secondary-Xanh-navy, #172D58);
@@ -352,7 +357,6 @@ Template name: Landing Page - Giải pháp quản lý BHXH tích hợp nhân s�
         font-weight: 800;
         line-height: 211%;
         /* 50.64px */
-        text-transform: capitalize;
     }
 
     .easyhrm_solution-image {
@@ -481,25 +485,367 @@ Template name: Landing Page - Giải pháp quản lý BHXH tích hợp nhân s�
             padding: 0;
         }
     }
+
+    @media(max-width: 480px) {
+
+        .hero_section-left .title,
+        .hero_section-left .title span {
+            font-size: 20px;
+        }
+        .hero_section-left ul li {
+            font-size: 16px;
+        }
+        .hero_section-right .title {
+            font-size: 20px;
+        }
+        .our_product {
+            display: none;
+        }
+        .lp-title  {
+            font-size: 20px;
+        }
+        .solution-box .title {
+            font-size: 20px;
+        }
+        .lp-subtitle  {
+            font-size: 20px;
+        }
+        .featured-content .title  {
+            font-size: 20px;
+        }
+        #easyhrm_partner {
+            padding-bottom: 20px !important;
+        }
+    }
+
+    /* write your CSS code here 90949ca6 */
+    /*them nut call*/
+    :root {
+        --phone-text-color: #f00;
+        /* màu chữ */
+        --phone-icon-color: coral;
+        --phone-bg-color: #52bebd;
+        /* màu nền nút gọi */
+        --phone-text-bg-color: #eeeb7c;
+        /* màu nền text */
+        --phone-border-color: #47a862;
+        /* màu vòng tròn */
+        --phone-hover-color: #f86e00;
+        /* màu vòng tròn re chuột */
+        --phone-hover2-color: red;
+        /* màu vòng tròn re chuột */
+    }
+
+    .fone {
+        font-size: 19px;
+        /* chữ cạnh nút gọi */
+        color: var(--phone-text-color);
+        line-height: 40px;
+        font-weight: bold;
+        padding-left: 48px;
+        /* cách bên trái cho chữ */
+        margin: 0 0;
+    }
+
+    .fix_tel {
+        position: fixed;
+        bottom: 50px;
+        left: 4rem;
+        z-index: 999;
+    }
+
+    .fix_tel a {
+        text-decoration: none;
+        display: block;
+    }
+
+    .tel {
+        background: var(--phone-text-bg-color);
+        width: 205px;
+        height: 40px;
+        position: relative;
+        overflow: hidden;
+        background-size: 40px;
+        border-radius: 28px;
+        border: none
+    }
+
+    .ring-alo-phone {
+        background-color: transparent;
+        cursor: pointer;
+        height: 80px;
+        position: absolute;
+        transition: visibility 0.5s ease 0s;
+        visibility: hidden;
+        width: 80px;
+        z-index: 200000 !important;
+    }
+
+    .ring-alo-phone.ring-alo-show {
+        visibility: visible;
+    }
+
+    .ring-alo-phone.ring-alo-hover,
+    .ring-alo-phone:hover {
+        opacity: 1;
+    }
+
+    .ring-alo-ph-circle {
+        animation: 1.2s ease-in-out 0s normal none infinite running ring-alo-circle-anim;
+        background-color: transparent;
+        border: 2px solid rgba(30, 30, 30, 0.4);
+        border-radius: 100%;
+        height: 70px;
+        left: 10px;
+        opacity: 0.1;
+        position: absolute;
+        top: 12px;
+        transform-origin: 50% 50% 0;
+        transition: all 0.5s ease 0s;
+        width: 70px;
+    }
+
+    .ring-alo-phone.ring-alo-active .ring-alo-ph-circle {
+        animation: 1.1s ease-in-out 0s normal none infinite running ring-alo-circle-anim !important;
+        -webkit-animation: 1.1s ease-in-out 0s normal none infinite running ring-alo-circle-anim !important;
+    }
+
+    .ring-alo-phone.ring-alo-static .ring-alo-ph-circle {
+        animation: 2.2s ease-in-out 0s normal none infinite running ring-alo-circle-anim !important;
+    }
+
+    .ring-alo-phone.ring-alo-hover .ring-alo-ph-circle,
+    .ring-alo-phone:hover .ring-alo-ph-circle {
+        border-color: var(--phone-border-color);
+        opacity: 0.5;
+    }
+
+    .ring-alo-phone.ring-alo-green.ring-alo-hover .ring-alo-ph-circle,
+    .ring-alo-phone.ring-alo-green:hover .ring-alo-ph-circle {
+        border-color: var(--phone-hover2-color);
+        opacity: 0.5;
+    }
+
+    .ring-alo-phone.ring-alo-green .ring-alo-ph-circle {
+        border-color: var(--phone-border-color);
+        opacity: 0.5;
+    }
+
+    .ring-alo-ph-circle-fill {
+        animation: 2.3s ease-in-out 0s normal none infinite running ring-alo-circle-fill-anim;
+        background-color: #000;
+        border: 2px solid transparent;
+        border-radius: 100%;
+        height: 30px;
+        left: 30px;
+        opacity: 0.1;
+        position: absolute;
+        top: 33px;
+        transform-origin: 50% 50% 0;
+        transition: all 0.5s ease 0s;
+        width: 30px;
+    }
+
+    .ring-alo-phone.ring-alo-hover .ring-alo-ph-circle-fill,
+    .ring-alo-phone:hover .ring-alo-ph-circle-fill {
+        background-color: var(--phone-hover-color);
+        opacity: 0.75 !important;
+    }
+
+    .ring-alo-phone.ring-alo-green.ring-alo-hover .ring-alo-ph-circle-fill,
+    .ring-alo-phone.ring-alo-green:hover .ring-alo-ph-circle-fill {
+        background-color: var(--phone-hover-color);
+        opacity: 0.75 !important;
+    }
+
+    .ring-alo-phone.ring-alo-green .ring-alo-ph-circle-fill {
+        background-color: var(--phone-hover-color);
+        opacity: 0.75 !important;
+    }
+
+    .ring-alo-ph-img-circle {
+        animation: 1s ease-in-out 0s normal none infinite running ring-alo-circle-img-anim;
+        border: 2px solid transparent;
+        border-radius: 100%;
+        height: 30px;
+        left: 30px;
+        opacity: 1;
+        position: absolute;
+        top: 33px;
+        transform-origin: 50% 50% 0;
+        width: 30px;
+    }
+
+    .ring-alo-phone.ring-alo-hover .ring-alo-ph-img-circle,
+    .ring-alo-phone:hover .ring-alo-ph-img-circle {
+        background-color: var(--phone-text-bg-color);
+    }
+
+    .ring-alo-phone.ring-alo-green.ring-alo-hover .ring-alo-ph-img-circle,
+    .ring-alo-phone.ring-alo-green:hover .ring-alo-ph-img-circle {
+        background-color: var(--phone-hover2-color);
+    }
+
+    .ring-alo-phone.ring-alo-green .ring-alo-ph-img-circle {
+        background-color: var(--phone-bg-color);
+    }
+
+    @keyframes ring-alo-circle-anim {
+        0% {
+            opacity: 0.1;
+            transform: rotate(0deg) scale(0.5) skew(1deg);
+        }
+
+        30% {
+            opacity: 0.5;
+            transform: rotate(0deg) scale(0.7) skew(1deg);
+        }
+
+        100% {
+            opacity: 0.6;
+            transform: rotate(0deg) scale(1) skew(1deg);
+        }
+    }
+
+    @keyframes ring-alo-circle-img-anim {
+        0% {
+            transform: rotate(0deg) scale(1) skew(1deg);
+        }
+
+        10% {
+            transform: rotate(-25deg) scale(1) skew(1deg);
+        }
+
+        20% {
+            transform: rotate(25deg) scale(1) skew(1deg);
+        }
+
+        30% {
+            transform: rotate(-25deg) scale(1) skew(1deg);
+        }
+
+        40% {
+            transform: rotate(25deg) scale(1) skew(1deg);
+        }
+
+        50% {
+            transform: rotate(0deg) scale(1) skew(1deg);
+        }
+
+        100% {
+            transform: rotate(0deg) scale(1) skew(1deg);
+        }
+    }
+
+    @keyframes ring-alo-circle-fill-anim {
+        0% {
+            opacity: 0.2;
+            transform: rotate(0deg) scale(0.7) skew(1deg);
+        }
+
+        50% {
+            opacity: 0.2;
+            transform: rotate(0deg) scale(1) skew(1deg);
+        }
+
+        100% {
+            opacity: 0.2;
+            transform: rotate(0deg) scale(0.7) skew(1deg);
+        }
+    }
+
+    .ring-alo-ph-img-circle a img {
+        padding: 1px 0 12px 1px;
+        width: 30px;
+        position: relative;
+        top: -1px;
+    }
+
+    @keyframes tilt-shaking {
+        0% {
+            transform: rotate(0deg);
+        }
+
+        25% {
+            transform: rotate(5deg);
+        }
+
+        50% {
+            transform: rotate(0eg);
+        }
+
+        75% {
+            transform: rotate(-5deg);
+        }
+
+        100% {
+            transform: rotate(0deg);
+        }
+    }
+
+    .rise-shake {
+        animation: tilt-shaking 0.5s infinite;
+    }
 </style>
 
 <body>
+    <div class="fix_tel">
+        <div class="div rung rise-shake">
+            <a target="_blank" href="https://zalo.me/1647287051622286895">
+                <img style="width: 50px;
+                margin-bottom: 2rem;
+                border: 1px solid #ccc;
+                border-radius: 2rem;" src="http://easyposs.vn/wp-content/uploads/2023/10/Logo-Zalo-Arc.webp" alt="">
+            </a>
+        </div>
+        <div class="div rung rise-shake">
+            <a target="_blank" href="https://www.facebook.com/messages/t/113784485150350">
+                <img style="width: 50px;
+                margin-bottom: 2rem;
+                border: 1px solid #ccc;
+                border-radius: 2rem;"
+                    src="https://easyhrm.vn/wp-content/uploads/2024/02/Facebook_Messenger_logo_2020.svg_.png" alt="">
+            </a>
+        </div>
+        <div class="ring-alo-phone ring-alo-green ring-alo-show" id="ring-alo-phoneIcon"
+            style="right: 150px; bottom: -12px;">
+            <div class="ring-alo-ph-circle">
+            </div>
+            <div class="ring-alo-ph-circle-fill">
+            </div>
+            <div class="ring-alo-ph-img-circle">
+                <a href="tel:0916 825 201 "><img class="lazy"
+                        src="https://easyhrm.vn/wp-content/uploads/2024/02/call.png" alt="G"></a>
+            </div>
+        </div>
+        <div class="tel">
+            <a href="tel:0916 825 201 ">
+                <p class="fone">
+                    0916 825 201
+                </p>
+            </a>
+        </div>
+    </div>
     <header>
         <div class="container">
             <div class="row">
                 <div class="col-lg-9">
                     <div class="left-header">
                         <ul>
-                            <li><img src="https://easyhrm.vn/wp-content/uploads/2023/12/Layer_1.png" alt=""></li>
+                            <li><a href=""><img src="https://easyhrm.vn/wp-content/uploads/2024/03/Group-2609350.png"
+                                        alt=""></a></li>
+                            <li><a href=""><img src="https://easyhrm.vn/wp-content/uploads/2023/12/Layer_1.png"
+                                        alt=""></a></li>
                             <li><a class="scroll-link" href="#solution">Giải pháp</a></li>
-                            <li><a class="scroll-link" href="#hero_section">Báo giá</a></li>
+                            <li><a target="_blank" href="https://easyhrm.vn/easyhrm-standard/#standard_price">Báo
+                                    giá</a></li>
                             <li><a class="scroll-link" href="#easyhrm_partner">Khách hàng</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-lg-3">
                     <div class="right-header">
-                        <a class="scroll-link" href="#hero_section">
+                        <a target="_blank" href="https://app.easyhrm.vn/trial-registration">
                             <div class="primary-btn header-btn">
                                 Trải nghiệm ngay
                             </div>
@@ -529,7 +875,7 @@ Template name: Landing Page - Giải pháp quản lý BHXH tích hợp nhân s�
                                     <path d="M6.66797 16.0002L13.3346 22.6668L26.668 9.3335" stroke="#119626"
                                         stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
                                 </svg>Tích hợp sẵn 39+ mẫu quy định, hợp đồng chuẩn pháp lý</li>
-                            <li> <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"
+                            <li> <svg xmlns="http://www.w3.org/2000/svg" width="32 " height="32" viewBox="0 0 32 32"
                                     fill="none">
                                     <path d="M6.66797 16.0002L13.3346 22.6668L26.668 9.3335" stroke="#119626"
                                         stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
@@ -547,7 +893,8 @@ Template name: Landing Page - Giải pháp quản lý BHXH tích hợp nhân s�
                 <div class="col-lg-5 col-md-12 col-sm-12">
                     <div class="hero_section-right">
                         <div class="title">
-                            Đăng ký tư vấn & dùng thử
+                            Ưu đãi chỉ từ 589K/năm <br>
+                            Tặng ngay 6 tháng sử dụng
                         </div>
                         <div class="form-register">
                             <form id="landingpage_form" action="">
@@ -578,7 +925,7 @@ Template name: Landing Page - Giải pháp quản lý BHXH tích hợp nhân s�
                                             <option value="ke_toan">Kế toán</option>
                                             <option value="ceo">CEO</option>
                                             <option value="khac">Khác</option>
-                                        </select>                                       
+                                        </select>
                                     </div>
                                 </div>
                                 <div class="form-row">
@@ -643,7 +990,7 @@ Template name: Landing Page - Giải pháp quản lý BHXH tích hợp nhân s�
                                     <button class="submit_form_ungtuyen" style="border: none; width: 100%"
                                         type="submit">
                                         <div class="primary-btn">
-                                            Đăng ký
+                                            Nhận ưu đãi
                                         </div>
                                     </button>
                                 </div>
@@ -654,10 +1001,14 @@ Template name: Landing Page - Giải pháp quản lý BHXH tích hợp nhân s�
             </div>
         </div>
     </section>
+    <div class="our_product">
+        <h2>Hệ sinh thái của chúng tôi</h2>
+        <img src="https://easyhrm.vn/wp-content/uploads/2024/03/Frame-427322958-1.png" alt="">
+    </div>
     <section id="solution">
         <div class="container">
             <div class="lp-title">
-                Đâu là giải pháp quản lý Bảo hiểm xã hội bạn đang sử dụng?
+                Giải pháp quản lý Bảo hiểm xã hội bạn đang sử dụng Liệu có đáp ứng Được?
             </div>
 
             <div class="row">
@@ -691,23 +1042,26 @@ Template name: Landing Page - Giải pháp quản lý BHXH tích hợp nhân s�
                 <div class="col-lg-6 col-md-12 col-sm-12">
                     <div class="solution-box">
                         <div class="title">
-                            Cổng hỗ trợ miễn phí
+                            Cổng dịch vụ miễn phí
                         </div>
                         <ul>
                             <li><svg xmlns="http://www.w3.org/2000/svg" width="33" height="32" viewBox="0 0 33 32"
                                     fill="none">
-                                    <path d="M7.16797 15.9997L13.8346 22.6663L27.168 9.33301" stroke="#119626"
-                                        stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                                    <path d="M9.83203 9.33301L23.1654 22.6663M9.83203 22.6663L23.1654 9.33301"
+                                        stroke="#FF0000" stroke-width="3" stroke-linecap="round"
+                                        stroke-linejoin="round" />
                                 </svg> Nghiệp vụ phức tạp, giao diện khó thao tác</li>
                             <li><svg xmlns="http://www.w3.org/2000/svg" width="33" height="32" viewBox="0 0 33 32"
                                     fill="none">
-                                    <path d="M7.16797 15.9997L13.8346 22.6663L27.168 9.33301" stroke="#119626"
-                                        stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                                    <path d="M9.83203 9.33301L23.1654 22.6663M9.83203 22.6663L23.1654 9.33301"
+                                        stroke="#FF0000" stroke-width="3" stroke-linecap="round"
+                                        stroke-linejoin="round" />
                                 </svg> Khả năng hỗ trợ, xử lý tình huống khẩn cấp thấp</li>
                             <li><svg xmlns="http://www.w3.org/2000/svg" width="33" height="32" viewBox="0 0 33 32"
                                     fill="none">
-                                    <path d="M7.16797 15.9997L13.8346 22.6663L27.168 9.33301" stroke="#119626"
-                                        stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                                    <path d="M9.83203 9.33301L23.1654 22.6663M9.83203 22.6663L23.1654 9.33301"
+                                        stroke="#FF0000" stroke-width="3" stroke-linecap="round"
+                                        stroke-linejoin="round" />
                                 </svg> Thường xuyên gặp lỗi, bảo trì hệ thống</li>
                         </ul>
                     </div>
@@ -721,8 +1075,9 @@ Template name: Landing Page - Giải pháp quản lý BHXH tích hợp nhân s�
                 Giải pháp EasyHRM Standard 3 trong 1
             </div>
             <div class="lp-subtitle">
-                Khắc phục tất cả nhược điểm của phương pháp quản lý BHXH thông thường hiện nay, <br>
-                đem đến trải nghiệm số hoàn toàn khác biệt
+                Cùng trong hệ sinh thái với EasyInvoice, giải pháp quản lý BHXH tích hợp nhân sự EasyHRM khắc phục tất
+                cả nhược điểm của công cụ quản lý BHXH thông thường hiện nay, đem đến trải nghiệm số hoàn toàn khác
+                biệt!
             </div>
         </div>
         <div class="easyhrm_solution-image">
@@ -795,6 +1150,7 @@ Template name: Landing Page - Giải pháp quản lý BHXH tích hợp nhân s�
                     </div>
                     <div class="col-lg-6">
                         <div class="featured-image">
+
                             <body>
                                 <div class="swiper mySwiper">
                                     <div class="swiper-wrapper">
@@ -958,7 +1314,7 @@ Template name: Landing Page - Giải pháp quản lý BHXH tích hợp nhân s�
                         <div class="featured-image">
 
                             <body>
-                                <div class="swiper mySwiper" >
+                                <div class="swiper mySwiper">
                                     <div class="swiper-wrapper">
                                         <div class="swiper-slide">
                                             <img src="https://easyhrm.vn/wp-content/uploads/2023/12/Group-2609388.png"
@@ -1064,7 +1420,7 @@ Template name: Landing Page - Giải pháp quản lý BHXH tích hợp nhân s�
                                 <a target="_blank" href="https://easyca.vn/"><img style="max-width: 100%"
                                         src="https://easyhrm.vn/wp-content/uploads/2023/12/Isolation_Mode-3.png"
                                         alt=""></a>
-                            </div>                            
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -1079,7 +1435,7 @@ Template name: Landing Page - Giải pháp quản lý BHXH tích hợp nhân s�
     var swiper = new Swiper(".mySwiper", {});
     var swiper = new Swiper(".mySwiper", {
         autoplay: {
-            delay: 3000, // Thời gian chờ giữa các slide (1 giây trong trường hợp này)
+            delay: 3000,
         },
         navigation: {
             nextEl: ".swiper-button-next",

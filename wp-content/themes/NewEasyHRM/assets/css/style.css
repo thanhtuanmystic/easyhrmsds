@@ -1332,6 +1332,10 @@ footer {
   }
 }
 @media (max-width: 480px) {
+  .fix_tel {
+    left: 1rem !important;
+    bottom: 20px !important;
+  }
   .banner-seperation-text {
     font-size: 8px;
   }
